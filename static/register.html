@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registrierung - Bayern Formular Helper</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: 300;
+    }
+
+    .header p {
+      margin: 10px 0 0 0;
+      opacity: 0.9;
+    }
+
+    .form-container {
+      padding: 40px;
+    }
+
+    .form-section {
+      margin-bottom: 30px;
+    }
+
+    .form-section h3 {
+      color: #333;
+      border-bottom: 2px solid #667eea;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      flex: 1;
+    }
+
+    .form-group.full-width {
+      flex: 100%;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+      font-weight: 500;
+    }
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"], 
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #e1e5e9;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+      box-sizing: border-box;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .required {
+      color: #e74c3c;
+    }
+
+    .submit-section {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid #e1e5e9;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 25px;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .success-message {
+      background: #d4edda;
+      color: #155724;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #c3e6cb;
+    }
+
+    .error-message {
+      background: #f8d7da;
+      color: #721c24;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #f5c6cb;
+    }
+
+    .loading {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .spinner {
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #667eea;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .back-link a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+
+    .info-text {
+      background: #e7f3ff;
+      color: #0066cc;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border-left: 4px solid #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Registrierung</h1>
+      <p>Registriere dich, um personalisierte Hilfe beim Ausfüllen von Formularen zu erhalten</p>
+    </div>
+
+    <div class="form-container">
+      <div class="info-text">
+        <strong>Warum registrieren?</strong><br>
+        Mit deinen gespeicherten Daten kann die KI dir beim Ausfüllen von Formularen helfen und automatisch deine Informationen eintragen.
+      </div>
+
+      <div id="success-message" class="success-message" style="display: none;">
+        Registrierung erfolgreich! Du kannst jetzt die personalisierte KI-Hilfe nutzen.
+      </div>
+
+      <div id="error-message" class="error-message" style="display: none;">
+        Fehler bei der Registrierung. Bitte versuche es erneut.
+      </div>
+
+      <form id="registration-form">
+        <!-- Persönliche Daten -->
+        <div class="form-section">
+          <h3>Persönliche Daten</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first_name">Vorname <span class="required">*</span></label>
+              <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="form-group">
+              <label for="last_name">Nachname <span class="required">*</span></label>
+              <input type="text" id="last_name" name="last_name" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">E-Mail <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefonnummer</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="birth_date">Geburtsdatum</label>
+              <input type="date" id="birth_date" name="birth_date">
+            </div>
+            <div class="form-group">
+              <label for="birth_place">Geburtsort</label>
+              <input type="text" id="birth_place" name="birth_place">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nationality">Staatsangehörigkeit</label>
+              <input type="text" id="nationality" name="nationality" value="Deutsch">
+            </div>
+            <div class="form-group">
+              <label for="marital_status">Familienstand</label>
+              <select id="marital_status" name="marital_status">
+                <option value="">Bitte wählen</option>
+                <option value="ledig">Ledig</option>
+                <option value="verheiratet">Verheiratet</option>
+                <option value="geschieden">Geschieden</option>
+                <option value="verwitwet">Verwitwet</option>
+                <option value="eingetragene_partnerschaft">Eingetragene Partnerschaft</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label for="occupation">Beruf</label>
+            <input type="text" id="occupation" name="occupation">
+          </div>
+        </div>
+
+        <!-- Adressdaten -->
+        <div class="form-section">
+          <h3>Adressdaten</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="street">Straße</label>
+              <input type="text" id="street" name="street">
+            </div>
+            <div class="form-group">
+              <label for="house_number">Hausnummer</label>
+              <input type="text" id="house_number" name="house_number">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="postal_code">Postleitzahl</label>
+              <input type="text" id="postal_code" name="postal_code">
+            </div>
+            <div class="form-group">
+              <label for="city">Stadt</label>
+              <input type="text" id="city" name="city">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="country">Land</label>
+            <input type="text" id="country" name="country" value="Deutschland">
+          </div>
+        </div>
+
+        <!-- Finanzielle Daten -->
+        <div class="form-section">
+          <h3>Finanzielle Daten (optional)</h3>
+          <div class="form-group">
+            <label for="bank_name">Bank</label>
+            <input type="text" id="bank_name" name="bank_name">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="iban">IBAN</label>
+              <input type="text" id="iban" name="iban">
+            </div>
+            <div class="form-group">
+              <label for="bic">BIC</label>
+              <input type="text" id="bic" name="bic">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="tax_id">Steuer-ID</label>
+              <input type="text" id="tax_id" name="tax_id">
+            </div>
+            <div class="form-group">
+              <label for="social_security_number">Sozialversicherungsnummer</label>
+              <input type="text" id="social_security_number" name="social_security_number">
+            </div>
+          </div>
+        </div>
+
+        <div class="submit-section">
+          <button type="submit" class="btn" id="submit-btn">Registrieren</button>
+          <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Registrierung wird durchgeführt...</p>
+          </div>
+        </div>
+      </form>
+
+      <div class="back-link">
+        <a href="/">← Zurück zur Hauptseite</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('registration-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      const submitBtn = document.getElementById('submit-btn');
+      const loading = document.getElementById('loading');
+      const successMessage = document.getElementById('success-message');
+      const errorMessage = document.getElementById('error-message');
+      
+      // UI-Status zurücksetzen
+      successMessage.style.display = 'none';
+      errorMessage.style.display = 'none';
+      
+      // Loading anzeigen
+      submitBtn.disabled = true;
+      loading.style.display = 'block';
+      
+      try {
+        // Formulardaten sammeln
+        const formData = new FormData(e.target);
+        const userData = {};
+        
+        for (let [key, value] of formData.entries()) {
+          if (value.trim() !== '') {
+            userData[key] = value.trim();
+          }
+        }
+        
+        // API-Aufruf
+        const response = await fetch('/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(userData)
+        });
+        
+        const result = await response.json();
+        
+        if (response.ok) {
+          successMessage.style.display = 'block';
+          successMessage.innerHTML = `
+            <strong>Registrierung erfolgreich!</strong><br>
+            Deine Benutzer-ID: <code>${result.user_id}</code><br>
+            Du kannst jetzt die personalisierte KI-Hilfe nutzen.
+          `;
+          
+          // Formular zurücksetzen
+          e.target.reset();
+          
+          // Nach 3 Sekunden zur Hauptseite weiterleiten
+          setTimeout(() => {
+            window.location.href = '/';
+          }, 3000);
+          
+        } else {
+          throw new Error(result.detail || 'Unbekannter Fehler');
+        }
+        
+      } catch (error) {
+        console.error('Registrierungsfehler:', error);
+        errorMessage.style.display = 'block';
+        errorMessage.textContent = `Fehler: ${error.message}`;
+      } finally {
+        // Loading ausblenden
+        submitBtn.disabled = false;
+        loading.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

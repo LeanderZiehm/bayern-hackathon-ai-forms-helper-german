@@ -1,29 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <title>Groq PDF Chat</title>
+  <title>Bayern Formular Helper - KI-gestützte Formularhilfe</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       margin: 0;
       padding: 0;
+      min-height: 100vh;
+    }
+
+    .header {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #333;
+      font-size: 2em;
+      font-weight: 300;
+    }
+
+    .header-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .header-nav a {
+      color: #667eea;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: all 0.3s;
+      font-weight: 500;
+    }
+
+    .header-nav a:hover {
+      background: #667eea;
+      color: white;
+    }
+
+    .main-container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .welcome-section {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .welcome-section h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .welcome-section p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .user-section {
+      background: #e7f3ff;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid #0066cc;
+      margin-bottom: 20px;
+    }
+
+    .user-section h3 {
+      margin: 0 0 10px 0;
+      color: #0066cc;
+    }
+
+    .user-input-group {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .user-input-group input {
+      flex: 1;
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .user-input-group button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .user-input-group button:hover {
+      background: #0052a3;
     }
 
     #pdf-list {
+      background: rgba(255, 255, 255, 0.95);
       padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    #pdf-list h3 {
+      color: #333;
+      margin-bottom: 20px;
     }
 
     #pdf-list a {
       display: block;
-      margin: 5px 0;
+      margin: 8px 0;
       text-decoration: none;
       color: #007bff;
       cursor: pointer;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background 0.3s;
     }
 
     #pdf-list a:hover {
+      background: #f8f9fa;
       text-decoration: underline;
     }
 
@@ -41,10 +155,13 @@
       flex-direction: column;
       border: 1px solid #ccc;
       background: white;
+      border-radius: 10px;
+      overflow: hidden;
     }
 
     #pdf-panel h3 {
       margin: 10px;
+      color: #333;
     }
 
     #pdf-viewer {
@@ -58,6 +175,8 @@
       flex-direction: column;
       border: 1px solid #ccc;
       background: white;
+      border-radius: 10px;
+      overflow: hidden;
     }
 
     #chat-box {
@@ -100,14 +219,18 @@
 
     #send-btn {
       padding: 10px 20px;
-      border: none;
       background: #007bff;
       color: white;
+      border: none;
       cursor: pointer;
     }
 
     #send-btn:hover {
       background: #0056b3;
+    }
+
+    .hidden {
+      display: none !important;
     }
 
     #back-btn {
@@ -127,206 +250,211 @@
   </style>
 </head>
 <body>
-  <!-- PDF Upload Form -->
-  <div id="pdf-upload" style="padding:20px;">
-    <h2>Upload a PDF:</h2>
-    <form id="upload-form">
-      <input type="file" id="pdf-file" accept="application/pdf" required />
-      <button type="submit">Upload</button>
-    </form>
-    <div id="upload-status"></div>
-    <div id="uploaded-files">
-      <h3>Uploaded PDFs:</h3>
-      <div id="uploaded-links"></div>
+  <div class="header">
+    <h1>🏛️ Bayern Formular Helper</h1>
+    <div class="header-nav">
+      <a href="/register">Registrieren</a>
+      <a href="#" onclick="showProfilePrompt()">Mein Profil</a>
     </div>
   </div>
 
-  <!-- PDF List -->
-  <div id="pdf-list">
-    <h2>Select a PDF to chat about:</h2>
-    <div id="pdf-links"></div>
-  </div>
-
-  <!-- Chat + PDF Viewer -->
-  <div id="chat-pdf-container">
-    <!-- PDF Viewer Panel -->
-    <div id="pdf-panel">
-      <h3 id="pdf-title"></h3>
-      <iframe id="pdf-viewer" src=""></iframe>
-    </div>
-
-    <!-- Chat Panel -->
-    <div id="chat-container">
-      <div id="chat-box"></div>
-      <div id="input-area">
-        <input id="user-input" type="text" placeholder="Type a message..." />
-        <button id="send-btn">Send</button>
+  <div class="main-container">
+    <div class="welcome-section">
+      <h2>Willkommen beim Bayern Formular Helper</h2>
+      <p>
+        Diese KI-gestützte Anwendung hilft dir beim Ausfüllen deutscher Behördenformulare. 
+        Registriere dich, um personalisierte Hilfe zu erhalten, oder nutze die allgemeine KI-Unterstützung.
+      </p>
+      
+      <div class="user-section">
+        <h3>🎯 Personalisierte KI-Hilfe</h3>
+        <p>Gib deine Benutzer-ID ein, um personalisierte Hilfe beim Ausfüllen von Formularen zu erhalten:</p>
+        <div class="user-input-group">
+          <input type="text" id="user-id-input" placeholder="Deine Benutzer-ID hier eingeben...">
+          <button onclick="setUserId()">Aktivieren</button>
+        </div>
+        <p style="margin: 10px 0 0 0; font-size: 14px; color: #666;">
+          <strong>Aktuell:</strong> <span id="current-user-status">Keine Benutzer-ID eingegeben</span>
+        </p>
       </div>
-      <button id="back-btn">← Back to PDFs</button>
+    </div>
+
+    <div id="pdf-list">
+      <h3>📋 Verfügbare Formulare</h3>
+      <div id="pdf-files"></div>
+    </div>
+
+    <div id="chat-pdf-container" class="hidden">
+      <div id="pdf-panel">
+        <h3 id="pdf-title">PDF Viewer</h3>
+        <iframe id="pdf-viewer" src=""></iframe>
+      </div>
+      <div id="chat-container">
+        <div id="chat-box"></div>
+        <div id="input-area">
+          <input type="text" id="user-input" placeholder="Frage die KI nach Hilfe beim Formular...">
+          <button id="send-btn">Senden</button>
+        </div>
+        <button id="back-btn">← Zurück zu den Formularen</button>
+      </div>
     </div>
   </div>
 
   <script>
-    const pdfLinksDiv = document.getElementById("pdf-links");
-    const pdfListDiv = document.getElementById("pdf-list");
-    const chatPdfContainer = document.getElementById("chat-pdf-container");
-    const pdfTitle = document.getElementById("pdf-title");
-    const pdfViewer = document.getElementById("pdf-viewer");
-    const chatBox = document.getElementById("chat-box");
-    const userInput = document.getElementById("user-input");
-    const sendBtn = document.getElementById("send-btn");
-    const backBtn = document.getElementById("back-btn");
-    const uploadedLinksDiv = document.getElementById("uploaded-links");
-
-    let currentPdf = "";
+    let currentUserId = null;
+    let currentPdfName = null;
     let currentPdfText = "";
 
-    // Load PDFs with titles
-    async function loadPDFs() {
-      try {
-        const res = await fetch("/pdfs");
-        const pdfs = await res.json();
-        pdfLinksDiv.innerHTML = "";
-        pdfs.forEach(pdf => {
-          const link = document.createElement("a");
-          link.textContent = pdf.title || pdf.file_name; // show title
-          link.href = "#";
-          link.addEventListener("click", () => openChat(pdf.file_name));
-          pdfLinksDiv.appendChild(link);
-        });
-      } catch (err) {
-        pdfLinksDiv.textContent = "Failed to load PDFs.";
-        console.error(err);
+    // Benutzer-ID setzen
+    function setUserId() {
+      const userIdInput = document.getElementById('user-id-input');
+      const userId = userIdInput.value.trim();
+      
+      if (userId) {
+        currentUserId = userId;
+        document.getElementById('current-user-status').textContent = `Benutzer-ID: ${userId}`;
+        userIdInput.value = '';
+        
+        // Prüfen ob Benutzer existiert
+        checkUserExists(userId);
       }
     }
 
-    // Load uploaded files
-    async function loadUploadedFiles() {
+    // Prüfen ob Benutzer existiert
+    async function checkUserExists(userId) {
       try {
-        const res = await fetch("/uploaded");
-        const data = await res.json();
-        uploadedLinksDiv.innerHTML = "";
-        data.files.forEach(url => {
-          const fname = url.split("/").pop();
-          const link = document.createElement("a");
-          link.textContent = fname;
-          link.href = url;
-          link.target = "_blank";
-          uploadedLinksDiv.appendChild(link);
-        });
-      } catch (err) {
-        uploadedLinksDiv.textContent = "Failed to load uploaded files.";
-      }
-    }
-
-    // Open chat and load PDF
-    async function openChat(pdfName) {
-      currentPdf = pdfName;
-      pdfTitle.textContent = pdfName;
-      pdfViewer.src = `/static/pdfs/${pdfName}`;
-      chatBox.innerHTML = "";
-      chatPdfContainer.style.display = "flex";
-      pdfListDiv.style.display = "none";
-
-      // Fetch PDF text for AI
-      try {
-        const res = await fetch(`/pdfs/${pdfName}/text`);
-        if (!res.ok) {
-          addMessage("Could not load PDF content.", "bot");
-          return;
+        const response = await fetch(`/user/${userId}`);
+        if (!response.ok) {
+          alert('Benutzer-ID nicht gefunden. Bitte registriere dich zuerst.');
+          currentUserId = null;
+          document.getElementById('current-user-status').textContent = 'Keine Benutzer-ID eingegeben';
         }
-        const data = await res.json();
-        currentPdfText = data.text || "";
-        const preview = currentPdfText.slice(0, 500);
-        addMessage(currentPdfText, "bot");
-      } catch (err) {
-        addMessage("Error loading PDF text: " + err.message, "bot");
+      } catch (error) {
+        console.error('Fehler beim Prüfen der Benutzer-ID:', error);
       }
     }
 
-    function backToPDFs() {
-      chatPdfContainer.style.display = "none";
-      pdfListDiv.style.display = "block";
-      chatBox.innerHTML = "";
-      currentPdf = "";
-      currentPdfText = "";
-      pdfViewer.src = "";
+    // Profil-Prompt anzeigen
+    function showProfilePrompt() {
+      const userId = prompt('Gib deine Benutzer-ID ein, um dein Profil zu bearbeiten:');
+      if (userId) {
+        window.open(`/profile.html?id=${userId}`, '_blank');
+      }
     }
 
-    function addMessage(content, sender) {
-      const msg = document.createElement("div");
-      msg.classList.add("msg", sender);
-      msg.textContent = content;
-      chatBox.appendChild(msg);
+    // PDF-Liste laden
+    async function loadPdfs() {
+      try {
+        const response = await fetch('/pdfs');
+        const pdfs = await response.json();
+        
+        const pdfFilesDiv = document.getElementById('pdf-files');
+        pdfFilesDiv.innerHTML = '';
+        
+        pdfs.forEach(pdf => {
+          const link = document.createElement('a');
+          link.textContent = pdf.title;
+          link.onclick = () => openPdf(pdf.file_name, pdf.title);
+          pdfFilesDiv.appendChild(link);
+        });
+      } catch (error) {
+        console.error('Fehler beim Laden der PDFs:', error);
+      }
+    }
+
+    // PDF öffnen
+    async function openPdf(pdfName, title) {
+      currentPdfName = pdfName;
+      
+      document.getElementById('pdf-title').textContent = title;
+      document.getElementById('pdf-viewer').src = `/static/pdfs/${pdfName}`;
+      document.getElementById('chat-pdf-container').classList.remove('hidden');
+      
+      // Chat-Box leeren
+      document.getElementById('chat-box').innerHTML = '';
+      
+      // PDF-Text laden für KI
+      try {
+        const response = await fetch(`/pdfs/${pdfName}/text`);
+        if (response.ok) {
+          const data = await response.json();
+          currentPdfText = data.text || "";
+          addMessage('bot', `Willkommen! Ich helfe dir beim Ausfüllen von "${title}". Wie kann ich dir helfen?`);
+        } else {
+          addMessage('bot', `Willkommen! Ich helfe dir beim Ausfüllen von "${title}". Wie kann ich dir helfen?`);
+        }
+      } catch (error) {
+        console.error('Fehler beim Laden des PDF-Texts:', error);
+        addMessage('bot', `Willkommen! Ich helfe dir beim Ausfüllen von "${title}". Wie kann ich dir helfen?`);
+      }
+    }
+
+    // Nachricht hinzufügen
+    function addMessage(sender, message) {
+      const chatBox = document.getElementById('chat-box');
+      const msgDiv = document.createElement('div');
+      msgDiv.className = `msg ${sender}`;
+      msgDiv.textContent = message;
+      chatBox.appendChild(msgDiv);
       chatBox.scrollTop = chatBox.scrollHeight;
     }
 
+    // Chat senden
     async function sendMessage() {
-      const text = userInput.value.trim();
-      if (!text) return;
-
-      addMessage(text, "user");
-      userInput.value = "";
-
+      const input = document.getElementById('user-input');
+      const message = input.value.trim();
+      
+      if (!message) return;
+      
+      addMessage('user', message);
+      input.value = '';
+      
       try {
-        const res = await fetch("/chat", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            user_input: `PDF: ${currentPdf}\nPDF Content: ${currentPdfText}\nUser: ${text}`
-          }),
+        // Erweiterte Eingabe mit PDF-Kontext
+        const enhancedInput = `PDF: ${currentPdfName}\nPDF Content: ${currentPdfText}\nUser: ${message}`;
+        
+        const requestBody = {
+          user_input: enhancedInput,
+          user_id: currentUserId
+        };
+        
+        const response = await fetch('/chat', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(requestBody)
         });
-
-        if (!res.ok) {
-          const err = await res.text();
-          addMessage("Error: " + err, "bot");
-          return;
-        }
-
-        const data = await res.json();
-        addMessage(data.response, "bot");
-      } catch (err) {
-        addMessage("Error: " + err.message, "bot");
+        
+        const result = await response.json();
+        addMessage('bot', result.response);
+        
+      } catch (error) {
+        console.error('Fehler beim Senden der Nachricht:', error);
+        addMessage('bot', 'Entschuldigung, es gab einen Fehler. Bitte versuche es erneut.');
       }
     }
 
-    // PDF Upload
-    const uploadForm = document.getElementById("upload-form");
-    const pdfFileInput = document.getElementById("pdf-file");
-    const uploadStatus = document.getElementById("upload-status");
+    // Zurück zu PDFs
+    function backToPdfs() {
+      document.getElementById('chat-pdf-container').classList.add('hidden');
+      document.getElementById('chat-box').innerHTML = '';
+      currentPdfName = null;
+      currentPdfText = "";
+      document.getElementById('pdf-viewer').src = "";
+    }
 
-    uploadForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const file = pdfFileInput.files[0];
-      if (!file) return;
-      const formData = new FormData();
-      formData.append("file", file);
-      uploadStatus.textContent = "Uploading...";
-      try {
-        const res = await fetch("/upload_pdf", {
-          method: "POST",
-          body: formData,
-        });
-        if (!res.ok) {
-          uploadStatus.textContent = "Upload failed.";
-          return;
-        }
-        uploadStatus.textContent = "Upload successful!";
-        pdfFileInput.value = "";
-        loadPDFs();
-        loadUploadedFiles();
-      } catch (err) {
-        uploadStatus.textContent = "Error: " + err.message;
+    // Event Listener
+    document.getElementById('send-btn').onclick = sendMessage;
+    document.getElementById('user-input').onkeypress = function(e) {
+      if (e.key === 'Enter') {
+        sendMessage();
       }
-    });
+    };
+    document.getElementById('back-btn').onclick = backToPdfs;
 
-    sendBtn.addEventListener("click", sendMessage);
-    userInput.addEventListener("keypress", (e) => { if (e.key === "Enter") sendMessage(); });
-    backBtn.addEventListener("click", backToPDFs);
-
-    // Initialize
-    loadPDFs();
-    loadUploadedFiles();
+    // Seite laden
+    loadPdfs();
   </script>
 </body>
 </html>
