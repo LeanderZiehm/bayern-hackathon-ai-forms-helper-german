@@ -204,7 +204,7 @@
         const data = await res.json();
         currentPdfText = data.text || "";
         const preview = currentPdfText.slice(0, 500);
-        addMessage(`PDF content loaded:\n${preview}${currentPdfText.length > 500 ? "..." : ""}`, "bot");
+        addMessage(currentPdfText, "bot");
       } catch (err) {
         addMessage("Error loading PDF text: " + err.message, "bot");
       }
