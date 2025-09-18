@@ -46,38 +46,46 @@
     let pdfText = "";
 
     // Utility: Get query parameter
+ //   function getQueryParam(param) {
+     // const urlParams = new URLSearchParams(window.location.search);
+   //   return urlParams.get(param);
+    //}
     function getQueryParam(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
+  const fullQuery = window.location.href.split("?")[1] || "";
+  const params = fullQuery.split("&");
+  
+  for (const p of params) {
+    const [key, ...valParts] = p.split("=");
+    if (key === param) {
+      return valParts.join("="); // keep everything after the '=' intact
     }
+  }
+  return null;
+}
 
-    // Load PDF and extract text
-    async function loadPDF(pdfUrl) {
-      pdfTitle.textContent = pdfUrl.split("/").pop();
-      pdfViewer.src = pdfUrl;
 
-      try {
-        const res = await fetch(pdfUrl);
-        if (!res.ok) throw new Error("Failed to fetch PDF");
+// Load PDF and extract text
+async function loadPDF(pdfUrl) {
+  console.log(pdfUrl);
+  pdfTitle.textContent = pdfUrl.split("/").pop();
+  pdfViewer.src = pdfUrl;
 
-        const arrayBuffer = await res.arrayBuffer();
+  try {
+    // Call the new backend endpoint with the PDF URL as query parameter
+    const textRes = await fetch(`/extract_text?url=${(pdfUrl)}`);
 
-        // Using pdf-lib or pdf.js would be better, but simple example:
-        // Send arrayBuffer to backend for extraction
-        const textRes = await fetch("/extract_pdf_text", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ data: Array.from(new Uint8Array(arrayBuffer)) })
-        });
+    if (!textRes.ok) throw new Error("Failed to extract text");
 
-        const data = await textRes.json();
-        pdfText = data.text || "";
-        addMessage("PDF loaded. You can now ask questions.", "bot");
+    const data = await textRes.json();
+    pdfText = data.text || "";
+    addMessage(pdfText, "bot");
 
-      } catch (err) {
-        addMessage("Error loading PDF: " + err.message, "bot");
-      }
-    }
+  } catch (err) {
+    addMessage("Error loading PDF: " + err.message, "bot");
+  }
+}
+
+
 
     function addMessage(content, sender) {
       const msg = document.createElement("div");
@@ -113,6 +121,7 @@
 
     // Initialize
     const pdfUrl = getQueryParam("pdf_url");
+    
     if (pdfUrl) loadPDF(pdfUrl);
     else addMessage("No PDF URL provided in query parameter.", "bot");
   </script>
