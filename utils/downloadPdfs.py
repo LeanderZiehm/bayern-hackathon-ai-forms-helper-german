@@ -47,7 +47,7 @@ urls = [
 ]
 
 # Get directory of the Python script
-save_dir = os.path.dirname(os.path.abspath(__file__))
+save_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),"pdfs")
 
 # Download each PDF into that directory
 for url in urls:

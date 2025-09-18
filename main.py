@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from fastapi.staticfiles import StaticFiles
 import httpx
 import os
 from dotenv import load_dotenv
@@ -25,6 +26,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Serve static files (index.html and any other assets)
+app.mount("/static", StaticFiles(directory="static", html=True), name="static")
+
+from fastapi.responses import FileResponse
+
+@app.get("/")
+async def root():
+    return FileResponse("static/index.html")
+
 # Input schema
 class ChatRequest(BaseModel):
     user_input: str
@@ -35,6 +46,7 @@ class ChatResponse(BaseModel):
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest):
+    print("chat bro")
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json",
@@ -59,3 +71,5 @@ async def chat(req: ChatRequest):
     content = data["choices"][0]["message"]["content"]
 
     return ChatResponse(response=content)
+
+
