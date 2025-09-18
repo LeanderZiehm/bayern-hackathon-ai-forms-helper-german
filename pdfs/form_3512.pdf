@@ -1,0 +1,4453 @@
+%PDF-1.4
+%ª«¬­
+1 0 obj
+<<
+/Title (Antrag auf Erteilung einer Fahrerlaubnis für Kraftfahrzeuge)
+/Producer (cirali-pdf Pdf-V74 http://www.fjd.de)
+/Creator (Cirali Output Manager B1-23 http://www.fjd.de)
+/Author (Landratsamt München)
+>>
+endobj
+2 0 obj
+<< /Type /Catalog
+/Pages 3 0 R
+/Names 189 0 R
+/AcroForm 13 0 R
+/AA << /WP << /S /JavaScript /JS (
+var n = this.numFields;\rvar f;\rvar fn;\rfor\(var i=0;i<n;i++\)\r{\r   fn = this.getNthFieldName\(i\);\r   if\(""==fn\) continue;\r\r   f = this.getField\(fn\);\r   if\(null==f\) continue;\r   if\("button"==f.type\)continue;\r\r   SYS_FILL\(f,color.transparent\);\r\r\r   if\("checkbox"==f.type\)\r   { f.style=style.cr;\r     f.strokeColor=getBorderColor\(fn\);\r   }\r   else\r   {    if\(""+f.strokeColor!=""+color.transparent\)\r   		{  f.strokeColor=color.transparent;\r   		}\r   }\r}\r) >>
+ /DP << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+>>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [ 4 0 R 7 0 R 10 0 R]
+/Count 3
+>>
+endobj
+4 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots 6 0 R
+/MediaBox [ 0 0 595.28 841.89 ]
+/Contents [ 5 0 R ]
+/AA << /O << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+/Resources
+<< /ProcSet [ /PDF /ImageC ] 
+ /Font << /Helv 291 0 R
+/HeBo 292 0 R
+>>>>
+>>
+endobj
+5 0 obj
+<< /Length 20715 >>
+stream
+ q
+0.0 1.0 -1.0 0.0 80.28999999999999 22.539999999999996 cm S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 22.76 50.33 Td (©) Tj ET
+BT /Helv 7.0 Tf 29.86 50.33 Td (Landratsamt) Tj ET
+BT /Helv 7.0 Tf 70.66 50.33 Td (München) Tj ET
+BT /Helv 7.0 Tf 101.26 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 103.16 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 105.06 50.33 Td (–) Tj ET
+BT /Helv 7.0 Tf 110.86 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 112.76 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 114.66 50.33 Td (Stand) Tj ET
+BT /Helv 7.0 Tf 134.86 50.33 Td (04/2021) Tj ET
+ Q
+ q
+0.0 1.0 -1.0 0.0 88.83 14.009999999999998 cm S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 31.29 50.34 Td (m-fb_3_4_1-f13) Tj ET
+BT /Helv 7.0 Tf 82.79 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 84.69 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 86.59 50.34 Td (–) Tj ET
+BT /Helv 7.0 Tf 92.39 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 94.29 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 96.19 50.34 Td (Seite) Tj ET
+BT /Helv 7.0 Tf 114.09 50.34 Td (1) Tj ET
+BT /Helv 7.0 Tf 119.89 50.34 Td (von) Tj ET
+BT /Helv 7.0 Tf 133.09 50.34 Td (3) Tj ET
+ Q
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 2 J [] 0 d 0.5 w 25.04 753.7 m 33.57 745.16 l S
+17.07 602.91 m 28.45 602.91 l S
+5.69 419.41 m 28.45 419.41 l S
+25.04 753.7 m 33.57 753.7 l S
+33.57 753.7 m 33.57 745.16 l S
+33.57 745.16 m 25.04 745.16 l S
+25.04 745.16 m 25.04 753.7 l S
+22.76 813.44 m 35.28 813.44 l S
+35.28 813.44 m 35.28 642.17 l S
+35.28 642.17 m 22.76 642.17 l S
+22.76 642.17 m 22.76 813.44 l S
+ q
+0.0 1.0 -1.0 0.0 684.5600000000001 623.39 cm S
+BT /HeBo 7.0 Tf 24.47 652.89 Td (Zutreffendes) Tj ET
+BT /HeBo 7.0 Tf 68.77 652.89 Td (bitte) Tj ET
+BT /HeBo 7.0 Tf 85.37 652.89 Td (ankreuzen) Tj ET
+BT /HeBo 7.0 Tf 121.97 652.89 Td () Tj ET
+ Q
+ q
+0.0 1.0 -1.0 0.0 795.5200000000001 734.35 cm S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /HeBo 7.0 Tf 24.47 763.85 Td (bzw.) Tj ET
+BT /HeBo 7.0 Tf 41.57 763.85 Td (ausfüllen!) Tj ET
+ Q
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 25.04 745.16 m 33.57 753.7 l S
+ 51.21 819.13 m
+ 0.9 0.9 0.9 RG 0.9 0.9 0.9 rg 574.68 819.13 l
+ 574.68 33.92 l
+ 51.21 33.92 l
+ 51.21 819.13 l
+ f
+51.21 819.13 m 574.68 819.13 l S
+574.68 819.13 m 574.68 33.92 l S
+574.68 33.92 m 51.21 33.92 l S
+51.21 33.92 m 51.21 819.13 l S
+ 56.9 722.4 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 722.4 l
+ 568.99 608.6 l
+ 56.9 608.6 l
+ 56.9 722.4 l
+ f
+56.9 722.4 m 568.99 722.4 l S
+568.99 722.4 m 568.99 608.6 l S
+568.99 608.6 m 56.9 608.6 l S
+56.9 608.6 m 56.9 722.4 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /HeBo 14.0 Tf 91.04 794.49 Td (Antrag) Tj ET
+BT /HeBo 14.0 Tf 139.64 794.49 Td (auf) Tj ET
+BT /HeBo 14.0 Tf 164.64 794.49 Td (Erteilung) Tj ET
+BT /HeBo 14.0 Tf 229.34 794.49 Td (einer) Tj ET
+BT /HeBo 14.0 Tf 266.74 794.49 Td (Fahrerlaubnis) Tj ET
+BT /HeBo 14.0 Tf 91.04 780.33 Td (für) Tj ET
+BT /HeBo 14.0 Tf 113.64 780.33 Td (Kraftfahrzeuge) Tj ET
+ 56.9 807.75 m
+ 0.5 0.5 0.5 RG 0.5 0.5 0.5 rg 85.35 807.75 l
+ 85.35 779.3 l
+ 56.9 779.3 l
+ 56.9 807.75 l
+ f
+56.9 807.75 m 85.35 807.75 l S
+85.35 807.75 m 85.35 779.3 l S
+85.35 779.3 m 56.9 779.3 l S
+56.9 779.3 m 56.9 807.75 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 56.9 631.36 m 568.99 631.36 l S
+BT /HeBo 10.0 Tf 62.59 727.46 Td (Antragsteller/in) Tj ET
+233.29 654.12 m 233.29 631.36 l S
+ 56.9 102.2 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 102.2 l
+ 568.99 39.61 l
+ 56.9 39.61 l
+ 56.9 102.2 l
+ f
+56.9 102.2 m 568.99 102.2 l S
+568.99 102.2 m 568.99 39.61 l S
+568.99 39.61 m 56.9 39.61 l S
+56.9 39.61 m 56.9 102.2 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 369.84 102.2 m 369.84 39.61 l S
+ 56.9 272.9 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 272.9 l
+ 568.99 216.0 l
+ 56.9 216.0 l
+ 56.9 272.9 l
+ f
+56.9 272.9 m 568.99 272.9 l S
+568.99 272.9 m 568.99 216.0 l S
+568.99 216.0 m 56.9 216.0 l S
+56.9 216.0 m 56.9 272.9 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 318.63 670.25 Td (Staatsangehörigkeit) Tj ET
+56.9 722.4 m 568.99 722.4 l S
+568.99 722.4 m 568.99 608.6 l S
+568.99 608.6 m 56.9 608.6 l S
+56.9 608.6 m 56.9 722.4 l S
+56.9 699.64 m 568.99 699.64 l S
+56.9 676.88 m 568.99 676.88 l S
+56.9 489.12 m 392.6 489.12 l S
+56.9 654.12 m 568.99 654.12 l S
+BT /Helv 7.0 Tf 62.59 715.77 Td (Familienname) Tj ET
+BT /Helv 7.0 Tf 62.59 693.01 Td (Vorname\(n\)) Tj ET
+BT /Helv 7.0 Tf 318.63 715.77 Td (ggf.) Tj ET
+BT /Helv 7.0 Tf 332.23 715.77 Td (Geburtsname) Tj ET
+BT /Helv 7.0 Tf 495.02 693.01 Td (Geburtsdatum) Tj ET
+ 56.9 534.64 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 392.6 534.64 l
+ 392.6 375.32 l
+ 56.9 375.32 l
+ 56.9 534.64 l
+ f
+56.9 534.64 m 392.6 534.64 l S
+392.6 534.64 m 392.6 375.32 l S
+392.6 375.32 m 56.9 375.32 l S
+56.9 375.32 m 56.9 534.64 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 238.98 647.49 Td (E-Mail) Tj ET
+BT /Helv 7.0 Tf 260.68 647.49 Td (\(bitte) Tj ET
+BT /Helv 7.0 Tf 278.08 647.49 Td (in) Tj ET
+BT /Helv 7.0 Tf 285.48 647.49 Td (Druckbuchstaben\)) Tj ET
+BT /Helv 7.0 Tf 62.59 624.73 Td (Anschrift) Tj ET
+BT /Helv 7.0 Tf 91.79 624.73 Td () Tj ET
+BT /HeBo 7.0 Tf 91.79 624.73 Td (Hauptwohnsitz) Tj ET
+BT /HeBo 7.0 Tf 143.59 624.73 Td () Tj ET
+BT /Helv 7.0 Tf 143.59 624.73 Td (\(Straße) Tj ET
+BT /Helv 7.0 Tf 168.79 624.73 Td (Hausnummer,) Tj ET
+BT /Helv 7.0 Tf 214.79 624.73 Td (PLZ) Tj ET
+BT /Helv 7.0 Tf 229.59 624.73 Td (Ort\)) Tj ET
+ 398.29 585.84 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 585.84 l
+ 568.99 494.81 l
+ 398.29 494.81 l
+ 398.29 585.84 l
+ f
+398.29 585.84 m 568.99 585.84 l S
+568.99 585.84 m 568.99 494.81 l S
+568.99 494.81 m 398.29 494.81 l S
+398.29 494.81 m 398.29 585.84 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /HeBo 9.0 Tf 62.59 589.16 Td (Folgende) Tj ET
+BT /HeBo 9.0 Tf 105.09 589.16 Td (Fahrerlaubnisklassen) Tj ET
+BT /HeBo 9.0 Tf 200.09 589.16 Td (werden) Tj ET
+BT /HeBo 9.0 Tf 234.29 589.16 Td (beantragt) Tj ET
+BT /HeBo 9.0 Tf 403.98 589.16 Td (Vorhandene) Tj ET
+BT /HeBo 9.0 Tf 458.48 589.16 Td (Fahrerlaubnisklassen) Tj ET
+398.29 563.08 m 568.99 563.08 l S
+BT /Helv 7.0 Tf 403.98 579.21 Td (Klasse\(n\)) Tj ET
+BT /Helv 7.0 Tf 495.02 579.21 Td (erteilt) Tj ET
+BT /Helv 7.0 Tf 514.02 579.21 Td (am) Tj ET
+489.33 585.84 m 489.33 563.08 l S
+398.29 540.33 m 568.99 540.33 l S
+398.29 517.57 m 568.99 517.57 l S
+BT /Helv 7.0 Tf 403.98 556.45 Td (durch) Tj ET
+BT /Helv 7.0 Tf 423.38 556.45 Td (Behörde) Tj ET
+BT /Helv 7.0 Tf 403.98 533.69 Td (Listen-Nr.) Tj ET
+BT /Helv 7.0 Tf 436.18 533.69 Td (\(Führerschein) Tj ET
+BT /Helv 7.0 Tf 481.28 533.69 Td (bis) Tj ET
+BT /Helv 7.0 Tf 492.18 533.69 Td (31.12.1998\)) Tj ET
+BT /Helv 7.0 Tf 403.98 510.93 Td (Führerschein-Nr.) Tj ET
+BT /Helv 9.0 Tf 108.11 469.67 Td (Aufstieg) Tj ET
+BT /Helv 9.0 Tf 143.21 469.67 Td (von) Tj ET
+BT /Helv 9.0 Tf 160.21 469.67 Td (A1) Tj ET
+BT /Helv 9.0 Tf 173.71 469.67 Td (auf) Tj ET
+BT /Helv 9.0 Tf 188.81 469.67 Td (A2) Tj ET
+56.9 466.36 m 392.6 466.36 l S
+ 56.9 585.84 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 392.6 585.84 l
+ 392.6 540.33 l
+ 56.9 540.33 l
+ 56.9 585.84 l
+ f
+56.9 585.84 m 392.6 585.84 l S
+392.6 585.84 m 392.6 540.33 l S
+392.6 540.33 m 56.9 540.33 l S
+56.9 540.33 m 56.9 585.84 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 56.9 563.08 m 392.6 563.08 l S
+56.9 534.64 m 392.6 534.64 l S
+392.6 534.64 m 392.6 375.32 l S
+392.6 375.32 m 56.9 375.32 l S
+56.9 375.32 m 56.9 534.64 l S
+56.9 511.88 m 392.6 511.88 l S
+56.9 398.08 m 392.6 398.08 l S
+BT /Helv 9.0 Tf 79.66 566.4 Td (A1) Tj ET
+BT /Helv 9.0 Tf 113.8 566.4 Td (A2) Tj ET
+BT /Helv 9.0 Tf 210.53 566.4 Td (B96) Tj ET
+BT /Helv 9.0 Tf 147.94 566.4 Td (A) Tj ET
+BT /Helv 9.0 Tf 179.23 566.4 Td (B) Tj ET
+BT /Helv 9.0 Tf 295.87 566.4 Td (BE) Tj ET
+BT /Helv 9.0 Tf 331.72 566.4 Td (C1) Tj ET
+BT /Helv 9.0 Tf 368.14 566.4 Td (C1E) Tj ET
+BT /Helv 9.0 Tf 79.66 543.64 Td (C) Tj ET
+BT /Helv 9.0 Tf 113.8 543.64 Td (CE) Tj ET
+BT /Helv 9.0 Tf 151.92 543.64 Td (D1) Tj ET
+BT /Helv 9.0 Tf 190.04 543.64 Td (D1E) Tj ET
+BT /Helv 9.0 Tf 232.72 543.64 Td (D) Tj ET
+BT /Helv 9.0 Tf 265.72 543.64 Td (DE) Tj ET
+BT /Helv 9.0 Tf 304.41 543.64 Td (AM) Tj ET
+BT /Helv 9.0 Tf 347.08 543.64 Td (L) Tj ET
+BT /Helv 9.0 Tf 85.35 424.16 Td (nach) Tj ET
+BT /Helv 9.0 Tf 107.35 424.16 Td () Tj ET
+BT /HeBo 9.0 Tf 107.35 424.16 Td (Versagung) Tj ET
+BT /HeBo 9.0 Tf 156.35 424.16 Td () Tj ET
+BT /Helv 9.0 Tf 156.35 424.16 Td (oder) Tj ET
+BT /Helv 9.0 Tf 176.85 424.16 Td (vorangegangener) Tj ET
+BT /Helv 9.0 Tf 249.85 424.16 Td () Tj ET
+BT /HeBo 9.0 Tf 249.85 424.16 Td (Entziehung) Tj ET
+BT /HeBo 9.0 Tf 300.85 424.16 Td () Tj ET
+BT /Helv 9.0 Tf 300.85 424.16 Td (oder) Tj ET
+BT /Helv 9.0 Tf 321.35 424.16 Td (nach) Tj ET
+BT /Helv 9.0 Tf 343.35 424.16 Td () Tj ET
+BT /HeBo 9.0 Tf 343.35 424.16 Td (Verzicht) Tj ET
+BT /Helv 9.0 Tf 378.95 543.64 Td (T) Tj ET
+BT /HeBo 9.0 Tf 85.35 515.19 Td (erstmalig) Tj ET
+BT /Helv 9.0 Tf 85.35 492.43 Td (zur) Tj ET
+BT /Helv 9.0 Tf 100.25 492.43 Td () Tj ET
+BT /HeBo 9.0 Tf 100.25 492.43 Td (Erweiterung) Tj ET
+BT /HeBo 9.0 Tf 154.95 492.43 Td () Tj ET
+BT /Helv 9.0 Tf 154.95 492.43 Td (einer) Tj ET
+BT /Helv 9.0 Tf 177.45 492.43 Td (vorhandenen) Tj ET
+BT /Helv 9.0 Tf 232.45 492.43 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 85.35 401.4 Td (aufgrund) Tj ET
+BT /Helv 9.0 Tf 123.45 401.4 Td (einer) Tj ET
+BT /Helv 9.0 Tf 145.95 401.4 Td () Tj ET
+BT /HeBo 9.0 Tf 145.95 401.4 Td (Dienstfahrerlaubnis) Tj ET
+ 56.9 369.63 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 369.63 l
+ 568.99 346.87 l
+ 56.9 346.87 l
+ 56.9 369.63 l
+ f
+56.9 369.63 m 568.99 369.63 l S
+568.99 369.63 m 568.99 346.87 l S
+568.99 346.87 m 56.9 346.87 l S
+56.9 346.87 m 56.9 369.63 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 9.0 Tf 85.35 378.64 Td (aufgrund) Tj ET
+BT /Helv 9.0 Tf 123.45 378.64 Td (einer) Tj ET
+BT /Helv 9.0 Tf 145.95 378.64 Td () Tj ET
+BT /HeBo 9.0 Tf 145.95 378.64 Td (ausländischen) Tj ET
+BT /HeBo 9.0 Tf 210.95 378.64 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 85.35 350.19 Td (Der) Tj ET
+BT /Helv 9.0 Tf 102.35 350.19 Td (Prüfungsort*) Tj ET
+BT /Helv 9.0 Tf 154.95 350.19 Td (ist) Tj ET
+BT /Helv 9.0 Tf 166.45 350.19 Td () Tj ET
+BT /HeBo 9.0 Tf 166.45 350.19 Td (nicht) Tj ET
+BT /HeBo 9.0 Tf 190.45 350.19 Td () Tj ET
+BT /Helv 9.0 Tf 190.45 350.19 Td (München,) Tj ET
+BT /Helv 9.0 Tf 232.45 350.19 Td (sondern) Tj ET
+BT /HeBo 8.0 Tf 62.59 335.16 Td (*Prüfungsort) Tj ET
+BT /HeBo 8.0 Tf 113.69 335.16 Td () Tj ET
+BT /Helv 8.0 Tf 113.69 335.16 Td (für) Tj ET
+BT /Helv 8.0 Tf 125.29 335.16 Td (den) Tj ET
+BT /Helv 8.0 Tf 140.69 335.16 Td (Landkreis) Tj ET
+BT /Helv 8.0 Tf 177.39 335.16 Td (München) Tj ET
+BT /Helv 8.0 Tf 212.29 335.16 Td () Tj ET
+BT /HeBo 8.0 Tf 212.29 335.16 Td (ist) Tj ET
+BT /HeBo 8.0 Tf 223.79 335.16 Td () Tj ET
+BT /Helv 8.0 Tf 223.79 335.16 Td (grundsätzlich) Tj ET
+BT /Helv 8.0 Tf 272.79 335.16 Td () Tj ET
+BT /HeBo 8.0 Tf 272.79 335.16 Td (München) Tj ET
+BT /Helv 8.0 Tf 307.89 335.16 Td (.) Tj ET
+BT /Helv 8.0 Tf 312.29 335.16 Td (Bei) Tj ET
+BT /Helv 8.0 Tf 325.99 335.16 Td (abweichendem) Tj ET
+BT /Helv 8.0 Tf 381.59 335.16 Td (Prüfungsort) Tj ET
+BT /Helv 8.0 Tf 424.99 335.16 Td (ist) Tj ET
+BT /Helv 8.0 Tf 435.19 335.16 Td (eine) Tj ET
+BT /Helv 8.0 Tf 452.39 335.16 Td (schriftliche) Tj ET
+BT /Helv 8.0 Tf 492.39 335.16 Td (Begründung) Tj ET
+BT /Helv 8.0 Tf 537.79 335.16 Td (mit) Tj ET
+BT /Helv 8.0 Tf 62.59 325.99 Td (entsprechendem) Tj ET
+BT /Helv 8.0 Tf 123.99 325.99 Td (Nachweis) Tj ET
+BT /Helv 8.0 Tf 160.69 325.99 Td (\(Bestätigung) Tj ET
+BT /Helv 8.0 Tf 207.49 325.99 Td (des) Tj ET
+BT /Helv 8.0 Tf 222.49 325.99 Td (Arbeitgebers) Tj ET
+BT /Helv 8.0 Tf 269.79 325.99 Td (/) Tj ET
+BT /Helv 8.0 Tf 274.19 325.99 Td (Ausbilders,) Tj ET
+BT /Helv 8.0 Tf 315.79 325.99 Td (Schulbesuchsbescheinigung) Tj ET
+BT /Helv 8.0 Tf 418.69 325.99 Td (o.ä.\)) Tj ET
+BT /Helv 8.0 Tf 436.79 325.99 Td (dem) Tj ET
+BT /Helv 8.0 Tf 454.49 325.99 Td (Antrag) Tj ET
+BT /Helv 8.0 Tf 480.09 325.99 Td (beizulegen;) Tj ET
+BT /Helv 8.0 Tf 522.79 325.99 Td (die) Tj ET
+BT /Helv 8.0 Tf 62.59 316.82 Td (Fahrerlaubnisbehörde) Tj ET
+BT /Helv 8.0 Tf 142.59 316.82 Td (entscheidet) Tj ET
+BT /Helv 8.0 Tf 185.39 316.82 Td (dann,) Tj ET
+BT /Helv 8.0 Tf 207.39 316.82 Td (ob) Tj ET
+BT /Helv 8.0 Tf 218.39 316.82 Td (auf) Tj ET
+BT /Helv 8.0 Tf 231.69 316.82 Td (einen) Tj ET
+BT /Helv 8.0 Tf 253.29 316.82 Td (anderen) Tj ET
+BT /Helv 8.0 Tf 284.59 316.82 Td (Prüfungsort) Tj ET
+BT /Helv 8.0 Tf 327.99 316.82 Td (ausgewichen) Tj ET
+BT /Helv 8.0 Tf 376.49 316.82 Td (werden) Tj ET
+BT /Helv 8.0 Tf 404.69 316.82 Td (kann.) Tj ET
+ 56.9 210.31 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 210.31 l
+ 568.99 147.72 l
+ 56.9 147.72 l
+ 56.9 210.31 l
+ f
+56.9 210.31 m 568.99 210.31 l S
+568.99 210.31 m 568.99 147.72 l S
+568.99 147.72 m 56.9 147.72 l S
+56.9 147.72 m 56.9 210.31 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 56.9 346.87 m 568.99 346.87 l S
+ 56.9 312.73 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 312.73 l
+ 568.99 278.59 l
+ 56.9 278.59 l
+ 56.9 312.73 l
+ f
+56.9 312.73 m 568.99 312.73 l S
+568.99 312.73 m 568.99 278.59 l S
+568.99 278.59 m 56.9 278.59 l S
+56.9 278.59 m 56.9 312.73 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 56.9 272.9 m 568.99 272.9 l S
+568.99 272.9 m 568.99 216.0 l S
+568.99 216.0 m 56.9 216.0 l S
+56.9 216.0 m 56.9 272.9 l S
+56.9 187.55 m 568.99 187.55 l S
+BT /Helv 9.0 Tf 62.59 190.87 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 77.09 190.87 Td (benötige) Tj ET
+BT /Helv 9.0 Tf 114.09 190.87 Td (im) Tj ET
+BT /Helv 9.0 Tf 126.19 190.87 Td (Straßenverkehr) Tj ET
+BT /Helv 9.0 Tf 256.05 190.87 Td (eine) Tj ET
+BT /Helv 9.0 Tf 275.55 190.87 Td (Sehhilfe) Tj ET
+BT /Helv 9.0 Tf 426.74 190.87 Td (keine) Tj ET
+BT /Helv 9.0 Tf 450.84 190.87 Td (Sehhilfe) Tj ET
+BT /Helv 7.0 Tf 62.59 180.35 Td (Ich) Tj ET
+BT /Helv 7.0 Tf 73.79 180.35 Td (habe) Tj ET
+BT /Helv 7.0 Tf 91.29 180.35 Td (gesundheitliche) Tj ET
+BT /Helv 7.0 Tf 141.99 180.35 Td (Einschränkungen) Tj ET
+BT /Helv 7.0 Tf 198.09 180.35 Td (\(körperliche) Tj ET
+BT /Helv 7.0 Tf 236.59 180.35 Td (/) Tj ET
+BT /Helv 7.0 Tf 240.39 180.35 Td (geistige) Tj ET
+BT /Helv 7.0 Tf 266.49 180.35 Td (Mängel\):) Tj ET
+56.9 147.72 m 568.99 147.72 l S
+BT /Helv 9.0 Tf 62.59 135.68 Td (\(Angaben) Tj ET
+BT /Helv 9.0 Tf 104.09 135.68 Td () Tj ET
+BT /HeBo 9.0 Tf 104.09 135.68 Td (freiwillig) Tj ET
+BT /Helv 9.0 Tf 140.79 135.68 Td (:) Tj ET
+BT /Helv 9.0 Tf 145.79 135.68 Td (Es) Tj ET
+BT /Helv 9.0 Tf 158.79 135.68 Td (wird) Tj ET
+BT /Helv 9.0 Tf 177.59 135.68 Td (darauf) Tj ET
+BT /Helv 9.0 Tf 205.69 135.68 Td (hingewiesen,) Tj ET
+BT /Helv 9.0 Tf 260.49 135.68 Td (dass) Tj ET
+BT /Helv 9.0 Tf 281.99 135.68 Td (das) Tj ET
+BT /Helv 9.0 Tf 298.99 135.68 Td (Verschweigen) Tj ET
+BT /Helv 9.0 Tf 357.79 135.68 Td (von) Tj ET
+BT /Helv 9.0 Tf 374.79 135.68 Td (Mängeln,) Tj ET
+BT /Helv 9.0 Tf 414.29 135.68 Td (die) Tj ET
+BT /Helv 9.0 Tf 428.79 135.68 Td (die) Tj ET
+BT /Helv 9.0 Tf 443.29 135.68 Td (Fahreignung) Tj ET
+BT /Helv 9.0 Tf 496.29 135.68 Td (einschränken) Tj ET
+BT /Helv 9.0 Tf 62.59 124.28 Td (oder) Tj ET
+BT /Helv 9.0 Tf 83.09 124.28 Td (ausschließen) Tj ET
+BT /Helv 9.0 Tf 138.59 124.28 Td (ggf.) Tj ET
+BT /Helv 9.0 Tf 156.19 124.28 Td (aufwändige) Tj ET
+BT /Helv 9.0 Tf 204.59 124.28 Td (und) Tj ET
+BT /Helv 9.0 Tf 222.09 124.28 Td (kostenintensive) Tj ET
+BT /Helv 9.0 Tf 286.69 124.28 Td (Verwaltungsverfahren) Tj ET
+BT /Helv 9.0 Tf 376.59 124.28 Td (nach) Tj ET
+BT /Helv 9.0 Tf 398.59 124.28 Td (sich) Tj ET
+BT /Helv 9.0 Tf 417.09 124.28 Td (ziehen) Tj ET
+BT /Helv 9.0 Tf 445.99 124.28 Td (kann!\)) Tj ET
+56.9 102.2 m 568.99 102.2 l S
+568.99 102.2 m 568.99 39.61 l S
+568.99 39.61 m 56.9 39.61 l S
+56.9 39.61 m 56.9 102.2 l S
+BT /HeBo 9.0 Tf 62.59 105.52 Td (Ausbildung) Tj ET
+BT /HeBo 9.0 Tf 114.39 105.52 Td (erfolgt) Tj ET
+BT /HeBo 9.0 Tf 144.89 105.52 Td (durch) Tj ET
+BT /HeBo 9.0 Tf 172.39 105.52 Td (die) Tj ET
+BT /HeBo 9.0 Tf 187.89 105.52 Td (Fahrschule:) Tj ET
+BT /Helv 9.0 Tf 108.11 446.91 Td (Aufstieg) Tj ET
+BT /Helv 9.0 Tf 143.21 446.91 Td (von) Tj ET
+BT /Helv 9.0 Tf 160.21 446.91 Td (A2) Tj ET
+BT /Helv 9.0 Tf 173.71 446.91 Td (auf) Tj ET
+BT /Helv 9.0 Tf 188.81 446.91 Td (A) Tj ET
+BT /Helv 7.0 Tf 375.53 95.0 Td (Fahrschulstempel) Tj ET
+BT /Helv 7.0 Tf 432.83 95.0 Td (und) Tj ET
+BT /Helv 7.0 Tf 446.43 95.0 Td (Unterschrift) Tj ET
+BT /Helv 7.0 Tf 62.59 95.57 Td (Fahrschulnummer) Tj ET
+BT /Helv 7.0 Tf 121.09 95.57 Td (für) Tj ET
+BT /Helv 7.0 Tf 131.19 95.57 Td (elektronischen) Tj ET
+BT /Helv 7.0 Tf 178.29 95.57 Td (Prüfauftrag) Tj ET
+BT /Helv 7.0 Tf 214.89 95.57 Td (\(TÜV) Tj ET
+BT /Helv 7.0 Tf 233.19 95.57 Td (/) Tj ET
+BT /Helv 7.0 Tf 236.99 95.57 Td (Dekra\)) Tj ET
+BT /Helv 7.0 Tf 259.89 95.57 Td (bitte) Tj ET
+BT /Helv 7.0 Tf 274.99 95.57 Td (hier) Tj ET
+BT /Helv 7.0 Tf 288.59 95.57 Td (unbedingt) Tj ET
+BT /Helv 7.0 Tf 321.29 95.57 Td (angeben:) Tj ET
+BT /Helv 7.0 Tf 62.59 72.81 Td (Zuständige) Tj ET
+BT /Helv 7.0 Tf 99.19 72.81 Td (Prüfstelle:) Tj ET
+56.9 78.31 m 369.84 78.31 l S
+1.0 1.0 1.0 RG 1.0 1.0 1.0 rg BT /HeBo 20.0 Tf 63.38 787.25 Td (A) Tj ET
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 56.9 312.73 m 568.99 312.73 l S
+56.9 585.84 m 392.6 585.84 l S
+392.6 585.84 m 392.6 540.33 l S
+392.6 540.33 m 56.9 540.33 l S
+56.9 540.33 m 56.9 585.84 l S
+56.9 420.84 m 392.6 420.84 l S
+398.29 585.84 m 568.99 585.84 l S
+568.99 585.84 m 568.99 494.81 l S
+568.99 494.81 m 398.29 494.81 l S
+398.29 494.81 m 398.29 585.84 l S
+56.9 369.63 m 568.99 369.63 l S
+568.99 369.63 m 568.99 278.59 l S
+568.99 278.59 m 56.9 278.59 l S
+56.9 278.59 m 56.9 369.63 l S
+BT /Helv 9.0 Tf 85.35 253.4 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 253.4 Td (möchte) Tj ET
+BT /Helv 9.0 Tf 131.95 253.4 Td (die) Tj ET
+BT /Helv 9.0 Tf 146.45 253.4 Td (Fahrprüfung) Tj ET
+BT /Helv 9.0 Tf 198.05 253.4 Td (mit) Tj ET
+BT /Helv 9.0 Tf 212.65 253.4 Td (einem) Tj ET
+BT /Helv 9.0 Tf 239.75 253.4 Td (Kraftfahrzeug) Tj ET
+BT /Helv 9.0 Tf 296.35 253.4 Td (mit) Tj ET
+BT /Helv 9.0 Tf 310.95 253.4 Td (automatischer) Tj ET
+BT /Helv 9.0 Tf 370.05 253.4 Td (Kraftübertragung) Tj ET
+BT /Helv 9.0 Tf 440.15 253.4 Td (\(") Tj ET
+BT /HeBo 9.0 Tf 446.35 253.4 Td (Automatik) Tj ET
+BT /Helv 9.0 Tf 490.15 253.4 Td ("\)) Tj ET
+BT /Helv 9.0 Tf 498.85 253.4 Td (ablegen.) Tj ET
+56.9 210.31 m 568.99 210.31 l S
+568.99 210.31 m 568.99 119.27 l S
+568.99 119.27 m 56.9 119.27 l S
+56.9 119.27 m 56.9 210.31 l S
+56.9 443.6 m 392.6 443.6 l S
+ 398.29 813.44 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 813.44 l
+ 568.99 739.47 l
+ 398.29 739.47 l
+ 398.29 813.44 l
+ f
+398.29 813.44 m 568.99 813.44 l S
+568.99 813.44 m 568.99 739.47 l S
+568.99 739.47 m 398.29 739.47 l S
+398.29 739.47 m 398.29 813.44 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 398.29 813.44 m 568.99 813.44 l S
+568.99 813.44 m 568.99 739.47 l S
+568.99 739.47 m 398.29 739.47 l S
+398.29 739.47 m 398.29 813.44 l S
+BT /Helv 7.0 Tf 403.98 806.24 Td (Eingangsstempel) Tj ET
+BT /Helv 7.0 Tf 459.78 806.24 Td (der) Tj ET
+BT /Helv 7.0 Tf 471.78 806.24 Td (Verwaltungsbehörde) Tj ET
+312.94 722.4 m 312.94 699.64 l S
+56.9 489.12 m 392.6 489.12 l S
+BT /Helv 7.0 Tf 62.59 647.49 Td (Rückfragen) Tj ET
+BT /Helv 7.0 Tf 100.39 647.49 Td (tagsüber) Tj ET
+BT /Helv 7.0 Tf 129.49 647.49 Td (unter) Tj ET
+BT /Helv 7.0 Tf 147.29 647.49 Td (\() Tj ET
+BT /HeBo 7.0 Tf 149.59 647.49 Td (Mobil) Tj ET
+BT /Helv 7.0 Tf 167.89 647.49 Td (-\)) Tj ET
+BT /Helv 7.0 Tf 174.39 647.49 Td (Telefonnummer) Tj ET
+312.94 676.88 m 312.94 654.12 l S
+BT /Helv 9.0 Tf 250.36 566.4 Td (B196) Tj ET
+56.9 250.14 m 568.99 250.14 l S
+BT /Helv 9.0 Tf 85.35 240.31 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 240.31 Td (möchte) Tj ET
+BT /Helv 9.0 Tf 131.95 240.31 Td (die) Tj ET
+BT /Helv 9.0 Tf 146.45 240.31 Td (Fahrprüfung) Tj ET
+BT /Helv 9.0 Tf 198.05 240.31 Td (mit) Tj ET
+BT /Helv 9.0 Tf 212.65 240.31 Td (einem) Tj ET
+BT /Helv 9.0 Tf 239.75 240.31 Td (Kraftfahrzeug) Tj ET
+BT /Helv 9.0 Tf 296.35 240.31 Td (mit) Tj ET
+BT /Helv 9.0 Tf 310.95 240.31 Td (automatischer) Tj ET
+BT /Helv 9.0 Tf 370.05 240.31 Td (Kraftübertragung) Tj ET
+BT /Helv 9.0 Tf 440.15 240.31 Td (\(") Tj ET
+BT /HeBo 9.0 Tf 446.35 240.31 Td (Automatik) Tj ET
+BT /Helv 9.0 Tf 490.15 240.31 Td ("\)) Tj ET
+BT /Helv 9.0 Tf 498.85 240.31 Td (ablegen) Tj ET
+BT /Helv 9.0 Tf 533.35 240.31 Td () Tj ET
+BT /HeBo 9.0 Tf 533.35 240.31 Td (und) Tj ET
+BT /HeBo 9.0 Tf 552.35 240.31 Td () Tj ET
+BT /Helv 9.0 Tf 85.35 230.05 Td (absolviere) Tj ET
+BT /Helv 9.0 Tf 128.85 230.05 Td (zusätzlich) Tj ET
+BT /Helv 9.0 Tf 170.65 230.05 Td (eine) Tj ET
+BT /Helv 9.0 Tf 190.15 230.05 Td (praktische) Tj ET
+BT /Helv 9.0 Tf 233.75 230.05 Td (Ausbildung) Tj ET
+BT /Helv 9.0 Tf 280.75 230.05 Td (zum) Tj ET
+BT /Helv 9.0 Tf 300.25 230.05 Td (Führen) Tj ET
+BT /Helv 9.0 Tf 331.25 230.05 Td (von) Tj ET
+BT /Helv 9.0 Tf 348.25 230.05 Td (Fahrzeugen) Tj ET
+BT /Helv 9.0 Tf 398.65 230.05 Td (der) Tj ET
+BT /Helv 9.0 Tf 414.15 230.05 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 443.65 230.05 Td (B) Tj ET
+BT /Helv 9.0 Tf 452.15 230.05 Td (mit) Tj ET
+BT /Helv 9.0 Tf 466.75 230.05 Td (Schaltgetriebe) Tj ET
+BT /Helv 9.0 Tf 526.75 230.05 Td (nach) Tj ET
+BT /Helv 9.0 Tf 548.75 230.05 Td (§) Tj ET
+BT /Helv 9.0 Tf 85.35 219.79 Td (17a) Tj ET
+BT /Helv 9.0 Tf 102.85 219.79 Td (FeV) Tj ET
+BT /Helv 9.0 Tf 121.85 219.79 Td (\(B197\)) Tj ET
+BT /Helv 7.0 Tf 62.59 670.25 Td (Geburtsort) Tj ET
+489.33 699.64 m 489.33 676.88 l S
+endstream
+endobj
+6 0 obj
+[
+14 0 R
+16 0 R
+18 0 R
+20 0 R
+22 0 R
+24 0 R
+26 0 R
+28 0 R
+30 0 R
+32 0 R
+35 0 R
+36 0 R
+39 0 R
+42 0 R
+45 0 R
+48 0 R
+51 0 R
+54 0 R
+57 0 R
+60 0 R
+63 0 R
+66 0 R
+69 0 R
+72 0 R
+75 0 R
+78 0 R
+81 0 R
+84 0 R
+87 0 R
+89 0 R
+91 0 R
+93 0 R
+95 0 R
+97 0 R
+100 0 R
+103 0 R
+106 0 R
+109 0 R
+112 0 R
+115 0 R
+118 0 R
+121 0 R
+123 0 R
+125 0 R
+128 0 R
+131 0 R
+134 0 R
+137 0 R
+139 0 R
+141 0 R
+]
+endobj
+7 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots 9 0 R
+/MediaBox [ 0 0 595.28 841.89 ]
+/Contents [ 8 0 R ]
+/AA << /O << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+/Resources
+<< /ProcSet [ /PDF /ImageC ] 
+ /Font << /Helv 291 0 R
+/HeBo 292 0 R
+>>>>
+>>
+endobj
+8 0 obj
+<< /Length 35031 >>
+stream
+ q
+0.0 1.0 -1.0 0.0 80.28999999999999 22.539999999999996 cm S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 22.76 50.33 Td (©) Tj ET
+BT /Helv 7.0 Tf 29.86 50.33 Td (Landratsamt) Tj ET
+BT /Helv 7.0 Tf 70.66 50.33 Td (München) Tj ET
+BT /Helv 7.0 Tf 101.26 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 103.16 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 105.06 50.33 Td (–) Tj ET
+BT /Helv 7.0 Tf 110.86 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 112.76 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 114.66 50.33 Td (Stand) Tj ET
+BT /Helv 7.0 Tf 134.86 50.33 Td (04/2021) Tj ET
+ Q
+ 51.21 819.13 m
+ 0.9 0.9 0.9 RG 0.9 0.9 0.9 rg 574.68 819.13 l
+ 574.68 45.3 l
+ 51.21 45.3 l
+ 51.21 819.13 l
+ f
+2 J [] 0 d 0.5 w 51.21 819.13 m 574.68 819.13 l S
+574.68 819.13 m 574.68 45.3 l S
+574.68 45.3 m 51.21 45.3 l S
+51.21 45.3 m 51.21 819.13 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 2 J [] 0 d 0.0 w 65.43 287.40999999999997 m
+65.43 288.11999999999995 64.72 288.83 64.01 288.83 c
+63.300000000000004 288.83 62.59 288.11999999999995 62.59 287.40999999999997 c
+62.59 286.7 63.300000000000004 285.98999999999995 64.01 285.98999999999995 c
+64.72 285.98999999999995 65.43 286.7 65.43 287.40999999999997 c B
+BT /Helv 9.0 Tf 62.59 266.54 Td (Hiermit) Tj ET
+BT /Helv 9.0 Tf 93.69 266.54 Td (erkläre) Tj ET
+BT /Helv 9.0 Tf 123.79 266.54 Td (ich,) Tj ET
+BT /Helv 9.0 Tf 140.29 266.54 Td (in) Tj ET
+BT /Helv 9.0 Tf 149.79 266.54 Td (einem) Tj ET
+BT /Helv 9.0 Tf 176.89 266.54 Td (Mitgliedsstaat) Tj ET
+BT /Helv 9.0 Tf 234.39 266.54 Td (der) Tj ET
+BT /Helv 9.0 Tf 249.89 266.54 Td (Europäischen) Tj ET
+BT /Helv 9.0 Tf 307.39 266.54 Td (Union) Tj ET
+BT /Helv 9.0 Tf 333.39 266.54 Td (oder) Tj ET
+BT /Helv 9.0 Tf 353.89 266.54 Td (einem) Tj ET
+BT /Helv 9.0 Tf 380.99 266.54 Td (anderen) Tj ET
+BT /Helv 9.0 Tf 416.49 266.54 Td (Vertragsstaat) Tj ET
+BT /Helv 9.0 Tf 472.49 266.54 Td (des) Tj ET
+BT /Helv 9.0 Tf 489.49 266.54 Td (Abkommens) Tj ET
+BT /Helv 9.0 Tf 542.29 266.54 Td (über) Tj ET
+BT /Helv 9.0 Tf 62.59 255.14 Td (den) Tj ET
+BT /Helv 9.0 Tf 80.09 255.14 Td (Europäischen) Tj ET
+BT /Helv 9.0 Tf 137.59 255.14 Td (Wirtschaftsraum) Tj ET
+BT /Helv 9.0 Tf 205.69 255.14 Td () Tj ET
+BT /HeBo 9.0 Tf 205.69 255.14 Td (weder) Tj ET
+BT /HeBo 9.0 Tf 234.39 255.14 Td (eine) Tj ET
+BT /HeBo 9.0 Tf 254.89 255.14 Td (Fahrerlaubnis) Tj ET
+BT /HeBo 9.0 Tf 316.89 255.14 Td (zu) Tj ET
+BT /HeBo 9.0 Tf 329.39 255.14 Td (besitzen) Tj ET
+BT /HeBo 9.0 Tf 367.89 255.14 Td (oder) Tj ET
+BT /HeBo 9.0 Tf 389.89 255.14 Td (besessen) Tj ET
+BT /HeBo 9.0 Tf 433.39 255.14 Td (zu) Tj ET
+BT /HeBo 9.0 Tf 445.89 255.14 Td (haben,) Tj ET
+BT /Helv 9.0 Tf 474.89 255.14 Td () Tj ET
+BT /Helv 9.0 Tf 477.39 255.14 Td (noch) Tj ET
+BT /Helv 9.0 Tf 499.39 255.14 Td (solche) Tj ET
+BT /Helv 9.0 Tf 527.89 255.14 Td (beantragt) Tj ET
+BT /Helv 9.0 Tf 62.59 243.74 Td (zu) Tj ET
+BT /Helv 9.0 Tf 74.49 243.74 Td (haben.) Tj ET
+BT /Helv 9.0 Tf 104.49 243.74 Td (Ebenso) Tj ET
+BT /Helv 9.0 Tf 137.49 243.74 Td (erkläre) Tj ET
+BT /Helv 9.0 Tf 167.59 243.74 Td (ich,) Tj ET
+BT /Helv 9.0 Tf 184.09 243.74 Td () Tj ET
+BT /HeBo 9.0 Tf 184.09 243.74 Td (auf) Tj ET
+BT /HeBo 9.0 Tf 200.09 243.74 Td (eine) Tj ET
+BT /HeBo 9.0 Tf 220.59 243.74 Td (bereits) Tj ET
+BT /HeBo 9.0 Tf 252.59 243.74 Td (vorhandene) Tj ET
+BT /HeBo 9.0 Tf 306.09 243.74 Td (EU-bzw.) Tj ET
+BT /HeBo 9.0 Tf 343.79 243.74 Td (EWR-Fahrerlaubnis) Tj ET
+BT /HeBo 9.0 Tf 429.79 243.74 Td (mit) Tj ET
+BT /HeBo 9.0 Tf 445.79 243.74 Td (der) Tj ET
+BT /HeBo 9.0 Tf 462.29 243.74 Td (Erteilung) Tj ET
+BT /HeBo 9.0 Tf 503.79 243.74 Td (der) Tj ET
+BT /HeBo 9.0 Tf 62.59 232.34 Td (beantragten) Tj ET
+BT /HeBo 9.0 Tf 116.59 232.34 Td (Fahrerlaubnis) Tj ET
+BT /HeBo 9.0 Tf 178.59 232.34 Td (zu) Tj ET
+BT /HeBo 9.0 Tf 191.09 232.34 Td (verzichten) Tj ET
+BT /Helv 9.0 Tf 235.59 232.34 Td () Tj ET
+BT /Helv 9.0 Tf 238.09 232.34 Td (\(§) Tj ET
+BT /Helv 9.0 Tf 248.59 232.34 Td (21) Tj ET
+BT /Helv 9.0 Tf 261.09 232.34 Td (Abs.) Tj ET
+BT /Helv 9.0 Tf 281.59 232.34 Td (2) Tj ET
+BT /Helv 9.0 Tf 289.09 232.34 Td (FeV\).) Tj ET
+2 J [] 0 d 0.5 w 56.9 204.62 m 568.99 204.62 l S
+568.99 204.62 m 568.99 113.58 l S
+568.99 113.58 m 56.9 113.58 l S
+56.9 113.58 m 56.9 204.62 l S
+BT /Helv 9.0 Tf 73.97 195.99 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 88.47 195.99 Td (weiß,) Tj ET
+BT /Helv 9.0 Tf 112.27 195.99 Td (dass) Tj ET
+BT /Helv 9.0 Tf 133.77 195.99 Td (eine) Tj ET
+BT /Helv 9.0 Tf 153.27 195.99 Td (Neuerteilung) Tj ET
+BT /Helv 9.0 Tf 206.77 195.99 Td (nicht) Tj ET
+BT /Helv 9.0 Tf 228.27 195.99 Td (möglich) Tj ET
+BT /Helv 9.0 Tf 261.87 195.99 Td (ist,) Tj ET
+BT /Helv 9.0 Tf 275.87 195.99 Td (wenn) Tj ET
+BT /Helv 9.0 Tf 299.67 195.99 Td (eine) Tj ET
+BT /Helv 9.0 Tf 319.17 195.99 Td (EU-) Tj ET
+BT /Helv 9.0 Tf 337.17 195.99 Td (oder) Tj ET
+BT /Helv 9.0 Tf 357.67 195.99 Td (EWR-Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 439.57 195.99 Td (zuvor) Tj ET
+BT /Helv 9.0 Tf 463.97 195.99 Td (in) Tj ET
+BT /Helv 9.0 Tf 473.47 195.99 Td (einem) Tj ET
+BT /Helv 9.0 Tf 500.57 195.99 Td (EU-) Tj ET
+BT /Helv 9.0 Tf 518.57 195.99 Td (oder) Tj ET
+BT /Helv 9.0 Tf 73.97 184.59 Td (EWR-Staat) Tj ET
+BT /Helv 9.0 Tf 121.87 184.59 Td (vorläufig) Tj ET
+BT /Helv 9.0 Tf 158.47 184.59 Td (oder) Tj ET
+BT /Helv 9.0 Tf 178.97 184.59 Td (rechtskräftig) Tj ET
+BT /Helv 9.0 Tf 230.67 184.59 Td (entzogen) Tj ET
+BT /Helv 9.0 Tf 270.07 184.59 Td (wurde,) Tj ET
+BT /Helv 9.0 Tf 299.37 184.59 Td (es) Tj ET
+BT /Helv 9.0 Tf 311.37 184.59 Td (sei) Tj ET
+BT /Helv 9.0 Tf 325.37 184.59 Td (denn,) Tj ET
+BT /Helv 9.0 Tf 350.37 184.59 Td (dass) Tj ET
+BT /Helv 9.0 Tf 371.87 184.59 Td (die) Tj ET
+BT /Helv 9.0 Tf 386.37 184.59 Td (Gründe) Tj ET
+BT /Helv 9.0 Tf 418.87 184.59 Td (für) Tj ET
+BT /Helv 9.0 Tf 431.97 184.59 Td (die) Tj ET
+BT /Helv 9.0 Tf 446.47 184.59 Td (Entziehung) Tj ET
+BT /Helv 9.0 Tf 493.87 184.59 Td (nicht) Tj ET
+BT /Helv 9.0 Tf 515.37 184.59 Td (mehr) Tj ET
+BT /Helv 9.0 Tf 73.97 173.19 Td (bestehen.) Tj ET
+2 J [] 0 d 0.0 w 65.43 199.21499999999997 m
+65.43 199.92749999999998 64.72 200.64 64.01 200.64 c
+63.300000000000004 200.64 62.59 199.92749999999998 62.59 199.21499999999997 c
+62.59 198.50249999999997 63.300000000000004 197.78999999999996 64.01 197.78999999999996 c
+64.72 197.78999999999996 65.43 198.50249999999997 65.43 199.21499999999997 c B
+BT /HeBo 9.0 Tf 73.97 161.85 Td (Ich) Tj ET
+BT /HeBo 9.0 Tf 89.47 161.85 Td (bin) Tj ET
+BT /HeBo 9.0 Tf 105.47 161.85 Td (damit) Tj ET
+BT /HeBo 9.0 Tf 131.97 161.85 Td (einverstanden,) Tj ET
+BT /Helv 9.0 Tf 195.47 161.85 Td () Tj ET
+BT /Helv 9.0 Tf 197.97 161.85 Td (dass) Tj ET
+BT /Helv 9.0 Tf 219.47 161.85 Td (zur) Tj ET
+BT /Helv 9.0 Tf 234.37 161.85 Td (Feststellung,) Tj ET
+BT /Helv 9.0 Tf 287.87 161.85 Td (ob) Tj ET
+BT /Helv 9.0 Tf 300.37 161.85 Td (ggf.) Tj ET
+BT /Helv 9.0 Tf 317.97 161.85 Td (Zweifel) Tj ET
+BT /Helv 9.0 Tf 348.87 161.85 Td (an) Tj ET
+BT /Helv 9.0 Tf 361.37 161.85 Td (meiner) Tj ET
+BT /Helv 9.0 Tf 391.47 161.85 Td (charakterlichen) Tj ET
+BT /Helv 9.0 Tf 455.07 161.85 Td (Eignung) Tj ET
+BT /Helv 9.0 Tf 490.57 161.85 Td (zum) Tj ET
+BT /Helv 9.0 Tf 510.07 161.85 Td (Führen) Tj ET
+BT /Helv 9.0 Tf 541.07 161.85 Td (von) Tj ET
+BT /Helv 9.0 Tf 73.97 150.45 Td (Kraftfahrzeugen) Tj ET
+BT /Helv 9.0 Tf 140.57 150.45 Td (bestehen,) Tj ET
+BT /Helv 9.0 Tf 182.57 150.45 Td () Tj ET
+BT /HeBo 9.0 Tf 182.57 150.45 Td (direkt) Tj ET
+BT /HeBo 9.0 Tf 209.57 150.45 Td (ein) Tj ET
+BT /HeBo 9.0 Tf 225.07 150.45 Td (Führungszeugnis) Tj ET
+BT /HeBo 9.0 Tf 302.57 150.45 Td (angefordert) Tj ET
+BT /HeBo 9.0 Tf 355.07 150.45 Td () Tj ET
+BT /Helv 9.0 Tf 355.07 150.45 Td (\(§) Tj ET
+BT /Helv 9.0 Tf 365.57 150.45 Td (31) Tj ET
+BT /Helv 9.0 Tf 378.07 150.45 Td (des) Tj ET
+BT /Helv 9.0 Tf 395.07 150.45 Td (Bundeszentralregistergesetzes) Tj ET
+BT /Helv 9.0 Tf 520.87 150.45 Td (-) Tj ET
+BT /Helv 9.0 Tf 526.37 150.45 Td (BZRG\)) Tj ET
+BT /Helv 9.0 Tf 556.87 150.45 Td () Tj ET
+BT /HeBo 9.0 Tf 73.97 139.05 Td (und) Tj ET
+BT /HeBo 9.0 Tf 92.97 139.05 Td (dieses) Tj ET
+BT /HeBo 9.0 Tf 123.47 139.05 Td (Führungszeugnis) Tj ET
+BT /HeBo 9.0 Tf 200.97 139.05 Td (unmittelbar) Tj ET
+BT /HeBo 9.0 Tf 252.47 139.05 Td (der) Tj ET
+BT /HeBo 9.0 Tf 268.97 139.05 Td (Führerscheinstelle) Tj ET
+BT /HeBo 9.0 Tf 351.47 139.05 Td (zugestellt) Tj ET
+BT /HeBo 9.0 Tf 395.47 139.05 Td (wird.) Tj ET
+BT /Helv 9.0 Tf 73.97 127.71 Td (Mir) Tj ET
+BT /Helv 9.0 Tf 88.97 127.71 Td (ist) Tj ET
+BT /Helv 9.0 Tf 100.47 127.71 Td (bekannt,) Tj ET
+BT /Helv 9.0 Tf 137.57 127.71 Td (dass) Tj ET
+BT /Helv 9.0 Tf 159.07 127.71 Td (bei) Tj ET
+BT /Helv 9.0 Tf 173.57 127.71 Td (Zweifeln) Tj ET
+BT /Helv 9.0 Tf 209.47 127.71 Td (an) Tj ET
+BT /Helv 9.0 Tf 221.97 127.71 Td (der) Tj ET
+BT /Helv 9.0 Tf 237.47 127.71 Td (Befähigung) Tj ET
+BT /Helv 9.0 Tf 285.57 127.71 Td (eine) Tj ET
+BT /Helv 9.0 Tf 305.07 127.71 Td (erneute) Tj ET
+BT /Helv 9.0 Tf 338.07 127.71 Td (theoretische) Tj ET
+BT /Helv 9.0 Tf 389.57 127.71 Td (und) Tj ET
+BT /Helv 9.0 Tf 407.07 127.71 Td (/) Tj ET
+BT /Helv 9.0 Tf 412.07 127.71 Td (oder) Tj ET
+BT /Helv 9.0 Tf 432.57 127.71 Td (praktische) Tj ET
+BT /Helv 9.0 Tf 476.17 127.71 Td (Befähigungsprüfung) Tj ET
+BT /Helv 9.0 Tf 73.97 116.31 Td (für) Tj ET
+BT /Helv 9.0 Tf 87.07 116.31 Td (die) Tj ET
+BT /Helv 9.0 Tf 101.57 116.31 Td (beantragte\(n\)) Tj ET
+BT /Helv 9.0 Tf 158.07 116.31 Td (Fahrerlaubnisklasse\(n\)) Tj ET
+BT /Helv 9.0 Tf 252.17 116.31 Td (verlangt) Tj ET
+BT /Helv 9.0 Tf 286.67 116.31 Td (werden) Tj ET
+BT /Helv 9.0 Tf 318.47 116.31 Td (kann.) Tj ET
+65.43 165.075 m
+65.43 165.7875 64.72 166.5 64.01 166.5 c
+63.300000000000004 166.5 62.59 165.7875 62.59 165.075 c
+62.59 164.36249999999998 63.300000000000004 163.64999999999998 64.01 163.64999999999998 c
+64.72 163.64999999999998 65.43 164.36249999999998 65.43 165.075 c B
+65.43 130.935 m
+65.43 131.6475 64.72 132.36 64.01 132.36 c
+63.300000000000004 132.36 62.59 131.6475 62.59 130.935 c
+62.59 130.2225 63.300000000000004 129.51 64.01 129.51 c
+64.72 129.51 65.43 130.2225 65.43 130.935 c B
+BT /Helv 11.0 Tf 62.59 210.39 Td (zusätzliche) Tj ET
+BT /Helv 11.0 Tf 119.99 210.39 Td (Erklärung) Tj ET
+BT /Helv 11.0 Tf 170.09 210.39 Td (zum) Tj ET
+BT /Helv 11.0 Tf 193.99 210.39 Td (Antrag) Tj ET
+BT /Helv 11.0 Tf 229.49 210.39 Td (auf) Tj ET
+BT /Helv 11.0 Tf 247.89 210.39 Td () Tj ET
+BT /HeBo 11.0 Tf 247.89 210.39 Td (Neuerteilung) Tj ET
+BT /Helv 11.0 Tf 315.09 210.39 Td () Tj ET
+BT /Helv 11.0 Tf 318.19 210.39 Td (einer) Tj ET
+BT /Helv 11.0 Tf 345.69 210.39 Td (Fahrerlaubnis) Tj ET
+BT /Helv 11.0 Tf 415.89 210.39 Td (\(z.B.) Tj ET
+BT /Helv 11.0 Tf 441.69 210.39 Td (nach) Tj ET
+BT /Helv 11.0 Tf 468.59 210.39 Td (Entziehung\)) Tj ET
+BT /HeBo 8.0 Tf 62.59 102.45 Td (Hinweis) Tj ET
+BT /HeBo 8.0 Tf 95.09 102.45 Td (nach) Tj ET
+BT /HeBo 8.0 Tf 115.89 102.45 Td (dem) Tj ET
+BT /HeBo 8.0 Tf 134.49 102.45 Td (Datenschutzgesetz:) Tj ET
+BT /HeBo 8.0 Tf 211.69 102.45 Td () Tj ET
+BT /Helv 8.0 Tf 211.69 102.45 Td (Ohne) Tj ET
+BT /Helv 8.0 Tf 233.29 102.45 Td (Ihre) Tj ET
+BT /Helv 8.0 Tf 249.19 102.45 Td (Angaben) Tj ET
+BT /Helv 8.0 Tf 283.09 102.45 Td (kann) Tj ET
+BT /Helv 8.0 Tf 302.49 102.45 Td (der) Tj ET
+BT /Helv 8.0 Tf 316.19 102.45 Td (Antrag) Tj ET
+BT /Helv 8.0 Tf 341.79 102.45 Td (nicht) Tj ET
+BT /Helv 8.0 Tf 360.79 102.45 Td (bearbeitet) Tj ET
+BT /Helv 8.0 Tf 398.29 102.45 Td (werden.) Tj ET
+BT /Helv 8.0 Tf 428.69 102.45 Td (Rechtsgrundlage) Tj ET
+BT /Helv 8.0 Tf 490.99 102.45 Td (ist) Tj ET
+BT /Helv 8.0 Tf 501.19 102.45 Td (das) Tj ET
+BT /Helv 8.0 Tf 62.59 92.26 Td (Straßenverkehrsgesetz) Tj ET
+BT /Helv 8.0 Tf 147.09 92.26 Td (und) Tj ET
+BT /Helv 8.0 Tf 162.49 92.26 Td (die) Tj ET
+BT /Helv 8.0 Tf 175.29 92.26 Td (Fahrerlaubnis-Verordnung.) Tj ET
+BT /Helv 9.0 Tf 73.97 284.18 Td (dass) Tj ET
+BT /Helv 9.0 Tf 95.47 284.18 Td (ich) Tj ET
+BT /Helv 9.0 Tf 109.47 284.18 Td (nur) Tj ET
+BT /Helv 9.0 Tf 124.97 284.18 Td (eine) Tj ET
+BT /Helv 9.0 Tf 144.47 284.18 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 201.97 284.18 Td (der) Tj ET
+BT /Helv 9.0 Tf 217.47 284.18 Td (gleichen) Tj ET
+BT /Helv 9.0 Tf 253.47 284.18 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 282.97 284.18 Td (erwerben) Tj ET
+BT /Helv 9.0 Tf 322.77 284.18 Td (kann.) Tj ET
+ 56.9 799.22 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 799.22 l
+ 568.99 730.94 l
+ 56.9 730.94 l
+ 56.9 799.22 l
+ f
+2 J [] 0 d 0.5 w 56.9 799.22 m 568.99 799.22 l S
+568.99 799.22 m 568.99 730.94 l S
+568.99 730.94 m 56.9 730.94 l S
+56.9 730.94 m 56.9 799.22 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 9.0 Tf 85.35 747.34 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 747.34 Td (will) Tj ET
+BT /Helv 9.0 Tf 114.65 747.34 Td (gleich) Tj ET
+BT /Helv 9.0 Tf 140.65 747.34 Td (den) Tj ET
+BT /Helv 9.0 Tf 158.15 747.34 Td (Kartenführerschein) Tj ET
+BT /Helv 9.0 Tf 236.75 747.34 Td (mit) Tj ET
+BT /Helv 9.0 Tf 251.35 747.34 Td () Tj ET
+BT /HeBo 9.0 Tf 251.35 747.34 Td (beiden) Tj ET
+BT /HeBo 9.0 Tf 282.85 747.34 Td () Tj ET
+BT /Helv 9.0 Tf 282.85 747.34 Td (Klassen.) Tj ET
+BT /HeBo 10.0 Tf 62.59 804.28 Td (Erklärung) Tj ET
+BT /HeBo 10.0 Tf 112.19 804.28 Td (bei) Tj ET
+BT /HeBo 10.0 Tf 129.49 804.28 Td (Ablegung) Tj ET
+BT /HeBo 10.0 Tf 178.09 804.28 Td (einer) Tj ET
+BT /HeBo 10.0 Tf 204.89 804.28 Td (Doppel-Klasse) Tj ET
+BT /Helv 9.0 Tf 85.35 781.48 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 781.48 Td (will) Tj ET
+BT /Helv 9.0 Tf 114.65 781.48 Td () Tj ET
+BT /HeBo 9.0 Tf 114.65 781.48 Td (zuerst) Tj ET
+BT /HeBo 9.0 Tf 143.65 781.48 Td () Tj ET
+BT /Helv 9.0 Tf 143.65 781.48 Td (den) Tj ET
+BT /Helv 9.0 Tf 161.15 781.48 Td (Kartenführerschein) Tj ET
+BT /Helv 9.0 Tf 239.75 781.48 Td () Tj ET
+BT /HeBo 9.0 Tf 239.75 781.48 Td (nur) Tj ET
+BT /HeBo 9.0 Tf 256.75 781.48 Td () Tj ET
+BT /Helv 9.0 Tf 256.75 781.48 Td (mit) Tj ET
+BT /Helv 9.0 Tf 271.35 781.48 Td (Klasse) Tj ET
+BT /Helv 8.0 Tf 85.35 737.44 Td (\(Mir) Tj ET
+BT /Helv 8.0 Tf 101.45 737.44 Td (ist) Tj ET
+BT /Helv 8.0 Tf 111.65 737.44 Td (bekannt,) Tj ET
+BT /Helv 8.0 Tf 144.25 737.44 Td (dass) Tj ET
+BT /Helv 8.0 Tf 163.25 737.44 Td (ich) Tj ET
+BT /Helv 8.0 Tf 175.65 737.44 Td (den) Tj ET
+BT /Helv 8.0 Tf 191.05 737.44 Td (Kartenführerschein) Tj ET
+BT /Helv 8.0 Tf 260.55 737.44 Td (erst) Tj ET
+BT /Helv 8.0 Tf 276.05 737.44 Td (erhalten) Tj ET
+BT /Helv 8.0 Tf 306.95 737.44 Td (kann,) Tj ET
+BT /Helv 8.0 Tf 328.55 737.44 Td (nachdem) Tj ET
+BT /Helv 8.0 Tf 363.45 737.44 Td (beide) Tj ET
+BT /Helv 8.0 Tf 385.05 737.44 Td (Fahrerlaubnisprüfungen) Tj ET
+BT /Helv 8.0 Tf 471.75 737.44 Td (bestanden) Tj ET
+BT /Helv 8.0 Tf 510.95 737.44 Td (wurden.\)) Tj ET
+56.9 762.23 m 568.99 762.23 l S
+BT /Helv 8.0 Tf 85.35 768.74 Td (\(Mir) Tj ET
+BT /Helv 8.0 Tf 101.45 768.74 Td (ist) Tj ET
+BT /Helv 8.0 Tf 111.65 768.74 Td (bekannt,) Tj ET
+BT /Helv 8.0 Tf 144.25 768.74 Td (dass) Tj ET
+BT /Helv 8.0 Tf 163.25 768.74 Td (ich) Tj ET
+BT /Helv 8.0 Tf 175.65 768.74 Td (die) Tj ET
+BT /Helv 8.0 Tf 188.45 768.74 Td (zusätzlich) Tj ET
+BT /Helv 8.0 Tf 225.45 768.74 Td (entstehenden) Tj ET
+BT /Helv 8.0 Tf 275.65 768.74 Td (Kosten) Tj ET
+BT /Helv 8.0 Tf 302.55 768.74 Td (für) Tj ET
+BT /Helv 8.0 Tf 314.15 768.74 Td (die) Tj ET
+BT /Helv 8.0 Tf 326.95 768.74 Td (Erstellung) Tj ET
+BT /Helv 8.0 Tf 364.55 768.74 Td (eines) Tj ET
+BT /Helv 8.0 Tf 385.75 768.74 Td (zweiten) Tj ET
+BT /Helv 8.0 Tf 414.75 768.74 Td (Kartenführerscheins) Tj ET
+BT /Helv 8.0 Tf 488.25 768.74 Td (zu) Tj ET
+BT /Helv 8.0 Tf 498.75 768.74 Td (tragen) Tj ET
+BT /Helv 8.0 Tf 523.45 768.74 Td (habe.\)) Tj ET
+BT /HeBo 10.0 Tf 62.59 710.4 Td (Bei) Tj ET
+BT /HeBo 10.0 Tf 80.99 710.4 Td (zusätzlicher) Tj ET
+BT /HeBo 10.0 Tf 141.19 710.4 Td (Umstellung) Tj ET
+BT /HeBo 10.0 Tf 198.49 710.4 Td (der) Tj ET
+BT /HeBo 10.0 Tf 216.89 710.4 Td (Führerscheinklasse) Tj ET
+BT /HeBo 10.0 Tf 313.99 710.4 Td (3) Tj ET
+BT /HeBo 10.0 Tf 322.39 710.4 Td (-) Tj ET
+BT /HeBo 10.0 Tf 328.49 710.4 Td (alt) Tj ET
+BT /HeBo 10.0 Tf 342.99 710.4 Td (-) Tj ET
+BT /HeBo 10.0 Tf 349.09 710.4 Td () Tj ET
+BT /HeBo 10.0 Tf 351.89 710.4 Td (beantrage) Tj ET
+BT /HeBo 10.0 Tf 402.59 710.4 Td (ich) Tj ET
+BT /HeBo 10.0 Tf 419.89 710.4 Td (außerdem) Tj ET
+BT /HeBo 10.0 Tf 470.59 710.4 Td (folgende) Tj ET
+BT /HeBo 10.0 Tf 515.09 710.4 Td (Klassen:) Tj ET
+ 56.9 705.33 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 705.33 l
+ 568.99 619.98 l
+ 56.9 619.98 l
+ 56.9 705.33 l
+ f
+56.9 705.33 m 568.99 705.33 l S
+568.99 705.33 m 568.99 619.98 l S
+568.99 619.98 m 56.9 619.98 l S
+56.9 619.98 m 56.9 705.33 l S
+ 56.9 614.29 m
+ 568.99 614.29 l
+ 568.99 528.95 l
+ 56.9 528.95 l
+ 56.9 614.29 l
+ f
+56.9 614.29 m 568.99 614.29 l S
+568.99 614.29 m 568.99 528.95 l S
+568.99 528.95 m 56.9 528.95 l S
+56.9 528.95 m 56.9 614.29 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /HeBo 9.0 Tf 85.35 691.58 Td (Land-) Tj ET
+BT /HeBo 9.0 Tf 112.35 691.58 Td (und) Tj ET
+BT /HeBo 9.0 Tf 131.35 691.58 Td (forstwirtschaftliche) Tj ET
+BT /HeBo 9.0 Tf 217.05 691.58 Td (Zugmaschinen) Tj ET
+BT /HeBo 9.0 Tf 283.05 691.58 Td (\(Klasse) Tj ET
+BT /HeBo 9.0 Tf 317.55 691.58 Td (T\)) Tj ET
+BT /Helv 9.0 Tf 85.35 680.2 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 680.2 Td (bin) Tj ET
+BT /Helv 9.0 Tf 114.35 680.2 Td (in) Tj ET
+BT /Helv 9.0 Tf 123.85 680.2 Td (der) Tj ET
+BT /Helv 9.0 Tf 139.35 680.2 Td (Land-) Tj ET
+BT /Helv 9.0 Tf 164.85 680.2 Td (und) Tj ET
+BT /Helv 9.0 Tf 182.35 680.2 Td (Forstwirtschaft) Tj ET
+BT /Helv 9.0 Tf 243.25 680.2 Td (tätig.) Tj ET
+BT /Helv 9.0 Tf 265.25 680.2 Td (Für) Tj ET
+BT /Helv 9.0 Tf 281.25 680.2 Td (diese) Tj ET
+BT /Helv 9.0 Tf 305.25 680.2 Td (Tätigkeit) Tj ET
+BT /Helv 9.0 Tf 341.85 680.2 Td (beantrage) Tj ET
+BT /Helv 9.0 Tf 384.85 680.2 Td (ich) Tj ET
+BT /Helv 9.0 Tf 398.85 680.2 Td (die) Tj ET
+BT /Helv 9.0 Tf 413.35 680.2 Td (Erteilung) Tj ET
+BT /Helv 9.0 Tf 451.35 680.2 Td (der) Tj ET
+BT /Helv 9.0 Tf 466.85 680.2 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 524.35 680.2 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 553.85 680.2 Td (T) Tj ET
+BT /Helv 9.0 Tf 85.35 668.8 Td (zum) Tj ET
+BT /Helv 9.0 Tf 104.85 668.8 Td (Führen) Tj ET
+BT /Helv 9.0 Tf 135.85 668.8 Td (von) Tj ET
+BT /Helv 9.0 Tf 152.85 668.8 Td (land-) Tj ET
+BT /Helv 9.0 Tf 175.35 668.8 Td (und) Tj ET
+BT /Helv 9.0 Tf 192.85 668.8 Td (forstwirtschaftlichen) Tj ET
+BT /Helv 9.0 Tf 274.35 668.8 Td (Zugmaschinen) Tj ET
+BT /Helv 9.0 Tf 335.95 668.8 Td (bis) Tj ET
+BT /Helv 9.0 Tf 349.95 668.8 Td (60) Tj ET
+BT /Helv 9.0 Tf 362.45 668.8 Td (km/h.) Tj ET
+BT /Helv 9.0 Tf 85.35 654.6 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 654.6 Td (füge) Tj ET
+BT /Helv 9.0 Tf 119.95 654.6 Td (bei:) Tj ET
+BT /Helv 9.0 Tf 165.01 654.6 Td (Bestätigung) Tj ET
+BT /Helv 9.0 Tf 215.01 654.6 Td (darüber,) Tj ET
+BT /Helv 9.0 Tf 251.01 654.6 Td (dass) Tj ET
+BT /Helv 9.0 Tf 272.51 654.6 Td (ich) Tj ET
+BT /Helv 9.0 Tf 286.51 654.6 Td (in) Tj ET
+BT /Helv 9.0 Tf 296.01 654.6 Td (der) Tj ET
+BT /Helv 9.0 Tf 311.51 654.6 Td (Land-) Tj ET
+BT /Helv 9.0 Tf 337.01 654.6 Td (und) Tj ET
+BT /Helv 9.0 Tf 354.51 654.6 Td (Forstwirtschaft) Tj ET
+BT /Helv 9.0 Tf 415.41 654.6 Td (tätig) Tj ET
+BT /Helv 9.0 Tf 434.91 654.6 Td (bin) Tj ET
+307.25 779.3 m 398.29 779.3 l S
+BT /Helv 9.0 Tf 85.35 637.53 Td (Ich) Tj ET
+BT /Helv 9.0 Tf 99.85 637.53 Td (weiß,) Tj ET
+BT /Helv 9.0 Tf 123.65 637.53 Td (dass) Tj ET
+BT /Helv 9.0 Tf 145.15 637.53 Td (eine) Tj ET
+BT /Helv 9.0 Tf 164.65 637.53 Td (nachträgliche) Tj ET
+BT /Helv 9.0 Tf 220.65 637.53 Td (Zuteilung) Tj ET
+BT /Helv 9.0 Tf 260.15 637.53 Td (dieser) Tj ET
+BT /Helv 9.0 Tf 287.15 637.53 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 316.65 637.53 Td (nur) Tj ET
+BT /Helv 9.0 Tf 332.15 637.53 Td (noch) Tj ET
+BT /Helv 9.0 Tf 354.15 637.53 Td (in) Tj ET
+BT /Helv 9.0 Tf 363.65 637.53 Td (Ausnahmefällen) Tj ET
+BT /Helv 9.0 Tf 430.85 637.53 Td (möglich) Tj ET
+BT /Helv 9.0 Tf 464.45 637.53 Td (ist,) Tj ET
+BT /Helv 9.0 Tf 478.45 637.53 Td (wenn) Tj ET
+BT /Helv 9.0 Tf 502.25 637.53 Td (eine) Tj ET
+BT /Helv 9.0 Tf 521.75 637.53 Td (Tätigkeit) Tj ET
+BT /Helv 9.0 Tf 85.35 626.13 Td (in) Tj ET
+BT /Helv 9.0 Tf 94.85 626.13 Td (der) Tj ET
+BT /Helv 9.0 Tf 110.35 626.13 Td (Land-) Tj ET
+BT /Helv 9.0 Tf 135.85 626.13 Td (und) Tj ET
+BT /Helv 9.0 Tf 153.35 626.13 Td (Forstwirtschaft) Tj ET
+BT /Helv 9.0 Tf 214.25 626.13 Td (bereits) Tj ET
+BT /Helv 9.0 Tf 243.75 626.13 Td (zum) Tj ET
+BT /Helv 9.0 Tf 263.25 626.13 Td (Zeitpunkt) Tj ET
+BT /Helv 9.0 Tf 302.85 626.13 Td (der) Tj ET
+BT /Helv 9.0 Tf 318.35 626.13 Td (Umstellung) Tj ET
+BT /Helv 9.0 Tf 365.95 626.13 Td (der) Tj ET
+BT /Helv 9.0 Tf 381.45 626.13 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 438.95 626.13 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 468.45 626.13 Td (3) Tj ET
+BT /Helv 9.0 Tf 475.95 626.13 Td (vorgelegen) Tj ET
+BT /Helv 9.0 Tf 522.95 626.13 Td (hat.) Tj ET
+56.9 614.29 m 568.99 614.29 l S
+568.99 614.29 m 568.99 528.95 l S
+568.99 528.95 m 56.9 528.95 l S
+56.9 528.95 m 56.9 614.29 l S
+BT /Helv 9.0 Tf 85.35 588.59 Td (Bei) Tj ET
+BT /Helv 9.0 Tf 100.85 588.59 Td () Tj ET
+BT /HeBo 9.0 Tf 100.85 588.59 Td (Umstellung) Tj ET
+BT /HeBo 9.0 Tf 152.35 588.59 Td () Tj ET
+BT /Helv 9.0 Tf 152.35 588.59 Td (meiner) Tj ET
+BT /Helv 9.0 Tf 182.45 588.59 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 239.95 588.59 Td (erhalte) Tj ET
+BT /Helv 9.0 Tf 269.95 588.59 Td (ich) Tj ET
+BT /Helv 9.0 Tf 283.95 588.59 Td (die) Tj ET
+BT /Helv 9.0 Tf 298.45 588.59 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 355.95 588.59 Td (der) Tj ET
+BT /Helv 9.0 Tf 371.45 588.59 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 400.95 588.59 Td (CE) Tj ET
+BT /Helv 9.0 Tf 415.95 588.59 Td (-) Tj ET
+BT /Helv 9.0 Tf 421.45 588.59 Td (beschränkt) Tj ET
+BT /Helv 9.0 Tf 468.05 588.59 Td (auf) Tj ET
+BT /Helv 9.0 Tf 483.15 588.59 Td (das) Tj ET
+BT /Helv 9.0 Tf 500.15 588.59 Td (Führen) Tj ET
+BT /Helv 9.0 Tf 531.15 588.59 Td (von) Tj ET
+BT /Helv 9.0 Tf 85.35 577.19 Td (Fahrzeugkombinationen) Tj ET
+BT /Helv 9.0 Tf 184.45 577.19 Td (bisher) Tj ET
+BT /Helv 9.0 Tf 211.45 577.19 Td (in) Tj ET
+BT /Helv 9.0 Tf 220.95 577.19 Td (Klasse) Tj ET
+BT /Helv 9.0 Tf 250.45 577.19 Td (3) Tj ET
+BT /Helv 9.0 Tf 257.95 577.19 Td (fallender) Tj ET
+BT /Helv 9.0 Tf 295.05 577.19 Td (Züge) Tj ET
+BT /Helv 9.0 Tf 318.05 577.19 Td (\(12) Tj ET
+BT /Helv 9.0 Tf 333.55 577.19 Td (t) Tj ET
+BT /Helv 9.0 Tf 338.55 577.19 Td (-) Tj ET
+BT /Helv 9.0 Tf 344.05 577.19 Td (18,75) Tj ET
+BT /Helv 9.0 Tf 369.05 577.19 Td (t\).) Tj ET
+BT /Helv 9.0 Tf 379.55 577.19 Td (Mir) Tj ET
+BT /Helv 9.0 Tf 394.55 577.19 Td (ist) Tj ET
+BT /Helv 9.0 Tf 406.05 577.19 Td (bekannt,) Tj ET
+BT /Helv 9.0 Tf 443.15 577.19 Td (dass) Tj ET
+BT /Helv 9.0 Tf 464.65 577.19 Td (die) Tj ET
+BT /Helv 9.0 Tf 479.15 577.19 Td (neue) Tj ET
+BT /Helv 9.0 Tf 501.65 577.19 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 85.35 565.79 Td (bis) Tj ET
+BT /Helv 9.0 Tf 99.35 565.79 Td (zum) Tj ET
+BT /Helv 9.0 Tf 118.85 565.79 Td (50.) Tj ET
+BT /Helv 9.0 Tf 133.85 565.79 Td (Lebensjahr) Tj ET
+BT /Helv 9.0 Tf 180.85 565.79 Td (befristet) Tj ET
+BT /Helv 9.0 Tf 215.45 565.79 Td (erteilt) Tj ET
+BT /Helv 9.0 Tf 239.95 565.79 Td (wird.) Tj ET
+BT /HeBo 9.0 Tf 85.35 600.54 Td (Fahrzeugkombinationen) Tj ET
+BT /HeBo 9.0 Tf 191.85 600.54 Td (\(Klasse) Tj ET
+BT /HeBo 9.0 Tf 226.35 600.54 Td (CE) Tj ET
+BT /HeBo 9.0 Tf 241.35 600.54 Td (-) Tj ET
+BT /HeBo 9.0 Tf 246.85 600.54 Td (beschränkt,) Tj ET
+BT /HeBo 9.0 Tf 299.85 600.54 Td (sog.) Tj ET
+BT /HeBo 9.0 Tf 320.85 600.54 Td ("CE79"\)) Tj ET
+BT /Helv 9.0 Tf 318.63 552.18 Td (ärztlicher) Tj ET
+BT /Helv 9.0 Tf 357.53 552.18 Td (Nachweis) Tj ET
+BT /Helv 9.0 Tf 398.83 552.18 Td (über) Tj ET
+BT /Helv 9.0 Tf 419.33 552.18 Td (die) Tj ET
+BT /Helv 9.0 Tf 433.83 552.18 Td (gesundheitliche) Tj ET
+BT /Helv 9.0 Tf 498.83 552.18 Td (Eignung) Tj ET
+BT /Helv 9.0 Tf 318.63 535.68 Td (ärztlicher) Tj ET
+BT /Helv 9.0 Tf 357.53 535.68 Td (Nachweis) Tj ET
+BT /Helv 9.0 Tf 398.83 535.68 Td (über) Tj ET
+BT /Helv 9.0 Tf 419.33 535.68 Td (das) Tj ET
+BT /Helv 9.0 Tf 436.33 535.68 Td (Sehvermögen) Tj ET
+56.9 799.22 m 568.99 799.22 l S
+568.99 799.22 m 568.99 730.94 l S
+568.99 730.94 m 56.9 730.94 l S
+56.9 730.94 m 56.9 799.22 l S
+56.9 705.33 m 568.99 705.33 l S
+568.99 705.33 m 568.99 619.98 l S
+568.99 619.98 m 56.9 619.98 l S
+56.9 619.98 m 56.9 705.33 l S
+ q
+0.0 1.0 -1.0 0.0 88.83 14.009999999999998 cm S
+BT /Helv 7.0 Tf 31.29 50.34 Td (m-fb_3_4_1-f13) Tj ET
+BT /Helv 7.0 Tf 82.79 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 84.69 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 86.59 50.34 Td (–) Tj ET
+BT /Helv 7.0 Tf 92.39 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 94.29 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 96.19 50.34 Td (Seite) Tj ET
+BT /Helv 7.0 Tf 114.09 50.34 Td (2) Tj ET
+BT /Helv 7.0 Tf 119.89 50.34 Td (von) Tj ET
+BT /Helv 7.0 Tf 133.09 50.34 Td (3) Tj ET
+ Q
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 5.69 419.41 m 28.45 419.41 l S
+BT /HeBo 10.0 Tf 62.59 511.25 Td (Zusatz) Tj ET
+BT /HeBo 10.0 Tf 97.09 511.25 Td (bei) Tj ET
+BT /HeBo 10.0 Tf 114.39 511.25 Td (Lkw-) Tj ET
+BT /HeBo 10.0 Tf 140.19 511.25 Td (und) Tj ET
+BT /HeBo 10.0 Tf 161.29 511.25 Td (Busklassen) Tj ET
+ 56.9 437.91 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 437.91 l
+ 568.99 409.46 l
+ 56.9 409.46 l
+ 56.9 437.91 l
+ f
+56.9 437.91 m 568.99 437.91 l S
+568.99 437.91 m 568.99 409.46 l S
+568.99 409.46 m 56.9 409.46 l S
+56.9 409.46 m 56.9 437.91 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 9.0 Tf 62.59 477.64 Td (Seit) Tj ET
+BT /Helv 9.0 Tf 80.59 477.64 Td (dem) Tj ET
+BT /Helv 9.0 Tf 100.69 477.64 Td (Stichtag) Tj ET
+BT /Helv 9.0 Tf 135.69 477.64 Td (09.09.2008) Tj ET
+BT /Helv 9.0 Tf 183.19 477.64 Td (\(Bus\)) Tj ET
+BT /Helv 9.0 Tf 207.19 477.64 Td (bzw.) Tj ET
+BT /Helv 9.0 Tf 227.89 477.64 Td (seit) Tj ET
+BT /Helv 9.0 Tf 244.39 477.64 Td (dem) Tj ET
+BT /Helv 9.0 Tf 264.49 477.64 Td (09.09.2009) Tj ET
+BT /Helv 9.0 Tf 311.99 477.64 Td (\(Lkw\)) Tj ET
+BT /Helv 9.0 Tf 336.39 477.64 Td (muss) Tj ET
+BT /Helv 9.0 Tf 360.49 477.64 Td (jeder) Tj ET
+BT /Helv 9.0 Tf 382.99 477.64 Td (Fahrer,) Tj ET
+BT /Helv 9.0 Tf 414.49 477.64 Td (der) Tj ET
+BT /Helv 9.0 Tf 429.99 477.64 Td (ab) Tj ET
+BT /Helv 9.0 Tf 442.49 477.64 Td (diesem) Tj ET
+BT /Helv 9.0 Tf 474.09 477.64 Td (Tag) Tj ET
+BT /Helv 9.0 Tf 492.09 477.64 Td (eine) Tj ET
+BT /Helv 9.0 Tf 511.59 477.64 Td (Bus-) Tj ET
+BT /Helv 9.0 Tf 532.59 477.64 Td (oder) Tj ET
+BT /Helv 9.0 Tf 62.59 466.24 Td (Lkw-Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 138.99 466.24 Td (der) Tj ET
+BT /Helv 9.0 Tf 154.49 466.24 Td (Klassen) Tj ET
+BT /Helv 9.0 Tf 188.99 466.24 Td (D,) Tj ET
+BT /Helv 9.0 Tf 200.49 466.24 Td (D1,) Tj ET
+BT /Helv 9.0 Tf 216.99 466.24 Td (D1E,) Tj ET
+BT /Helv 9.0 Tf 239.49 466.24 Td (DE,) Tj ET
+BT /Helv 9.0 Tf 256.99 466.24 Td (C,) Tj ET
+BT /Helv 9.0 Tf 268.49 466.24 Td (C1,) Tj ET
+BT /Helv 9.0 Tf 284.99 466.24 Td (C1E,) Tj ET
+BT /Helv 9.0 Tf 307.49 466.24 Td (CE) Tj ET
+BT /Helv 9.0 Tf 322.49 466.24 Td (erstmals) Tj ET
+BT /Helv 9.0 Tf 359.09 466.24 Td (erwirbt) Tj ET
+BT /Helv 9.0 Tf 388.39 466.24 Td (und) Tj ET
+BT /Helv 9.0 Tf 405.89 466.24 Td (im) Tj ET
+BT /Helv 9.0 Tf 417.99 466.24 Td (gewerblichen) Tj ET
+BT /Helv 9.0 Tf 473.29 466.24 Td (Güterkraft-) Tj ET
+BT /Helv 9.0 Tf 518.99 466.24 Td (oder) Tj ET
+BT /Helv 9.0 Tf 62.59 454.84 Td (Personenverkehr) Tj ET
+BT /Helv 9.0 Tf 133.69 454.84 Td (fährt,) Tj ET
+BT /Helv 9.0 Tf 156.79 454.84 Td (eine) Tj ET
+BT /Helv 9.0 Tf 176.29 454.84 Td () Tj ET
+BT /HeBo 9.0 Tf 176.29 454.84 Td (Grundqualifikation) Tj ET
+BT /HeBo 9.0 Tf 258.79 454.84 Td () Tj ET
+BT /Helv 9.0 Tf 258.79 454.84 Td (nachweisen) Tj ET
+BT /Helv 9.0 Tf 308.59 454.84 Td (\(alternativ:) Tj ET
+BT /Helv 9.0 Tf 353.09 454.84 Td (entsprechende) Tj ET
+BT /Helv 9.0 Tf 415.09 454.84 Td (Berufsausbildung\).) Tj ET
+BT /Helv 9.0 Tf 492.69 454.84 Td (Danach) Tj ET
+BT /Helv 9.0 Tf 526.19 454.84 Td (sind) Tj ET
+BT /Helv 9.0 Tf 545.19 454.84 Td (im) Tj ET
+BT /Helv 9.0 Tf 62.59 443.44 Td (Abstand) Tj ET
+BT /Helv 9.0 Tf 98.09 443.44 Td (von) Tj ET
+BT /Helv 9.0 Tf 115.09 443.44 Td (5) Tj ET
+BT /Helv 9.0 Tf 122.59 443.44 Td (Jahren) Tj ET
+BT /Helv 9.0 Tf 152.59 443.44 Td () Tj ET
+BT /HeBo 9.0 Tf 152.59 443.44 Td (regelmäßige) Tj ET
+BT /HeBo 9.0 Tf 208.09 443.44 Td (Weiterbildungen) Tj ET
+BT /Helv 9.0 Tf 278.59 443.44 Td () Tj ET
+BT /Helv 9.0 Tf 281.09 443.44 Td (abzuschließen.) Tj ET
+BT /HeBo 9.0 Tf 62.59 492.43 Td (Hinweis:) Tj ET
+56.9 437.91 m 568.99 437.91 l S
+ 56.9 85.13 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 85.13 l
+ 568.99 50.99 l
+ 56.9 50.99 l
+ 56.9 85.13 l
+ f
+56.9 85.13 m 568.99 85.13 l S
+568.99 85.13 m 568.99 50.99 l S
+568.99 50.99 m 56.9 50.99 l S
+56.9 50.99 m 56.9 85.13 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 56.9 506.19 m 568.99 506.19 l S
+568.99 506.19 m 568.99 409.46 l S
+568.99 409.46 m 56.9 409.46 l S
+56.9 409.46 m 56.9 506.19 l S
+BT /HeBo 9.0 Tf 85.35 425.29 Td (Ich) Tj ET
+BT /HeBo 9.0 Tf 100.85 425.29 Td (bin) Tj ET
+BT /HeBo 9.0 Tf 116.85 425.29 Td (gewerblich) Tj ET
+BT /HeBo 9.0 Tf 166.55 425.29 Td (im) Tj ET
+BT /HeBo 9.0 Tf 179.55 425.29 Td (Güter-) Tj ET
+BT /HeBo 9.0 Tf 209.05 425.29 Td (oder) Tj ET
+BT /HeBo 9.0 Tf 231.05 425.29 Td (Personenverkehr) Tj ET
+BT /HeBo 9.0 Tf 307.05 425.29 Td (tätig) Tj ET
+BT /HeBo 9.0 Tf 328.55 425.29 Td (und) Tj ET
+BT /HeBo 9.0 Tf 347.55 425.29 Td (beantrage) Tj ET
+BT /HeBo 9.0 Tf 393.05 425.29 Td (den) Tj ET
+BT /HeBo 9.0 Tf 411.55 425.29 Td (Eintrag) Tj ET
+BT /HeBo 9.0 Tf 445.05 425.29 Td (der) Tj ET
+BT /HeBo 9.0 Tf 461.55 425.29 Td (Schlüsselzahl) Tj ET
+BT /HeBo 9.0 Tf 523.55 425.29 Td (95,) Tj ET
+BT /HeBo 9.0 Tf 538.55 425.29 Td (als) Tj ET
+BT /HeBo 9.0 Tf 85.35 413.89 Td (Nachweis) Tj ET
+BT /HeBo 9.0 Tf 129.55 413.89 Td (der) Tj ET
+BT /HeBo 9.0 Tf 146.05 413.89 Td (Berechtigung,) Tj ET
+BT /HeBo 9.0 Tf 209.05 413.89 Td (in) Tj ET
+BT /HeBo 9.0 Tf 219.55 413.89 Td (den) Tj ET
+BT /HeBo 9.0 Tf 238.05 413.89 Td (Führerschein.) Tj ET
+2 J [] 0 d 1.0 w 56.9 85.13 m 568.99 85.13 l S
+568.99 85.13 m 568.99 50.99 l S
+568.99 50.99 m 56.9 50.99 l S
+56.9 50.99 m 56.9 85.13 l S
+BT /Helv 7.0 Tf 62.59 77.93 Td (Ort,) Tj ET
+BT /Helv 7.0 Tf 75.99 77.93 Td (Datum) Tj ET
+BT /Helv 7.0 Tf 318.63 77.93 Td (Unterschrift) Tj ET
+BT /Helv 7.0 Tf 356.33 77.93 Td (Antragsteller/in) Tj ET
+2 J [] 0 d 0.5 w 312.94 85.13 m 312.94 50.99 l S
+56.9 382.72 m 568.99 382.72 l S
+568.99 382.72 m 568.99 229.09 l S
+568.99 229.09 m 56.9 229.09 l S
+56.9 229.09 m 56.9 382.72 l S
+BT /Helv 12.0 Tf 62.59 385.78 Td (Erklärung) Tj ET
+BT /Helv 12.0 Tf 117.39 385.78 Td (zum) Tj ET
+BT /Helv 12.0 Tf 143.39 385.78 Td (Antrag) Tj ET
+BT /Helv 12.0 Tf 182.09 385.78 Td (auf) Tj ET
+BT /Helv 12.0 Tf 202.09 385.78 Td () Tj ET
+BT /HeBo 12.0 Tf 202.09 385.78 Td (Erteilung) Tj ET
+BT /Helv 12.0 Tf 253.99 385.78 Td () Tj ET
+BT /Helv 12.0 Tf 257.29 385.78 Td (einer) Tj ET
+BT /Helv 12.0 Tf 287.39 385.78 Td (Fahrerlaubnis) Tj ET
+BT /Helv 9.0 Tf 62.59 372.95 Td (Mir) Tj ET
+BT /Helv 9.0 Tf 77.59 372.95 Td (ist) Tj ET
+BT /Helv 9.0 Tf 89.09 372.95 Td (bewusst,) Tj ET
+BT /Helv 9.0 Tf 73.97 358.15 Td (dass) Tj ET
+BT /Helv 9.0 Tf 95.47 358.15 Td (eine) Tj ET
+BT /Helv 9.0 Tf 114.97 358.15 Td (bestandene) Tj ET
+BT /Helv 9.0 Tf 164.47 358.15 Td (theoretische) Tj ET
+BT /Helv 9.0 Tf 215.97 358.15 Td (Prüfung) Tj ET
+BT /Helv 9.0 Tf 250.07 358.15 Td (nach) Tj ET
+BT /Helv 9.0 Tf 272.07 358.15 Td (12) Tj ET
+BT /Helv 9.0 Tf 284.57 358.15 Td (Monaten) Tj ET
+BT /Helv 9.0 Tf 322.07 358.15 Td () Tj ET
+BT /HeBo 9.0 Tf 322.07 358.15 Td (ihre) Tj ET
+BT /HeBo 9.0 Tf 341.07 358.15 Td (Gültigkeit) Tj ET
+BT /HeBo 9.0 Tf 385.07 358.15 Td (verliert,) Tj ET
+BT /Helv 9.0 Tf 417.57 358.15 Td () Tj ET
+BT /Helv 9.0 Tf 420.07 358.15 Td (sollte) Tj ET
+BT /Helv 9.0 Tf 443.57 358.15 Td (ich) Tj ET
+BT /Helv 9.0 Tf 457.57 358.15 Td (bis) Tj ET
+BT /Helv 9.0 Tf 471.57 358.15 Td (dahin) Tj ET
+BT /Helv 9.0 Tf 496.07 358.15 Td (nicht) Tj ET
+BT /Helv 9.0 Tf 517.57 358.15 Td (die) Tj ET
+BT /Helv 9.0 Tf 73.97 346.75 Td (praktische) Tj ET
+BT /Helv 9.0 Tf 117.57 346.75 Td (Prüfung) Tj ET
+BT /Helv 9.0 Tf 151.67 346.75 Td (bestanden) Tj ET
+BT /Helv 9.0 Tf 196.17 346.75 Td (haben.) Tj ET
+2 J [] 0 d 0.0 w 65.43 361.38 m
+65.43 362.09 64.72 362.8 64.01 362.8 c
+63.300000000000004 362.8 62.59 362.09 62.59 361.38 c
+62.59 360.67 63.300000000000004 359.96 64.01 359.96 c
+64.72 359.96 65.43 360.67 65.43 361.38 c B
+BT /Helv 9.0 Tf 73.97 332.55 Td (dass) Tj ET
+BT /Helv 9.0 Tf 95.47 332.55 Td (ich) Tj ET
+BT /Helv 9.0 Tf 109.47 332.55 Td (mit) Tj ET
+BT /Helv 9.0 Tf 124.07 332.55 Td (dem) Tj ET
+BT /Helv 9.0 Tf 144.17 332.55 Td (Ausschluss) Tj ET
+BT /Helv 9.0 Tf 192.17 332.55 Td (von) Tj ET
+BT /Helv 9.0 Tf 209.17 332.55 Td (der) Tj ET
+BT /Helv 9.0 Tf 224.67 332.55 Td (Fahrprüfung) Tj ET
+BT /Helv 9.0 Tf 276.27 332.55 Td (rechnen) Tj ET
+BT /Helv 9.0 Tf 311.27 332.55 Td (muss,) Tj ET
+BT /Helv 9.0 Tf 337.87 332.55 Td (wenn) Tj ET
+BT /Helv 9.0 Tf 361.67 332.55 Td (ich) Tj ET
+BT /Helv 9.0 Tf 375.67 332.55 Td () Tj ET
+BT /HeBo 9.0 Tf 375.67 332.55 Td (am) Tj ET
+BT /HeBo 9.0 Tf 391.17 332.55 Td (Prüfungstag) Tj ET
+BT /HeBo 9.0 Tf 446.67 332.55 Td (meine) Tj ET
+BT /HeBo 9.0 Tf 475.17 332.55 Td (Identität) Tj ET
+BT /Helv 9.0 Tf 510.17 332.55 Td () Tj ET
+BT /Helv 9.0 Tf 512.67 332.55 Td (nicht) Tj ET
+BT /Helv 9.0 Tf 534.17 332.55 Td () Tj ET
+BT /HeBo 9.0 Tf 534.17 332.55 Td (durch) Tj ET
+BT /HeBo 9.0 Tf 73.97 321.15 Td (ein) Tj ET
+BT /HeBo 9.0 Tf 89.47 321.15 Td (geeignetes) Tj ET
+BT /HeBo 9.0 Tf 138.97 321.15 Td (Ausweisdokument) Tj ET
+BT /Helv 9.0 Tf 218.47 321.15 Td () Tj ET
+BT /Helv 9.0 Tf 220.97 321.15 Td (\(z.B.) Tj ET
+BT /Helv 9.0 Tf 241.87 321.15 Td (Reisepass) Tj ET
+BT /Helv 9.0 Tf 286.37 321.15 Td (oder) Tj ET
+BT /Helv 9.0 Tf 306.87 321.15 Td (Personalausweis\)) Tj ET
+BT /Helv 9.0 Tf 380.17 321.15 Td () Tj ET
+BT /HeBo 9.0 Tf 380.17 321.15 Td (belegen) Tj ET
+BT /HeBo 9.0 Tf 416.67 321.15 Td () Tj ET
+BT /Helv 9.0 Tf 416.67 321.15 Td (kann;) Tj ET
+BT /Helv 9.0 Tf 441.27 321.15 Td (bei) Tj ET
+BT /Helv 9.0 Tf 455.77 321.15 Td (Besitz) Tj ET
+BT /Helv 9.0 Tf 482.67 321.15 Td (eines) Tj ET
+BT /Helv 9.0 Tf 506.67 321.15 Td (im) Tj ET
+BT /Helv 9.0 Tf 73.97 309.75 Td (ausländerrechtlichen) Tj ET
+BT /Helv 9.0 Tf 159.47 309.75 Td (Verfahren) Tj ET
+BT /Helv 9.0 Tf 201.57 309.75 Td (ausgestellten) Tj ET
+BT /Helv 9.0 Tf 257.07 309.75 Td (Dokumentes) Tj ET
+BT /Helv 9.0 Tf 310.27 309.75 Td (habe) Tj ET
+BT /Helv 9.0 Tf 332.77 309.75 Td (ich) Tj ET
+BT /Helv 9.0 Tf 346.77 309.75 Td (mit) Tj ET
+BT /Helv 9.0 Tf 361.37 309.75 Td (der) Tj ET
+BT /Helv 9.0 Tf 376.87 309.75 Td (Fahrerlaubnisbehörde) Tj ET
+BT /Helv 9.0 Tf 467.37 309.75 Td (die) Tj ET
+BT /Helv 9.0 Tf 481.87 309.75 Td (Möglichkeit) Tj ET
+BT /Helv 9.0 Tf 529.47 309.75 Td (der) Tj ET
+BT /Helv 9.0 Tf 73.97 298.35 Td (Prüfungszulassung) Tj ET
+BT /Helv 9.0 Tf 152.97 298.35 Td (bereits) Tj ET
+BT /Helv 9.0 Tf 182.47 298.35 Td (geklärt) Tj ET
+BT /Helv 9.0 Tf 212.07 298.35 Td (bzw.) Tj ET
+BT /Helv 9.0 Tf 232.77 298.35 Td (werde) Tj ET
+BT /Helv 9.0 Tf 259.57 298.35 Td (dies) Tj ET
+BT /Helv 9.0 Tf 278.57 298.35 Td (unverzüglich) Tj ET
+BT /Helv 9.0 Tf 331.47 298.35 Td (tun.) Tj ET
+65.43 335.775 m
+65.43 336.48749999999995 64.72 337.2 64.01 337.2 c
+63.300000000000004 337.2 62.59 336.48749999999995 62.59 335.775 c
+62.59 335.0625 63.300000000000004 334.34999999999997 64.01 334.34999999999997 c
+64.72 334.34999999999997 65.43 335.0625 65.43 335.775 c B
+BT /Helv 9.0 Tf 85.35 552.18 Td (Für) Tj ET
+BT /Helv 9.0 Tf 101.35 552.18 Td (eine) Tj ET
+BT /Helv 9.0 Tf 120.85 552.18 Td (Erteilung) Tj ET
+BT /Helv 9.0 Tf 158.85 552.18 Td (über) Tj ET
+BT /Helv 9.0 Tf 179.35 552.18 Td (das) Tj ET
+BT /Helv 9.0 Tf 196.35 552.18 Td (50.) Tj ET
+BT /Helv 9.0 Tf 211.35 552.18 Td (Lebensjahr) Tj ET
+BT /Helv 9.0 Tf 258.35 552.18 Td (hinaus) Tj ET
+BT /Helv 9.0 Tf 85.35 543.06 Td (füge) Tj ET
+BT /Helv 9.0 Tf 105.45 543.06 Td (ich) Tj ET
+BT /Helv 9.0 Tf 119.45 543.06 Td (bei:) Tj ET
+endstream
+endobj
+9 0 obj
+[
+143 0 R
+146 0 R
+148 0 R
+151 0 R
+154 0 R
+157 0 R
+160 0 R
+163 0 R
+166 0 R
+]
+endobj
+10 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots 12 0 R
+/MediaBox [ 0 0 595.28 841.89 ]
+/Contents [ 11 0 R ]
+/AA << /O << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+/Resources
+<< /ProcSet [ /PDF /ImageC ] 
+ /Font << /Helv 291 0 R
+/HeBo 292 0 R
+>>>>
+>>
+endobj
+11 0 obj
+<< /Length 5425 >>
+stream
+ q
+0.0 1.0 -1.0 0.0 80.28999999999999 22.539999999999996 cm S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 22.76 50.33 Td (©) Tj ET
+BT /Helv 7.0 Tf 29.86 50.33 Td (Landratsamt) Tj ET
+BT /Helv 7.0 Tf 70.66 50.33 Td (München) Tj ET
+BT /Helv 7.0 Tf 101.26 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 103.16 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 105.06 50.33 Td (–) Tj ET
+BT /Helv 7.0 Tf 110.86 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 112.76 50.33 Td () Tj ET
+BT /Helv 7.0 Tf 114.66 50.33 Td (Stand) Tj ET
+BT /Helv 7.0 Tf 134.86 50.33 Td (04/2021) Tj ET
+ Q
+ q
+0.0 1.0 -1.0 0.0 88.83 14.009999999999998 cm S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 7.0 Tf 31.29 50.34 Td (m-fb_3_4_1-f13) Tj ET
+BT /Helv 7.0 Tf 82.79 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 84.69 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 86.59 50.34 Td (–) Tj ET
+BT /Helv 7.0 Tf 92.39 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 94.29 50.34 Td () Tj ET
+BT /Helv 7.0 Tf 96.19 50.34 Td (Seite) Tj ET
+BT /Helv 7.0 Tf 114.09 50.34 Td (3) Tj ET
+BT /Helv 7.0 Tf 119.89 50.34 Td (von) Tj ET
+BT /Helv 7.0 Tf 133.09 50.34 Td (3) Tj ET
+ Q
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 2 J [] 0 d 0.5 w 5.69 419.41 m 28.45 419.41 l S
+ 51.21 819.13 m
+ 0.9 0.9 0.9 RG 0.9 0.9 0.9 rg 574.68 819.13 l
+ 574.68 45.3 l
+ 51.21 45.3 l
+ 51.21 819.13 l
+ f
+51.21 819.13 m 574.68 819.13 l S
+574.68 819.13 m 574.68 45.3 l S
+574.68 45.3 m 51.21 45.3 l S
+51.21 45.3 m 51.21 819.13 l S
+ 56.9 782.15 m
+ 1.0 1.0 1.0 RG 1.0 1.0 1.0 rg 568.99 782.15 l
+ 568.99 543.17 l
+ 56.9 543.17 l
+ 56.9 782.15 l
+ f
+56.9 782.15 m 568.99 782.15 l S
+568.99 782.15 m 568.99 543.17 l S
+568.99 543.17 m 56.9 543.17 l S
+56.9 543.17 m 56.9 782.15 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 9.0 Tf 79.66 590.87 Td (sonstige) Tj ET
+BT /Helv 9.0 Tf 115.66 590.87 Td (Bemerkungen:) Tj ET
+176.39 588.69 m 358.46 588.69 l S
+79.66 571.62 m 358.46 571.62 l S
+BT /Helv 9.0 Tf 369.84 579.49 Td (Datum:) Tj ET
+403.98 577.31 m 563.3 577.31 l S
+56.9 782.15 m 568.99 782.15 l S
+568.99 782.15 m 568.99 543.17 l S
+568.99 543.17 m 56.9 543.17 l S
+56.9 543.17 m 56.9 782.15 l S
+ 56.9 813.44 m
+ 0.5 0.5 0.5 RG 0.5 0.5 0.5 rg 85.35 813.44 l
+ 85.35 784.99 l
+ 56.9 784.99 l
+ 56.9 813.44 l
+ f
+56.9 813.44 m 85.35 813.44 l S
+85.35 813.44 m 85.35 784.99 l S
+85.35 784.99 m 56.9 784.99 l S
+56.9 784.99 m 56.9 813.44 l S
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /HeBo 9.0 Tf 369.84 643.22 Td (II.) Tj ET
+BT /HeBo 9.0 Tf 379.84 643.22 Td (Dienststempel) Tj ET
+BT /HeBo 9.0 Tf 443.84 643.22 Td (und) Tj ET
+BT /HeBo 9.0 Tf 462.84 643.22 Td (Unterschrift) Tj ET
+369.84 548.86 m 563.3 548.86 l S
+BT /Helv 9.0 Tf 375.53 750.19 Td (sonstiges*:) Tj ET
+BT /HeBo 14.0 Tf 91.04 794.49 Td (Bearbeitung) Tj ET
+BT /HeBo 14.0 Tf 176.84 794.49 Td (durch) Tj ET
+BT /HeBo 14.0 Tf 219.74 794.49 Td (die) Tj ET
+BT /HeBo 14.0 Tf 243.94 794.49 Td (Behörde) Tj ET
+1.0 1.0 1.0 RG 1.0 1.0 1.0 rg BT /HeBo 20.0 Tf 63.53 792.37 Td (B) Tj ET
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /HeBo 9.0 Tf 62.59 768.39 Td (I.) Tj ET
+BT /HeBo 9.0 Tf 70.09 768.39 Td (Bemerkungen) Tj ET
+BT /HeBo 9.0 Tf 132.59 768.39 Td (der) Tj ET
+BT /HeBo 9.0 Tf 149.09 768.39 Td (Behörde) Tj ET
+BT /Helv 9.0 Tf 79.66 750.19 Td (Es) Tj ET
+BT /Helv 9.0 Tf 92.66 750.19 Td (haben) Tj ET
+BT /Helv 9.0 Tf 120.16 750.19 Td (vorgelegen:) Tj ET
+BT /Helv 9.0 Tf 62.59 750.19 Td (1.) Tj ET
+BT /Helv 9.0 Tf 193.46 750.19 Td (Personalausweis) Tj ET
+BT /Helv 9.0 Tf 295.87 750.19 Td (Reisepass*) Tj ET
+BT /Helv 9.0 Tf 79.66 733.12 Td (Personalangaben) Tj ET
+BT /Helv 9.0 Tf 152.66 733.12 Td (und) Tj ET
+BT /Helv 9.0 Tf 170.16 733.12 Td (Anschrift) Tj ET
+BT /Helv 9.0 Tf 62.59 733.12 Td (2.) Tj ET
+BT /Helv 9.0 Tf 233.29 733.12 Td (geprüft) Tj ET
+BT /Helv 9.0 Tf 295.87 733.12 Td (berichtigt) Tj ET
+BT /Helv 9.0 Tf 79.66 716.05 Td (Mit) Tj ET
+BT /Helv 9.0 Tf 94.16 716.05 Td (Hauptwohnung) Tj ET
+BT /Helv 9.0 Tf 156.96 716.05 Td (gemeldet) Tj ET
+BT /Helv 9.0 Tf 62.59 716.05 Td (3.) Tj ET
+BT /Helv 9.0 Tf 79.66 698.98 Td (in) Tj ET
+91.04 696.8 m 358.46 696.8 l S
+BT /Helv 9.0 Tf 364.15 698.98 Td (seit) Tj ET
+381.22 696.8 m 563.3 696.8 l S
+BT /Helv 9.0 Tf 79.66 681.91 Td (zugezogen) Tj ET
+BT /Helv 9.0 Tf 125.96 681.91 Td (von) Tj ET
+142.25 679.73 m 563.3 679.73 l S
+BT /Helv 9.0 Tf 79.66 659.15 Td (Führungszeugnis) Tj ET
+BT /Helv 9.0 Tf 151.06 659.15 Td (beantragt) Tj ET
+BT /Helv 9.0 Tf 62.59 659.15 Td (4.) Tj ET
+BT /Helv 9.0 Tf 233.29 659.15 Td (nein) Tj ET
+BT /Helv 9.0 Tf 295.87 659.15 Td (ja) Tj ET
+BT /Helv 9.0 Tf 79.66 642.08 Td (Grund:) Tj ET
+113.8 639.9 m 358.46 639.9 l S
+79.66 622.83 m 358.46 622.83 l S
+364.15 656.97 m 364.15 543.17 l S
+426.74 748.01 m 563.3 748.01 l S
+79.66 605.76 m 358.46 605.76 l S
+BT /Helv 8.0 Tf 62.59 557.64 Td (\(*) Tj ET
+BT /Helv 8.0 Tf 70.59 557.64 Td (Die) Tj ET
+BT /Helv 8.0 Tf 84.79 557.64 Td (Identität) Tj ET
+BT /Helv 8.0 Tf 115.19 557.64 Td (des) Tj ET
+BT /Helv 8.0 Tf 130.19 557.64 Td (Ausweisinhabers) Tj ET
+BT /Helv 8.0 Tf 192.49 557.64 Td (muss) Tj ET
+BT /Helv 8.0 Tf 213.79 557.64 Td (zweifelsfrei) Tj ET
+BT /Helv 8.0 Tf 255.49 557.64 Td (festgestellt) Tj ET
+BT /Helv 8.0 Tf 295.79 557.64 Td (sein;) Tj ET
+BT /Helv 8.0 Tf 314.79 557.64 Td (ggf.) Tj ET
+BT /Helv 8.0 Tf 330.29 557.64 Td (durch) Tj ET
+BT /Helv 8.0 Tf 62.59 547.45 Td (Rücksprache) Tj ET
+BT /Helv 8.0 Tf 111.29 547.45 Td (mit) Tj ET
+BT /Helv 8.0 Tf 124.19 547.45 Td (der) Tj ET
+BT /Helv 8.0 Tf 137.89 547.45 Td (Fahrerlaubnisbehörde) Tj ET
+BT /Helv 8.0 Tf 217.89 547.45 Td (abzuklären.\)) Tj ET
+364.15 656.97 m 568.99 656.97 l S
+BT /Helv 9.0 Tf 62.59 590.87 Td (5.) Tj ET
+endstream
+endobj
+12 0 obj
+[
+168 0 R
+171 0 R
+174 0 R
+177 0 R
+180 0 R
+183 0 R
+186 0 R
+]
+endobj
+13 0 obj
+<< /Fields [ 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 35 0 R 36 0 R 39 0 R 42 0 R 45 0 R 48 0 R 51 0 R 54 0 R 57 0 R 60 0 R 63 0 R 66 0 R 69 0 R 72 0 R 75 0 R 78 0 R 81 0 R 84 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 100 0 R 103 0 R 106 0 R 109 0 R 112 0 R 115 0 R 118 0 R 121 0 R 123 0 R 125 0 R 128 0 R 131 0 R 134 0 R 137 0 R 139 0 R 141 0 R 143 0 R 146 0 R 148 0 R 151 0 R 154 0 R 157 0 R 160 0 R 163 0 R 166 0 R 168 0 R 171 0 R 174 0 R 177 0 R 180 0 R 183 0 R 186 0 R ]
+/DR << /Font << /Helv 291 0 R /Cour 294 0 R /ZaDb 0 0 R >> >>
+/DA (/Helv 0 Tf 0 g )
+/CO [ 35 0 R ] 
+>>
+endobj
+14 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 700.75 307.25 712.16 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p0.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 15 0 R >>
+/MaxLen 199
+>>
+endobj
+15 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 244.66 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 244.66 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+16 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 318.63 700.75 563.3 712.16 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p1.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 17 0 R >>
+/MaxLen 199
+>>
+endobj
+17 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 244.67 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 244.67 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+18 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 677.99 483.64 689.4 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p2.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 19 0 R >>
+/MaxLen 199
+>>
+endobj
+19 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 421.05 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 421.05 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+20 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 495.02 677.99 563.3 689.4 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p3.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 21 0 R >>
+/MaxLen 199
+>>
+endobj
+21 0 obj
+<< /Length 81 /Subtype /Form /BBox [ 0 0 68.28 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 68.28 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+22 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 655.23 307.25 666.64 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p15.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 23 0 R >>
+/MaxLen 199
+>>
+endobj
+23 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 244.66 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 244.66 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+24 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 318.63 655.23 563.3 666.64 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p5.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 25 0 R >>
+/MaxLen 199
+>>
+endobj
+25 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 244.67 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 244.67 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+26 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 632.47 227.6 643.88 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p20.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 27 0 R >>
+/MaxLen 199
+>>
+endobj
+27 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 165.01 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 165.01 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+28 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 238.98 632.47 563.3 643.88 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p4.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 29 0 R >>
+/MaxLen 199
+>>
+endobj
+29 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 324.32 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 324.32 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+30 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 609.71 563.3 621.12 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p6.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 31 0 R >>
+/MaxLen 199
+>>
+endobj
+31 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 500.71 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 500.71 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+32 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 563.08 76.81 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ3)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 33 0 R /Off 34 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ3\(\);) >>
+>>
+endobj
+33 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+34 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+35 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 11.21 732.07 66.73 745.16 ]
+/F 6
+/P 4 0 R
+/T (SYSTEM_P1_DUMMY)
+/Ff 12582913
+/FT /Tx
+/DA (/Helv 10.0 Tf 0 g)
+/MK << /BC [ 0.75 0.75 0.75 ] /BG [ 0.74899 0.74899 0.74899 ] >>
+/AA << /C << /S /JavaScript /JS (
+if\(event.source\)
+{ var n=event.source.name;
+if\(n=="OBJ3"\)SYS_CB_OBJ3\(\);
+if\(n=="OBJ4"\)SYS_CB_OBJ4\(\);
+if\(n=="OBJ5"\)SYS_CB_OBJ5\(\);
+if\(n=="OBJ6"\)SYS_CB_OBJ6\(\);
+if\(n=="OBJ37"\)SYS_CB_OBJ37\(\);
+if\(n=="OBJ1"\)SYS_CB_OBJ1\(\);
+if\(n=="OBJ7"\)SYS_CB_OBJ7\(\);
+if\(n=="OBJ8"\)SYS_CB_OBJ8\(\);
+if\(n=="OBJ9"\)SYS_CB_OBJ9\(\);
+if\(n=="OBJ10"\)SYS_CB_OBJ10\(\);
+if\(n=="OBJ11"\)SYS_CB_OBJ11\(\);
+if\(n=="OBJ12"\)SYS_CB_OBJ12\(\);
+if\(n=="OBJ13"\)SYS_CB_OBJ13\(\);
+if\(n=="OBJ14"\)SYS_CB_OBJ14\(\);
+if\(n=="OBJ15"\)SYS_CB_OBJ15\(\);
+if\(n=="OBJ16"\)SYS_CB_OBJ16\(\);
+if\(n=="OBJ17"\)SYS_CB_OBJ17\(\);
+if\(n=="OBJ19"\)SYS_CB_OBJ19\(\);
+if\(n=="OBJ20"\)SYS_CB_OBJ20\(\);
+if\(n=="OBJ43"\)SYS_CB_OBJ43\(\);
+if\(n=="OBJ41"\)SYS_CB_OBJ41\(\);
+if\(n=="OBJ66"\)SYS_CB_OBJ66\(\);
+if\(n=="OBJ22"\)SYS_CB_OBJ22\(\);
+if\(n=="OBJ23"\)SYS_CB_OBJ23\(\);
+if\(n=="OBJ24"\)SYS_CB_OBJ24\(\);
+if\(n=="OBJ25"\)SYS_CB_OBJ25\(\);
+if\(n=="OBJ27"\)SYS_CB_OBJ27\(\);
+if\(n=="OBJ2"\)SYS_CB_OBJ2\(\);
+if\(n=="OBJ28"\)SYS_CB_OBJ28\(\);
+if\(n=="OBJ29"\)SYS_CB_OBJ29\(\);
+if\(n=="OBJ33"\)SYS_CB_OBJ33\(\);
+if\(n=="OBJ34"\)SYS_CB_OBJ34\(\);
+if\(n=="OBJ35"\)SYS_CB_OBJ35\(\);
+if\(n=="OBJ36"\)SYS_CB_OBJ36\(\);
+if\(n=="OBJ39"\)SYS_CB_OBJ39\(\);
+if\(n=="OBJ40"\)SYS_CB_OBJ40\(\);
+if\(n=="OBJ18"\)SYS_CB_OBJ18\(\);
+if\(n=="OBJ56"\)SYS_CB_OBJ56\(\);
+if\(n=="OBJ57"\)SYS_CB_OBJ57\(\);
+if\(n=="OBJ67"\)SYS_CB_OBJ67\(\);
+if\(n=="OBJ58"\)SYS_CB_OBJ58\(\);
+if\(n=="OBJ59"\)SYS_CB_OBJ59\(\);
+if\(n=="OBJ62"\)SYS_CB_OBJ62\(\);
+if\(n=="OBJ63"\)SYS_CB_OBJ63\(\);
+}) >>
+ >>
+/MaxLen 199
+>>
+endobj
+36 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 96.73 563.08 110.95 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ4)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 37 0 R /Off 38 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ4\(\);) >>
+>>
+endobj
+37 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+38 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+39 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 130.87 563.08 145.09 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ5)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 40 0 R /Off 41 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ5\(\);) >>
+>>
+endobj
+40 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+41 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+42 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 162.16 563.08 176.39 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ6)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 43 0 R /Off 44 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ6\(\);) >>
+>>
+endobj
+43 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re s
+0 g 1.5 w 2 2 m 12.23 12.23 l S 2 12.23 m 12.23 2 l S Q
+endstream
+endobj
+44 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re S Q
+endstream
+endobj
+45 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 193.46 563.08 207.68 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ37)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 46 0 R /Off 47 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ37\(\);) >>
+>>
+endobj
+46 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+47 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+48 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 233.29 563.08 247.51 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ1)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 49 0 R /Off 50 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ1\(\);) >>
+>>
+endobj
+49 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+50 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+51 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 278.81 563.08 293.03 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ7)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 52 0 R /Off 53 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ7\(\);) >>
+>>
+endobj
+52 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+53 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+54 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 314.65 563.08 328.88 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ8)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 55 0 R /Off 56 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ8\(\);) >>
+>>
+endobj
+55 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re s
+0 g 1.5 w 2 2 m 12.23 12.23 l S 2 12.23 m 12.23 2 l S Q
+endstream
+endobj
+56 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re S Q
+endstream
+endobj
+57 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 351.07 563.08 365.29 577.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ9)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 58 0 R /Off 59 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ9\(\);) >>
+>>
+endobj
+58 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+59 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+60 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 540.33 76.81 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ10)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 61 0 R /Off 62 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ10\(\);) >>
+>>
+endobj
+61 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+62 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+63 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 96.73 540.33 110.95 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ11)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 64 0 R /Off 65 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ11\(\);) >>
+>>
+endobj
+64 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+65 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+66 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 134.85 540.33 149.08 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ12)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 67 0 R /Off 68 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ12\(\);) >>
+>>
+endobj
+67 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re s
+0 g 1.5 w 2 2 m 12.23 12.22 l S 2 12.22 m 12.23 2 l S Q
+endstream
+endobj
+68 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re S Q
+endstream
+endobj
+69 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 172.97 540.33 187.2 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ13)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 70 0 R /Off 71 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ13\(\);) >>
+>>
+endobj
+70 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re s
+0 g 1.5 w 2 2 m 12.23 12.22 l S 2 12.22 m 12.23 2 l S Q
+endstream
+endobj
+71 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re S Q
+endstream
+endobj
+72 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 215.65 540.33 229.87 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ14)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 73 0 R /Off 74 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ14\(\);) >>
+>>
+endobj
+73 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+74 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+75 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 248.65 540.33 262.87 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ15)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 76 0 R /Off 77 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ15\(\);) >>
+>>
+endobj
+76 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+77 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+78 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 287.34 540.33 301.56 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ16)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 79 0 R /Off 80 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ16\(\);) >>
+>>
+endobj
+79 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+80 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+81 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 330.01 540.33 344.24 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ17)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 82 0 R /Off 83 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ17\(\);) >>
+>>
+endobj
+82 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re s
+0 g 1.5 w 2 2 m 12.23 12.22 l S 2 12.22 m 12.23 2 l S Q
+endstream
+endobj
+83 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re S Q
+endstream
+endobj
+84 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 361.88 540.33 376.1 554.55 ]
+/F 4
+/P 4 0 R
+/T (OBJ19)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 85 0 R /Off 86 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ19\(\);) >>
+>>
+endobj
+85 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+86 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+87 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 403.98 564.19 483.64 575.6 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p8.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 88 0 R >>
+/MaxLen 199
+>>
+endobj
+88 0 obj
+<< /Length 81 /Subtype /Form /BBox [ 0 0 79.66 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 79.66 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+89 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 495.02 564.19 563.3 575.6 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p9.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 90 0 R >>
+/MaxLen 199
+>>
+endobj
+90 0 obj
+<< /Length 81 /Subtype /Form /BBox [ 0 0 68.28 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 68.28 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+91 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 403.98 541.43 563.3 552.84 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p10.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 92 0 R >>
+/MaxLen 199
+>>
+endobj
+92 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 159.32 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 159.32 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+93 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 403.98 518.68 563.3 530.08 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p11.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 94 0 R >>
+/MaxLen 199
+>>
+endobj
+94 0 obj
+<< /Length 94 /Subtype /Form /BBox [ 0 0 159.32 11.4 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 159.32 11.4 re W n 0 g BT /Cour 10.0 Tf 2 1.7000000000000002 Td () Tj ET Q EMC 
+endstream
+endobj
+95 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 403.98 495.92 563.3 507.32 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p12.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 96 0 R >>
+/MaxLen 199
+>>
+endobj
+96 0 obj
+<< /Length 94 /Subtype /Form /BBox [ 0 0 159.32 11.4 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 159.32 11.4 re W n 0 g BT /Cour 10.0 Tf 2 1.7000000000000002 Td () Tj ET Q EMC 
+endstream
+endobj
+97 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 511.88 76.81 526.1 ]
+/F 4
+/P 4 0 R
+/T (OBJ20)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 98 0 R /Off 99 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ20\(\);) >>
+>>
+endobj
+98 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+99 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+100 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 489.12 76.81 503.34 ]
+/F 4
+/P 4 0 R
+/T (OBJ43)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 101 0 R /Off 102 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ43\(\);) >>
+>>
+endobj
+101 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+102 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+103 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 85.35 466.36 99.57 480.58 ]
+/F 4
+/P 4 0 R
+/T (OBJ41)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 104 0 R /Off 105 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ41\(\);) >>
+>>
+endobj
+104 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+105 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+106 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 85.35 443.6 99.57 457.82 ]
+/F 4
+/P 4 0 R
+/T (OBJ66)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 107 0 R /Off 108 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ66\(\);) >>
+>>
+endobj
+107 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+108 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+109 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 420.84 76.81 435.06 ]
+/F 4
+/P 4 0 R
+/T (OBJ22)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 110 0 R /Off 111 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ22\(\);) >>
+>>
+endobj
+110 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+111 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+112 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 398.08 76.81 412.3 ]
+/F 4
+/P 4 0 R
+/T (OBJ23)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 113 0 R /Off 114 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ23\(\);) >>
+>>
+endobj
+113 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+114 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+115 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 375.32 76.81 389.54 ]
+/F 4
+/P 4 0 R
+/T (OBJ24)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 116 0 R /Off 117 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ24\(\);) >>
+>>
+endobj
+116 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+117 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+118 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 346.87 76.81 361.09 ]
+/F 4
+/P 4 0 R
+/T (OBJ25)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 119 0 R /Off 120 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ25\(\);) >>
+>>
+endobj
+119 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+120 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+121 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 273.12 347.98 563.3 359.39 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p17.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 122 0 R >>
+/MaxLen 199
+>>
+endobj
+122 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 290.18 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 290.18 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+123 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 280.84 563.3 309.88 ]
+/F 4
+/P 4 0 R
+/T (OBJ26)
+/Ff 8392704
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 124 0 R >>
+>>
+endobj
+124 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 500.71 29.04 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 500.71 29.04 re W n 0 g BT /Cour 10.0 Tf
+2 19.04 Td () Tj
+ET Q EMC 
+endstream
+endobj
+125 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 250.14 76.81 264.37 ]
+/F 4
+/P 4 0 R
+/T (OBJ27)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 126 0 R /Off 127 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ27\(\);) >>
+>>
+endobj
+126 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+127 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+128 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 227.38 76.81 241.61 ]
+/F 4
+/P 4 0 R
+/T (OBJ2)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 129 0 R /Off 130 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ2\(\);) >>
+>>
+endobj
+129 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+130 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+131 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 233.29 187.55 247.51 201.78 ]
+/F 4
+/P 4 0 R
+/T (OBJ28)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 132 0 R /Off 133 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ28\(\);) >>
+>>
+endobj
+132 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re s
+0 g 1.5 w 2 2 m 12.22 12.23 l S 2 12.23 m 12.22 2 l S Q
+endstream
+endobj
+133 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.23 re
+f 0 G 1 w 0.5 0.5 13.22 13.23 re S Q
+endstream
+endobj
+134 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 403.98 187.55 418.21 201.78 ]
+/F 4
+/P 4 0 R
+/T (OBJ29)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 135 0 R /Off 136 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ29\(\);) >>
+>>
+endobj
+135 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re s
+0 g 1.5 w 2 2 m 12.23 12.23 l S 2 12.23 m 12.23 2 l S Q
+endstream
+endobj
+136 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re S Q
+endstream
+endobj
+137 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 148.26 563.3 177.31 ]
+/F 4
+/P 4 0 R
+/T (OBJ30)
+/Ff 8392704
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 138 0 R >>
+>>
+endobj
+138 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 500.71 29.05 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 500.71 29.05 re W n 0 g BT /Cour 10.0 Tf
+2 19.05 Td () Tj
+ET Q EMC 
+endstream
+endobj
+139 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 79.41 364.15 90.82 ]
+/F 4
+/P 4 0 R
+/T (TEXTFIELD.p13.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 140 0 R >>
+/MaxLen 199
+>>
+endobj
+140 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 301.56 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 301.56 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+141 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 40.15 364.15 69.2 ]
+/F 4
+/P 4 0 R
+/T (OBJ38)
+/Ff 8392704
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 142 0 R >>
+>>
+endobj
+142 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 301.56 29.05 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 301.56 29.05 re W n 0 g BT /Cour 10.0 Tf
+2 19.05 Td () Tj
+ET Q EMC 
+endstream
+endobj
+143 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 776.46 76.81 790.68 ]
+/F 4
+/P 7 0 R
+/T (OBJ33)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 144 0 R /Off 145 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ33\(\);) >>
+>>
+endobj
+144 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+145 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+146 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 307.25 779.84 398.29 791.25 ]
+/F 4
+/P 7 0 R
+/T (TEXTFIELD.p14.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 147 0 R >>
+/MaxLen 199
+>>
+endobj
+147 0 obj
+<< /Length 81 /Subtype /Form /BBox [ 0 0 91.04 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 91.04 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+148 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 742.32 76.81 756.54 ]
+/F 4
+/P 7 0 R
+/T (OBJ34)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 149 0 R /Off 150 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ34\(\);) >>
+>>
+endobj
+149 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+150 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+151 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 685.42 76.81 699.64 ]
+/F 4
+/P 7 0 R
+/T (OBJ35)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 152 0 R /Off 153 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ35\(\);) >>
+>>
+endobj
+152 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+153 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+154 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 142.25 651.28 156.47 665.5 ]
+/F 4
+/P 7 0 R
+/T (OBJ36)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 155 0 R /Off 156 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ36\(\);) >>
+>>
+endobj
+155 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+156 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+157 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 295.87 548.86 310.1 563.08 ]
+/F 4
+/P 7 0 R
+/T (OBJ39)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 158 0 R /Off 159 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ39\(\);) >>
+>>
+endobj
+158 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re s
+0 g 1.5 w 2 2 m 12.23 12.22 l S 2 12.22 m 12.23 2 l S Q
+endstream
+endobj
+159 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.22 re
+f 0 G 1 w 0.5 0.5 13.23 13.22 re S Q
+endstream
+endobj
+160 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 295.87 531.79 310.1 546.02 ]
+/F 4
+/P 7 0 R
+/T (OBJ40)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 161 0 R /Off 162 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ40\(\);) >>
+>>
+endobj
+161 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re s
+0 g 1.5 w 2 2 m 12.23 12.23 l S 2 12.23 m 12.23 2 l S Q
+endstream
+endobj
+162 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.23 14.23 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.23 14.23 re
+f 0 G 1 w 0.5 0.5 13.23 13.23 re S Q
+endstream
+endobj
+163 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 415.15 76.81 429.37 ]
+/F 4
+/P 7 0 R
+/T (OBJ18)
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 164 0 R /Off 165 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ18\(\);) >>
+>>
+endobj
+164 0 obj
+<< /Length 116 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+165 0 obj
+<< /Length 62 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 1 g 0 0 14.22 14.22 re
+f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+166 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 62.59 52.67 307.25 64.08 ]
+/F 4
+/P 7 0 R
+/T (TEXTFIELD.p16.x22.y97)
+/Ff 12582912
+/FT /Tx 
+/DA (/Cour 10.0 Tf 0 g)
+/DV ()
+/V ()
+/AP << /N 167 0 R >>
+/MaxLen 199
+>>
+endobj
+167 0 obj
+<< /Length 82 /Subtype /Form /BBox [ 0 0 244.66 11.41 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Cour 294 0 R >> >> >>
+stream
+/Tx BMC q 0 0 244.66 11.41 re W n 0 g BT /Cour 10.0 Tf 2 1.705 Td () Tj ET Q EMC 
+endstream
+endobj
+168 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 176.39 748.01 190.61 762.23 ]
+/F 4
+/P 10 0 R
+/T (OBJ56)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 169 0 R /Off 170 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ56\(\);) >>
+>>
+endobj
+169 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+170 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+171 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 278.81 748.01 293.03 762.23 ]
+/F 4
+/P 10 0 R
+/T (OBJ57)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 172 0 R /Off 173 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ57\(\);) >>
+>>
+endobj
+172 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+173 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+174 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 358.46 748.01 372.69 762.23 ]
+/F 4
+/P 10 0 R
+/T (OBJ67)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 175 0 R /Off 176 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ67\(\);) >>
+>>
+endobj
+175 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.23 14.22 re f f 0 G 1 w 0.5 0.5 13.23 13.22 re s
+0 g 1.5 w 2 2 m 12.23 12.22 l S 2 12.22 m 12.23 2 l S Q
+endstream
+endobj
+176 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.23 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.23 14.22 re f f 0 G 1 w 0.5 0.5 13.23 13.22 re S Q
+endstream
+endobj
+177 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 216.22 730.94 230.44 745.16 ]
+/F 4
+/P 10 0 R
+/T (OBJ58)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 178 0 R /Off 179 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ58\(\);) >>
+>>
+endobj
+178 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+179 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+180 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 278.81 730.94 293.03 745.16 ]
+/F 4
+/P 10 0 R
+/T (OBJ59)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 181 0 R /Off 182 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ59\(\);) >>
+>>
+endobj
+181 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+182 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+183 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 216.22 656.97 230.44 671.19 ]
+/F 4
+/P 10 0 R
+/T (OBJ62)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 184 0 R /Off 185 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ62\(\);) >>
+>>
+endobj
+184 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+185 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+186 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 278.81 656.97 293.03 671.19 ]
+/F 4
+/P 10 0 R
+/T (OBJ63)
+/Ff 1
+/FT /Btn
+/DV /Yes
+/AP << /N << /Yes 187 0 R /Off 188 0 R >> >>
+/AS /Off
+ /A << /S /JavaScript /JS (
+SYS_CB_OBJ63\(\);) >>
+>>
+endobj
+187 0 obj
+<< /Length 122 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re s
+0 g 1.5 w 2 2 m 12.22 12.22 l S 2 12.22 m 12.22 2 l S Q
+endstream
+endobj
+188 0 obj
+<< /Length 68 /Subtype /Form /BBox [ 0 0 14.22 14.22 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /ZaDb 293 0 R >> >> >>
+stream
+q 0.749 g 0 0 14.22 14.22 re f f 0 G 1 w 0.5 0.5 13.22 13.22 re S Q
+endstream
+endobj
+189 0 obj
+<<
+/JavaScript 190 0 R
+>>
+endobj
+190 0 obj
+<<
+/Names [ (SYS_AWM)198 0 R (SYS_CB_HDL_CLR)193 0 R (SYS_CB_HDL_OBJ1)206 0 R (SYS_CB_HDL_OBJ10)210 0 R (SYS_CB_HDL_OBJ11)211 0 R (SYS_CB_HDL_OBJ12)212 0 R (SYS_CB_HDL_OBJ13)213 0 R (SYS_CB_HDL_OBJ14)214 0 R (SYS_CB_HDL_OBJ15)215 0 R (SYS_CB_HDL_OBJ16)216 0 R (SYS_CB_HDL_OBJ17)217 0 R (SYS_CB_HDL_OBJ18)237 0 R (SYS_CB_HDL_OBJ19)218 0 R (SYS_CB_HDL_OBJ2)228 0 R (SYS_CB_HDL_OBJ20)219 0 R (SYS_CB_HDL_OBJ22)223 0 R (SYS_CB_HDL_OBJ23)224 0 R (SYS_CB_HDL_OBJ24)225 0 R (SYS_CB_HDL_OBJ25)226 0 R (SYS_CB_HDL_OBJ27)227 0 R (SYS_CB_HDL_OBJ28)229 0 R (SYS_CB_HDL_OBJ29)230 0 R (SYS_CB_HDL_OBJ3)201 0 R (SYS_CB_HDL_OBJ33)231 0 R (SYS_CB_HDL_OBJ34)232 0 R (SYS_CB_HDL_OBJ35)233 0 R (SYS_CB_HDL_OBJ36)234 0 R (SYS_CB_HDL_OBJ37)205 0 R (SYS_CB_HDL_OBJ39)235 0 R (SYS_CB_HDL_OBJ4)202 0 R (SYS_CB_HDL_OBJ40)236 0 R (SYS_CB_HDL_OBJ41)221 0 R (SYS_CB_HDL_OBJ43)220 0 R (SYS_CB_HDL_OBJ5)203 0 R (SYS_CB_HDL_OBJ56)238 0 R (SYS_CB_HDL_OBJ57)239 0 R (SYS_CB_HDL_OBJ58)241 0 R (SYS_CB_HDL_OBJ59)242 0 R (SYS_CB_HDL_OBJ6)204 0 R (SYS_CB_HDL_OBJ62)243 0 R (SYS_CB_HDL_OBJ63)244 0 R (SYS_CB_HDL_OBJ66)222 0 R (SYS_CB_HDL_OBJ67)240 0 R (SYS_CB_HDL_OBJ7)207 0 R (SYS_CB_HDL_OBJ8)208 0 R (SYS_CB_HDL_OBJ9)209 0 R (SYS_CB_HDL_STATE)194 0 R (SYS_CB_OBJ1)252 0 R (SYS_CB_OBJ10)256 0 R (SYS_CB_OBJ11)257 0 R (SYS_CB_OBJ12)258 0 R (SYS_CB_OBJ13)259 0 R (SYS_CB_OBJ14)260 0 R (SYS_CB_OBJ15)261 0 R (SYS_CB_OBJ16)262 0 R (SYS_CB_OBJ17)263 0 R (SYS_CB_OBJ18)283 0 R (SYS_CB_OBJ19)264 0 R (SYS_CB_OBJ2)274 0 R (SYS_CB_OBJ20)265 0 R (SYS_CB_OBJ22)269 0 R (SYS_CB_OBJ23)270 0 R (SYS_CB_OBJ24)271 0 R (SYS_CB_OBJ25)272 0 R (SYS_CB_OBJ27)273 0 R (SYS_CB_OBJ28)275 0 R (SYS_CB_OBJ29)276 0 R (SYS_CB_OBJ3)247 0 R (SYS_CB_OBJ33)277 0 R (SYS_CB_OBJ34)278 0 R (SYS_CB_OBJ35)279 0 R (SYS_CB_OBJ36)280 0 R (SYS_CB_OBJ37)251 0 R (SYS_CB_OBJ39)281 0 R (SYS_CB_OBJ4)248 0 R (SYS_CB_OBJ40)282 0 R (SYS_CB_OBJ41)267 0 R (SYS_CB_OBJ43)266 0 R (SYS_CB_OBJ5)249 0 R (SYS_CB_OBJ56)284 0 R (SYS_CB_OBJ57)285 0 R (SYS_CB_OBJ58)287 0 R (SYS_CB_OBJ59)288 0 R (SYS_CB_OBJ6)250 0 R (SYS_CB_OBJ62)289 0 R (SYS_CB_OBJ63)290 0 R (SYS_CB_OBJ66)268 0 R (SYS_CB_OBJ67)286 0 R (SYS_CB_OBJ7)253 0 R (SYS_CB_OBJ8)254 0 R (SYS_CB_OBJ9)255 0 R (SYS_CHECK_MF_FIELDS)245 0 R (SYS_EWB)199 0 R (SYS_EWM)197 0 R (SYS_FILL)196 0 R (SYS_IS_MUFI_CB)195 0 R (SYS_PA2_SUBMIT)200 0 R (SYS_RESET_BG_COLORS_UPON_ALL_PAGES)246 0 R (getBgColor)191 0 R (getBorderColor)192 0 R ]
+>>
+endobj
+191 0 obj
+<<
+/S /JavaScript
+/JS (function getBgColor\(fn\){\rvar BG_DISABLED=["RGB",0.749,0.749,0.749];\rvar BG_117=["RGB",1.0,1.0,1.0];\r  if\(fn=="TEXTFIELD.p0.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p1.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p2.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p3.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p15.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p5.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p20.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p4.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p6.x22.y97"\) return BG_117;\r  if\(fn=="OBJ3"\) return BG_117;\r  if\(fn=="OBJ4"\) return BG_117;\r  if\(fn=="OBJ5"\) return BG_117;\r  if\(fn=="OBJ6"\) return BG_117;\r  if\(fn=="OBJ37"\) return BG_117;\r  if\(fn=="OBJ1"\) return BG_117;\r  if\(fn=="OBJ7"\) return BG_117;\r  if\(fn=="OBJ8"\) return BG_117;\r  if\(fn=="OBJ9"\) return BG_117;\r  if\(fn=="OBJ10"\) return BG_117;\r  if\(fn=="OBJ11"\) return BG_117;\r  if\(fn=="OBJ12"\) return BG_117;\r  if\(fn=="OBJ13"\) return BG_117;\r  if\(fn=="OBJ14"\) return BG_117;\r  if\(fn=="OBJ15"\) return BG_117;\r  if\(fn=="OBJ16"\) return BG_117;\r  if\(fn=="OBJ17"\) return BG_117;\r  if\(fn=="OBJ19"\) return BG_117;\r  if\(fn=="TEXTFIELD.p8.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p9.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p10.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p11.x22.y97"\) return BG_117;\r  if\(fn=="TEXTFIELD.p12.x22.y97"\) return BG_117;\r  if\(fn=="OBJ20"\) return BG_117;\r  if\(fn=="OBJ43"\) return BG_117;\r  if\(fn=="OBJ41"\) return BG_117;\r  if\(fn=="OBJ66"\) return BG_117;\r  if\(fn=="OBJ22"\) return BG_117;\r  if\(fn=="OBJ23"\) return BG_117;\r  if\(fn=="OBJ24"\) return BG_117;\r  if\(fn=="OBJ25"\) return BG_117;\r  if\(fn=="TEXTFIELD.p17.x22.y97"\) return BG_117;\r  if\(fn=="OBJ26"\) return BG_117;\r  if\(fn=="OBJ27"\) return BG_117;\r  if\(fn=="OBJ2"\) return BG_117;\r  if\(fn=="OBJ28"\) return BG_117;\r  if\(fn=="OBJ29"\) return BG_117;\r  if\(fn=="OBJ30"\) return BG_117;\r  if\(fn=="TEXTFIELD.p13.x22.y97"\) return BG_117;\r  if\(fn=="OBJ38"\) return BG_117;\r  if\(fn=="OBJ33"\) return BG_117;\r  if\(fn=="TEXTFIELD.p14.x22.y97"\) return BG_117;\r  if\(fn=="OBJ34"\) return BG_117;\r  if\(fn=="OBJ35"\) return BG_117;\r  if\(fn=="OBJ36"\) return BG_117;\r  if\(fn=="OBJ39"\) return BG_117;\r  if\(fn=="OBJ40"\) return BG_117;\r  if\(fn=="OBJ18"\) return BG_117;\r  if\(fn=="TEXTFIELD.p16.x22.y97"\) return BG_117;\r  if\(fn=="OBJ56"\) return BG_117;\r  if\(fn=="OBJ57"\) return BG_117;\r  if\(fn=="OBJ67"\) return BG_117;\r  if\(fn=="OBJ58"\) return BG_117;\r  if\(fn=="OBJ59"\) return BG_117;\r  if\(fn=="OBJ62"\) return BG_117;\r  if\(fn=="OBJ63"\) return BG_117;\r    return color.transparent;})
+>>
+endobj
+192 0 obj
+<<
+/S /JavaScript
+/JS (function getBorderColor\(fn\){\r   var f = this.getField\(fn\);\r   if\(\(null!=f\)&&\("checkbox"==f.type\)\)\r   { return ["RGB",0.0,0.0,0.0];\r   }\r   return color.transparent;\r})
+>>
+endobj
+193 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_CLR\(name,bNeedsColouredMustFillBorder\)\r{\r    if\(bNeedsColouredMustFillBorder\)\r    {    getField\(name\).strokeColor=color.red;\r        }\r        else\r    	{    getField\(name\).strokeColor=getBorderColor\(name\);\r        }\r    return bNeedsColouredMustFillBorder;\r}\r)
+>>
+endobj
+194 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_STATE\(\)\r{\r    if\(false==SYS_IS_MUFI_CB\(SYS_CB_HDL_STATE.arguments[0]\)\) return false;\r    var obj=getField\(SYS_CB_HDL_STATE.arguments[0]\);\r    if\("Yes"==obj.value\) return false;\r    if\(true==obj.readonly\) return false;\r    if\(display.hidden==obj.display\) return false;\r    for\(var i=1;i<SYS_CB_HDL_STATE.arguments.length;i++\)\r    {   if\("Yes"==getField\(SYS_CB_HDL_STATE.arguments[i]\).value\)\r    	{   return false;\r        }\r    }\r    return true;\r}\r)
+>>
+endobj
+195 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_IS_MUFI_CB\(cbname\)\r{   var all_mufi_cb= new Array\(\);\r	for\(var i=0;i<all_mufi_cb.length;i++\)\r	{	if\(cbname==all_mufi_cb[i]\) return true;\r	}\r	return false;\r}\r)
+>>
+endobj
+196 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_FILL\(f,c\){\r  if\(""+f.fillColor!=""+c\)  {f.fillColor=c;}}\r)
+>>
+endobj
+197 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_EWM\(f1,f2\){\r var v1=getField\(f1\);\r var v2=getField\(f2\);\r if\(\(null==v1\)||\(null==v2\)\) return;\r if\(v1.value=="Off"\)\r { v2.readonly=true;SYS_FILL\(v2,["RGB",0.749,0.749,0.749]\);\r }\r else\r {  v2.readonly=false;SYS_FILL\(v2,getBgColor\(f2\)\);\r }\r}\r)
+>>
+endobj
+198 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_AWM\(f1,f2\){\r var v1=getField\(f1\);\r var v2=getField\(f2\);\r if\(\(null==v1\)||\(null==v2\)\) return;\r if\(v1.value=="Off"\)\r {  v2.readonly=false;SYS_FILL\(v2,getBgColor\(f2\)\);\r }\r else\r { v2.readonly=true;SYS_FILL\(v2,["RGB",0.749,0.749,0.749]\);\r }\r}\r)
+>>
+endobj
+199 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_EWB\(v1,f2\){\r var v2=getField\(f2\);\r if\(\(null==v1\)||\(null==v2\)\) return;\r if\(""==v1\)\r { v2.readonly=true;SYS_FILL\(v2,["RGB",0.749,0.749,0.749]\);\r }\r else\r {  v2.readonly=false;SYS_FILL\(v2,getBgColor\(f2\)\);\r }\r}\r)
+>>
+endobj
+200 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_PA2_SUBMIT\(\)\r{\r        var pflichtfelder_befuellt = SYS_CHECK_MF_FIELDS\(\);\r        var n = this.numFields;\r        var f;\r        var fn;\r        for\(var i=0;i<n;i++\)\r        {\r                fn = this.getNthFieldName\(i\);\r                if\( \(""!=fn\) && \("SYS_SEND_BUTTON"==fn.substring\(0,15\)\) \)\r                {\r                        f = this.getField\(fn\);\r                        if\(null!=f\)\r                        {\r                             if\(true==pflichtfelder_befuellt\)\r                        	 { f.readonly=false;\r                        	 }\r                        	 else\r                        	 { f.readonly=true;\r                        	 }\r                        }\r                        f = this.getField\("SYS_SEND_BTN_SHADOW"+fn.substring\(15,fn.length\)\);\r                        if\(null!=f\)\r                        {\r                             if\(true==pflichtfelder_befuellt\)\r                        	 { f.readonly=true;\r                        	   f.display=display.hidden;\r                        	 }\r                        	 else\r                        	 { f.readonly=false;\r                        	   f.display=display.visible;\r                        	 }\r                        }\r                }\r        }\r}\r)
+>>
+endobj
+201 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ3\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ3"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ3",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+202 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ4\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ4"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ4",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+203 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ5\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ5"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ5",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+204 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ6\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ6"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ6",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+205 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ37\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ37"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ37",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+206 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ1\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ1"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ1",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+207 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ7\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ7"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ7",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+208 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ8\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ8"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ8",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+209 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ9\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ9"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ9",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+210 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ10\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ10"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ10",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+211 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ11\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ11"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ11",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+212 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ12\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ12"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ12",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+213 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ13\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ13"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ13",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+214 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ14\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ14"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ14",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+215 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ15\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ15"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ15",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+216 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ16\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ16"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ16",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+217 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ17\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ17"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ17",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+218 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ19\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ19"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ19",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+219 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ20\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ20"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ20",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+220 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ43\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ43"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ43",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+221 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ41\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ41"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ41",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+222 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ66\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ66"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ66",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+223 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ22\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ22"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ22",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+224 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ23\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ23"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ23",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+225 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ24\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ24"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ24",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+226 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ25\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ25"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ25",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+227 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ27\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ27"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ27",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+228 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ2\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ2"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ2",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+229 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ28\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ28"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ28",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+230 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ29\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ29"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ29",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+231 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ33\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ33"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ33",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+232 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ34\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ34"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ34",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+233 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ35\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ35"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ35",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+234 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ36\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ36"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ36",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+235 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ39\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ39"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ39",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+236 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ40\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ40"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ40",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+237 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ18\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ18"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ18",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+238 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ56\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ56"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ56",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+239 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ57\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ57"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ57",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+240 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ67\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ67"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ67",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+241 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ58\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ58"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ58",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+242 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ59\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ59"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ59",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+243 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ62\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ62"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ62",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+244 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_HDL_OBJ63\(changecolor\)\r{   var retval=SYS_CB_HDL_STATE\("OBJ63"\);\r    if\(true==changecolor\)\r    {   SYS_CB_HDL_CLR\("OBJ63",retval\);\r    }\r    return retval;\r}\r)
+>>
+endobj
+245 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CHECK_MF_FIELDS\(\)\r{\r        var n = this.numFields;\r        var f;\r        var fn;\r        for\(var i=0;i<n;i++\)\r        {\r                fn = this.getNthFieldName\(i\);\r                if\( \(""!=fn\) && \("SYSTEM_P1_DUMMY"!=fn\) \)\r                {\r                        f = this.getField\(fn\);\r                        if\( \(null!=f\) && \("button"!=f.type\) \)\r                        {\r                                if\(\(f.required\)&&\(""==f.value\)\)\r                                {\r                                        return false;\r                                }\r                        }\r                }\r        }\r    	if\(true==SYS_CB_HDL_OBJ3\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ4\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ5\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ6\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ37\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ1\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ7\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ8\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ9\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ10\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ11\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ12\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ13\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ14\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ15\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ16\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ17\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ19\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ20\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ43\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ41\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ66\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ22\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ23\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ24\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ25\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ27\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ2\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ28\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ29\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ33\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ34\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ35\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ36\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ39\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ40\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ18\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ56\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ57\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ67\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ58\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ59\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ62\(false\)\){return false;}\r    	if\(true==SYS_CB_HDL_OBJ63\(false\)\){return false;}\r        return true;\r}\r)
+>>
+endobj
+246 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\)\r{\rSYS_PA2_SUBMIT\(\);\r        var n = this.numFields;\r        var f;\r        var fn;\r        for\(var i=0;i<n;i++\)\r        {\r                fn = this.getNthFieldName\(i\);\r                if\( \(""!=fn\) && \("SYSTEM_P1_DUMMY"!=fn\) \)\r                {\r                        f = this.getField\(fn\);\r                        if\( \(null!=f\) && \("button"!=f.type\) \)\r                        {\r                                if\("checkbox"==f.type\)\r                                { \r                                  f.style=style.cr;\r                                }\r                                if\(f.readonly\)\r                                {\r                                        if\(f.readonly\) SYS_FILL\(f,["RGB",0.749,0.749,0.749]\);\r                                }\r                                else\r                                {\r                                     SYS_FILL\(f,getBgColor\(fn\)\);\r                                }\r                                if\(\(f.required\)&&\(""==f.value\)\)\r                                {\r                                        f.strokeColor=color.red;\r                                }\r                                else\r                                {\r                                   f.strokeColor=getBorderColor\(fn\);\r                                }\r                        }\r                }\r        }\r    	SYS_CB_HDL_OBJ3\(true\);\r    	SYS_CB_HDL_OBJ4\(true\);\r    	SYS_CB_HDL_OBJ5\(true\);\r    	SYS_CB_HDL_OBJ6\(true\);\r    	SYS_CB_HDL_OBJ37\(true\);\r    	SYS_CB_HDL_OBJ1\(true\);\r    	SYS_CB_HDL_OBJ7\(true\);\r    	SYS_CB_HDL_OBJ8\(true\);\r    	SYS_CB_HDL_OBJ9\(true\);\r    	SYS_CB_HDL_OBJ10\(true\);\r    	SYS_CB_HDL_OBJ11\(true\);\r    	SYS_CB_HDL_OBJ12\(true\);\r    	SYS_CB_HDL_OBJ13\(true\);\r    	SYS_CB_HDL_OBJ14\(true\);\r    	SYS_CB_HDL_OBJ15\(true\);\r    	SYS_CB_HDL_OBJ16\(true\);\r    	SYS_CB_HDL_OBJ17\(true\);\r    	SYS_CB_HDL_OBJ19\(true\);\r    	SYS_CB_HDL_OBJ20\(true\);\r    	SYS_CB_HDL_OBJ43\(true\);\r    	SYS_CB_HDL_OBJ41\(true\);\r    	SYS_CB_HDL_OBJ66\(true\);\r    	SYS_CB_HDL_OBJ22\(true\);\r    	SYS_CB_HDL_OBJ23\(true\);\r    	SYS_CB_HDL_OBJ24\(true\);\r    	SYS_CB_HDL_OBJ25\(true\);\r    	SYS_CB_HDL_OBJ27\(true\);\r    	SYS_CB_HDL_OBJ2\(true\);\r    	SYS_CB_HDL_OBJ28\(true\);\r    	SYS_CB_HDL_OBJ29\(true\);\r    	SYS_CB_HDL_OBJ33\(true\);\r    	SYS_CB_HDL_OBJ34\(true\);\r    	SYS_CB_HDL_OBJ35\(true\);\r    	SYS_CB_HDL_OBJ36\(true\);\r    	SYS_CB_HDL_OBJ39\(true\);\r    	SYS_CB_HDL_OBJ40\(true\);\r    	SYS_CB_HDL_OBJ18\(true\);\r    	SYS_CB_HDL_OBJ56\(true\);\r    	SYS_CB_HDL_OBJ57\(true\);\r    	SYS_CB_HDL_OBJ67\(true\);\r    	SYS_CB_HDL_OBJ58\(true\);\r    	SYS_CB_HDL_OBJ59\(true\);\r    	SYS_CB_HDL_OBJ62\(true\);\r    	SYS_CB_HDL_OBJ63\(true\);\r}\r)
+>>
+endobj
+247 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ3\(\) {SYS_CB_HDL_OBJ3\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+248 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ4\(\) {SYS_CB_HDL_OBJ4\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+249 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ5\(\) {SYS_CB_HDL_OBJ5\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+250 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ6\(\) {SYS_CB_HDL_OBJ6\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+251 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ37\(\) {SYS_CB_HDL_OBJ37\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+252 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ1\(\) {SYS_CB_HDL_OBJ1\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+253 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ7\(\) {SYS_CB_HDL_OBJ7\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+254 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ8\(\) {SYS_CB_HDL_OBJ8\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+255 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ9\(\) {SYS_CB_HDL_OBJ9\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+256 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ10\(\) {SYS_CB_HDL_OBJ10\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+257 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ11\(\) {SYS_CB_HDL_OBJ11\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+258 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ12\(\) {SYS_CB_HDL_OBJ12\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+259 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ13\(\) {SYS_CB_HDL_OBJ13\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+260 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ14\(\) {SYS_CB_HDL_OBJ14\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+261 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ15\(\) {SYS_CB_HDL_OBJ15\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+262 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ16\(\) {SYS_CB_HDL_OBJ16\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+263 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ17\(\) {SYS_CB_HDL_OBJ17\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+264 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ19\(\) {SYS_CB_HDL_OBJ19\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+265 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ20\(\) {SYS_CB_HDL_OBJ20\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+266 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ43\(\) {SYS_CB_HDL_OBJ43\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+267 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ41\(\) {SYS_CB_HDL_OBJ41\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+268 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ66\(\) {SYS_CB_HDL_OBJ66\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+269 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ22\(\) {SYS_CB_HDL_OBJ22\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+270 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ23\(\) {SYS_CB_HDL_OBJ23\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+271 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ24\(\) {SYS_CB_HDL_OBJ24\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+272 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ25\(\) {SYS_CB_HDL_OBJ25\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+273 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ27\(\) {SYS_CB_HDL_OBJ27\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+274 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ2\(\) {SYS_CB_HDL_OBJ2\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+275 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ28\(\) {SYS_CB_HDL_OBJ28\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+276 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ29\(\) {SYS_CB_HDL_OBJ29\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+277 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ33\(\) {SYS_CB_HDL_OBJ33\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+278 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ34\(\) {SYS_CB_HDL_OBJ34\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+279 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ35\(\) {SYS_CB_HDL_OBJ35\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+280 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ36\(\) {SYS_CB_HDL_OBJ36\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+281 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ39\(\) {SYS_CB_HDL_OBJ39\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+282 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ40\(\) {SYS_CB_HDL_OBJ40\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+283 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ18\(\) {SYS_CB_HDL_OBJ18\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+284 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ56\(\) {SYS_CB_HDL_OBJ56\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+285 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ57\(\) {SYS_CB_HDL_OBJ57\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+286 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ67\(\) {SYS_CB_HDL_OBJ67\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+287 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ58\(\) {SYS_CB_HDL_OBJ58\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+288 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ59\(\) {SYS_CB_HDL_OBJ59\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+289 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ62\(\) {SYS_CB_HDL_OBJ62\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+290 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CB_OBJ63\(\) {SYS_CB_HDL_OBJ63\(true\);SYS_PA2_SUBMIT\(\);})
+>>
+endobj
+291 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /Helv
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+292 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /HeBo
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+293 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /ZaDb
+/BaseFont /ZapfDingbats
+>>
+endobj
+294 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /Cour
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+295 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /Sym
+/BaseFont /Symbol
+>>
+endobj
+xref
+0 296
+0000000000 65535 f 
+0000000015 00000 n 
+0000000241 00000 n 
+0000000932 00000 n 
+0000001003 00000 n 
+0000001282 00000 n 
+0000022049 00000 n 
+0000022434 00000 n 
+0000022713 00000 n 
+0000057796 00000 n 
+0000057887 00000 n 
+0000058169 00000 n 
+0000063646 00000 n 
+0000063722 00000 n 
+0000064350 00000 n 
+0000064570 00000 n 
+0000064811 00000 n 
+0000065031 00000 n 
+0000065272 00000 n 
+0000065491 00000 n 
+0000065732 00000 n 
+0000065951 00000 n 
+0000066190 00000 n 
+0000066411 00000 n 
+0000066652 00000 n 
+0000066872 00000 n 
+0000067113 00000 n 
+0000067333 00000 n 
+0000067574 00000 n 
+0000067794 00000 n 
+0000068035 00000 n 
+0000068254 00000 n 
+0000068495 00000 n 
+0000068726 00000 n 
+0000069001 00000 n 
+0000069221 00000 n 
+0000071034 00000 n 
+0000071266 00000 n 
+0000071541 00000 n 
+0000071761 00000 n 
+0000071994 00000 n 
+0000072269 00000 n 
+0000072489 00000 n 
+0000072722 00000 n 
+0000072997 00000 n 
+0000073217 00000 n 
+0000073452 00000 n 
+0000073727 00000 n 
+0000073947 00000 n 
+0000074180 00000 n 
+0000074455 00000 n 
+0000074675 00000 n 
+0000074908 00000 n 
+0000075183 00000 n 
+0000075403 00000 n 
+0000075636 00000 n 
+0000075911 00000 n 
+0000076131 00000 n 
+0000076364 00000 n 
+0000076639 00000 n 
+0000076859 00000 n 
+0000077092 00000 n 
+0000077367 00000 n 
+0000077587 00000 n 
+0000077821 00000 n 
+0000078096 00000 n 
+0000078316 00000 n 
+0000078551 00000 n 
+0000078826 00000 n 
+0000079046 00000 n 
+0000079280 00000 n 
+0000079555 00000 n 
+0000079775 00000 n 
+0000080010 00000 n 
+0000080285 00000 n 
+0000080505 00000 n 
+0000080740 00000 n 
+0000081015 00000 n 
+0000081235 00000 n 
+0000081470 00000 n 
+0000081745 00000 n 
+0000081965 00000 n 
+0000082200 00000 n 
+0000082475 00000 n 
+0000082695 00000 n 
+0000082929 00000 n 
+0000083204 00000 n 
+0000083424 00000 n 
+0000083644 00000 n 
+0000083883 00000 n 
+0000084102 00000 n 
+0000084341 00000 n 
+0000084562 00000 n 
+0000084803 00000 n 
+0000085024 00000 n 
+0000085276 00000 n 
+0000085497 00000 n 
+0000085749 00000 n 
+0000085981 00000 n 
+0000086256 00000 n 
+0000086476 00000 n 
+0000086712 00000 n 
+0000086988 00000 n 
+0000087209 00000 n 
+0000087445 00000 n 
+0000087721 00000 n 
+0000087942 00000 n 
+0000088177 00000 n 
+0000088453 00000 n 
+0000088674 00000 n 
+0000088910 00000 n 
+0000089186 00000 n 
+0000089407 00000 n 
+0000089642 00000 n 
+0000089918 00000 n 
+0000090139 00000 n 
+0000090375 00000 n 
+0000090651 00000 n 
+0000090872 00000 n 
+0000091108 00000 n 
+0000091384 00000 n 
+0000091605 00000 n 
+0000091828 00000 n 
+0000092070 00000 n 
+0000092263 00000 n 
+0000092505 00000 n 
+0000092741 00000 n 
+0000093017 00000 n 
+0000093238 00000 n 
+0000093472 00000 n 
+0000093748 00000 n 
+0000093969 00000 n 
+0000094207 00000 n 
+0000094483 00000 n 
+0000094704 00000 n 
+0000094942 00000 n 
+0000095218 00000 n 
+0000095439 00000 n 
+0000095632 00000 n 
+0000095874 00000 n 
+0000096095 00000 n 
+0000096337 00000 n 
+0000096528 00000 n 
+0000096770 00000 n 
+0000097006 00000 n 
+0000097282 00000 n 
+0000097503 00000 n 
+0000097727 00000 n 
+0000097967 00000 n 
+0000098203 00000 n 
+0000098479 00000 n 
+0000098700 00000 n 
+0000098936 00000 n 
+0000099212 00000 n 
+0000099433 00000 n 
+0000099670 00000 n 
+0000099946 00000 n 
+0000100167 00000 n 
+0000100404 00000 n 
+0000100680 00000 n 
+0000100901 00000 n 
+0000101138 00000 n 
+0000101414 00000 n 
+0000101635 00000 n 
+0000101871 00000 n 
+0000102147 00000 n 
+0000102368 00000 n 
+0000102589 00000 n 
+0000102831 00000 n 
+0000103076 00000 n 
+0000103358 00000 n 
+0000103585 00000 n 
+0000103830 00000 n 
+0000104112 00000 n 
+0000104339 00000 n 
+0000104584 00000 n 
+0000104866 00000 n 
+0000105093 00000 n 
+0000105338 00000 n 
+0000105620 00000 n 
+0000105847 00000 n 
+0000106092 00000 n 
+0000106374 00000 n 
+0000106601 00000 n 
+0000106846 00000 n 
+0000107128 00000 n 
+0000107355 00000 n 
+0000107600 00000 n 
+0000107882 00000 n 
+0000108109 00000 n 
+0000108152 00000 n 
+0000110564 00000 n 
+0000113354 00000 n 
+0000113581 00000 n 
+0000113926 00000 n 
+0000114473 00000 n 
+0000114701 00000 n 
+0000114822 00000 n 
+0000115149 00000 n 
+0000115476 00000 n 
+0000115769 00000 n 
+0000117143 00000 n 
+0000117374 00000 n 
+0000117605 00000 n 
+0000117836 00000 n 
+0000118067 00000 n 
+0000118301 00000 n 
+0000118532 00000 n 
+0000118763 00000 n 
+0000118994 00000 n 
+0000119225 00000 n 
+0000119459 00000 n 
+0000119693 00000 n 
+0000119927 00000 n 
+0000120161 00000 n 
+0000120395 00000 n 
+0000120629 00000 n 
+0000120863 00000 n 
+0000121097 00000 n 
+0000121331 00000 n 
+0000121565 00000 n 
+0000121799 00000 n 
+0000122033 00000 n 
+0000122267 00000 n 
+0000122501 00000 n 
+0000122735 00000 n 
+0000122969 00000 n 
+0000123203 00000 n 
+0000123437 00000 n 
+0000123668 00000 n 
+0000123902 00000 n 
+0000124136 00000 n 
+0000124370 00000 n 
+0000124604 00000 n 
+0000124838 00000 n 
+0000125072 00000 n 
+0000125306 00000 n 
+0000125540 00000 n 
+0000125774 00000 n 
+0000126008 00000 n 
+0000126242 00000 n 
+0000126476 00000 n 
+0000126710 00000 n 
+0000126944 00000 n 
+0000127178 00000 n 
+0000127412 00000 n 
+0000130747 00000 n 
+0000133678 00000 n 
+0000133793 00000 n 
+0000133908 00000 n 
+0000134023 00000 n 
+0000134138 00000 n 
+0000134255 00000 n 
+0000134370 00000 n 
+0000134485 00000 n 
+0000134600 00000 n 
+0000134715 00000 n 
+0000134832 00000 n 
+0000134949 00000 n 
+0000135066 00000 n 
+0000135183 00000 n 
+0000135300 00000 n 
+0000135417 00000 n 
+0000135534 00000 n 
+0000135651 00000 n 
+0000135768 00000 n 
+0000135885 00000 n 
+0000136002 00000 n 
+0000136119 00000 n 
+0000136236 00000 n 
+0000136353 00000 n 
+0000136470 00000 n 
+0000136587 00000 n 
+0000136704 00000 n 
+0000136821 00000 n 
+0000136936 00000 n 
+0000137053 00000 n 
+0000137170 00000 n 
+0000137287 00000 n 
+0000137404 00000 n 
+0000137521 00000 n 
+0000137638 00000 n 
+0000137755 00000 n 
+0000137872 00000 n 
+0000137989 00000 n 
+0000138106 00000 n 
+0000138223 00000 n 
+0000138340 00000 n 
+0000138457 00000 n 
+0000138574 00000 n 
+0000138691 00000 n 
+0000138808 00000 n 
+0000138919 00000 n 
+0000139035 00000 n 
+0000139122 00000 n 
+0000139231 00000 n 
+
+trailer
+<</Size 296
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+139311
+%%EOF
