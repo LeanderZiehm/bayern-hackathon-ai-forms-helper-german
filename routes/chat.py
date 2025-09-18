@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from app.services.groq_client import query_groq
+from services.groq_client import query_groq
 
 router = APIRouter()
 
