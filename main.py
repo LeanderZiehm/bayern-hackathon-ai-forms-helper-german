@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from routes import chat, files
+from routes import chat, files, upload
 
 app = FastAPI(title="Groq Llama-3.3-70b API")
 
@@ -19,6 +19,8 @@ app.mount("/static", StaticFiles(directory="static", html=True), name="static")
 # Include routes
 app.include_router(chat.router)
 app.include_router(files.router)
+app.include_router(upload.router) 
+
 
 from fastapi.responses import FileResponse
 

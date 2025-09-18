@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Chat</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f5f5f5; }
+    #chat-container { display: flex; height: 100vh; gap: 20px; padding: 20px; }
+    #pdf-panel, #chat-panel { flex: 1; display: flex; flex-direction: column; border: 1px solid #ccc; background: #fff; }
+    #pdf-viewer { flex: 1; border: none; }
+    #chat-box { flex: 1; padding: 10px; overflow-y: auto; background: #fff; }
+    .msg { margin: 8px 0; padding: 6px 10px; border-radius: 6px; max-width: 70%; }
+    .user { background: #d1e7dd; align-self: flex-end; }
+    .bot { background: #f8d7da; align-self: flex-start; }
+    #input-area { display: flex; border-top: 1px solid #ccc; }
+    #user-input { flex: 1; padding: 10px; font-size: 16px; border: none; outline: none; }
+    #send-btn { padding: 10px 20px; border: none; background: #007bff; color: white; cursor: pointer; }
+    #send-btn:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <div id="chat-container">
+    <!-- PDF Panel -->
+    <div id="pdf-panel">
+      <h3 id="pdf-title"></h3>
+      <iframe id="pdf-viewer"></iframe>
+    </div>
+
+    <!-- Chat Panel -->
+    <div id="chat-panel">
+      <div id="chat-box"></div>
+      <div id="input-area">
+        <input id="user-input" type="text" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const chatBox = document.getElementById("chat-box");
+    const userInput = document.getElementById("user-input");
+    const sendBtn = document.getElementById("send-btn");
+    const pdfViewer = document.getElementById("pdf-viewer");
+    const pdfTitle = document.getElementById("pdf-title");
+
+    let pdfText = "";
+
+    // Utility: Get query parameter
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Load PDF and extract text
+    async function loadPDF(pdfUrl) {
+      pdfTitle.textContent = pdfUrl.split("/").pop();
+      pdfViewer.src = pdfUrl;
+
+      try {
+        const res = await fetch(pdfUrl);
+        if (!res.ok) throw new Error("Failed to fetch PDF");
+
+        const arrayBuffer = await res.arrayBuffer();
+
+        // Using pdf-lib or pdf.js would be better, but simple example:
+        // Send arrayBuffer to backend for extraction
+        const textRes = await fetch("/extract_pdf_text", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ data: Array.from(new Uint8Array(arrayBuffer)) })
+        });
+
+        const data = await textRes.json();
+        pdfText = data.text || "";
+        addMessage("PDF loaded. You can now ask questions.", "bot");
+
+      } catch (err) {
+        addMessage("Error loading PDF: " + err.message, "bot");
+      }
+    }
+
+    function addMessage(content, sender) {
+      const msg = document.createElement("div");
+      msg.classList.add("msg", sender);
+      msg.textContent = content;
+      chatBox.appendChild(msg);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const text = userInput.value.trim();
+      if (!text) return;
+      addMessage(text, "user");
+      userInput.value = "";
+
+      try {
+        const res = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user_input: `PDF Content: ${pdfText}\nUser: ${text}`
+          }),
+        });
+        const data = await res.json();
+        addMessage(data.response, "bot");
+      } catch (err) {
+        addMessage("Error: " + err.message, "bot");
+      }
+    }
+
+    sendBtn.addEventListener("click", sendMessage);
+    userInput.addEventListener("keypress", e => { if (e.key === "Enter") sendMessage(); });
+
+    // Initialize
+    const pdfUrl = getQueryParam("pdf_url");
+    if (pdfUrl) loadPDF(pdfUrl);
+    else addMessage("No PDF URL provided in query parameter.", "bot");
+  </script>
+</body>
+</html>

@@ -127,6 +127,20 @@
   </style>
 </head>
 <body>
+  <!-- PDF Upload Form -->
+  <div id="pdf-upload" style="padding:20px;">
+    <h2>Upload a PDF:</h2>
+    <form id="upload-form">
+      <input type="file" id="pdf-file" accept="application/pdf" required />
+      <button type="submit">Upload</button>
+    </form>
+    <div id="upload-status"></div>
+    <div id="uploaded-files">
+      <h3>Uploaded PDFs:</h3>
+      <div id="uploaded-links"></div>
+    </div>
+  </div>
+
   <!-- PDF List -->
   <div id="pdf-list">
     <h2>Select a PDF to chat about:</h2>
@@ -162,6 +176,7 @@
     const userInput = document.getElementById("user-input");
     const sendBtn = document.getElementById("send-btn");
     const backBtn = document.getElementById("back-btn");
+    const uploadedLinksDiv = document.getElementById("uploaded-links");
 
     let currentPdf = "";
     let currentPdfText = "";
@@ -182,6 +197,25 @@
       } catch (err) {
         pdfLinksDiv.textContent = "Failed to load PDFs.";
         console.error(err);
+      }
+    }
+
+    // Load uploaded files
+    async function loadUploadedFiles() {
+      try {
+        const res = await fetch("/uploaded");
+        const data = await res.json();
+        uploadedLinksDiv.innerHTML = "";
+        data.files.forEach(url => {
+          const fname = url.split("/").pop();
+          const link = document.createElement("a");
+          link.textContent = fname;
+          link.href = url;
+          link.target = "_blank";
+          uploadedLinksDiv.appendChild(link);
+        });
+      } catch (err) {
+        uploadedLinksDiv.textContent = "Failed to load uploaded files.";
       }
     }
 
@@ -256,12 +290,43 @@
       }
     }
 
+    // PDF Upload
+    const uploadForm = document.getElementById("upload-form");
+    const pdfFileInput = document.getElementById("pdf-file");
+    const uploadStatus = document.getElementById("upload-status");
+
+    uploadForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const file = pdfFileInput.files[0];
+      if (!file) return;
+      const formData = new FormData();
+      formData.append("file", file);
+      uploadStatus.textContent = "Uploading...";
+      try {
+        const res = await fetch("/upload_pdf", {
+          method: "POST",
+          body: formData,
+        });
+        if (!res.ok) {
+          uploadStatus.textContent = "Upload failed.";
+          return;
+        }
+        uploadStatus.textContent = "Upload successful!";
+        pdfFileInput.value = "";
+        loadPDFs();
+        loadUploadedFiles();
+      } catch (err) {
+        uploadStatus.textContent = "Error: " + err.message;
+      }
+    });
+
     sendBtn.addEventListener("click", sendMessage);
     userInput.addEventListener("keypress", (e) => { if (e.key === "Enter") sendMessage(); });
     backBtn.addEventListener("click", backToPDFs);
 
     // Initialize
     loadPDFs();
+    loadUploadedFiles();
   </script>
 </body>
 </html>
