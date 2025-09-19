@@ -43,6 +43,7 @@
 
 <div id="chat-pdf-container">
   <div id="pdf-panel">
+    <button id="toggle-render-btn" style="margin:10px;">Toggle Canvas Render/Text Layer</button>
     <h3 id="pdf-title"></h3>
     <div id="pdf-container"></div>
   </div>
@@ -70,10 +71,16 @@
 
   let currentPdf = "";
   let currentPdfText = "";
+  let renderCanvas = true;
+
+  const toggleRenderBtn = document.getElementById("toggle-render-btn");
+  toggleRenderBtn.addEventListener("click", () => {
+    renderCanvas = !renderCanvas;
+    if (currentPdf) openChat(currentPdf);
+  });
 
 
-
-
+  let extractedText;
   function init(){
   loadPDFs();
 
@@ -125,7 +132,12 @@
       canvas.height = viewport.height;
       pageDiv.appendChild(canvas);
       const ctx = canvas.getContext("2d");
-     // await page.render({ canvasContext: ctx, viewport }).promise;
+      if (renderCanvas) {
+        await page.render({ canvasContext: ctx, viewport }).promise;
+        canvas.style.display = "block";
+      } else {
+        canvas.style.display = "none";
+      }
 
       // Text layer
       const textContent = await page.getTextContent();
@@ -133,7 +145,7 @@
       textLayerDiv.className = "textLayer";
       textLayerDiv.style.height = canvas.height + "px";
       textLayerDiv.style.width = canvas.width + "px";
-      textLayerDiv.style.color = "black";
+      textLayerDiv.style.color = renderCanvas ? "red" : "black";
       pageDiv.appendChild(textLayerDiv);
 
       pdfjsLib.renderTextLayer({
@@ -146,7 +158,16 @@
       await applyAnnotations(page,scale,canvas,pageDiv);
 
     // Optional: fetch PDF text from backend for chat AI
-     currentPdfText = extractHorizontalText(pdf);
+
+     extractedText = extractHorizontalText(pdf);
+
+
+     const prompt = "extract out in json words that a user might not understand and where sources might be useful"
+     const text = `${prompt} # PDF Text: ${extractedText}`
+    const response = await getLLMResponse(text)
+    console.log(response)
+
+    addMessage(response,"bot")
     // console.log(currentPdfText);
 
       //addMessage(currentPdfText,"bot")
@@ -159,8 +180,12 @@
 // Form fields
 const annotations = await page.getAnnotations();
 console.log(annotations);
+
+
+const bannedObjexts = ["PDFOBJ94","SYSTEM_P1_DUMMY"]
 annotations.forEach(ann => {
-    if (ann.fieldName === "SYSTEM_P1_DUMMY") return; // skip
+    if (bannedObjexts.includes(ann.fieldName)) return; // skip banned fields
+
 
     if (ann.subtype === 'Widget') {
         const [x1, y1, x2, y2] = ann.rect;
@@ -235,13 +260,21 @@ pdfContainer.appendChild(pageDiv);
     currentPdfText = "";
   }
 
-  function addMessage(content, sender) {
+function addMessage(content, sender) {
+//    if (!content) return; // skip if content is empty or null
+
+    // Convert object to JSON string
+    if (typeof content === "object") {
+        content = JSON.stringify(content, null, 2); // pretty-print with indentation
+    }
+
     const msg = document.createElement("div");
     msg.classList.add("msg", sender);
     msg.textContent = content;
     chatBox.appendChild(msg);
     chatBox.scrollTop = chatBox.scrollHeight;
-  }
+}
+
 
 
 function applyAIFields(aiOutput) {
@@ -259,6 +292,9 @@ function applyAIFields(aiOutput) {
 }
 
 async function extractHorizontalText(pdf) {
+  if(extractedText){
+    return;
+  }
     let fullText = "";
 
     for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
@@ -280,6 +316,7 @@ async function extractHorizontalText(pdf) {
 
     // Send as first message
     if (fullText.trim()) {
+      console.log("x")
         addMessage(fullText.trim(), "bot");
     }
 }
@@ -321,6 +358,40 @@ async function extractHorizontalText(pdf) {
     const text = window.getSelection().toString().trim();
     if (text) console.log("Selected text:", text);
   });
+
+
+
+// Function to call your LLM / backend
+async function getLLMResponse(text) {
+  try {
+    const res = await fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        user_input: `${text}`
+      }),
+    });
+
+    if (!res.ok) {
+      const err = await res.text();
+      return { error: err };
+    }
+
+    const data = await res.json();
+    console.log(data)
+    return data.response;
+  } catch (err) {
+    return { error: err.message };
+  }
+}
+
+
+
+
+
+
+
+
 
    init();
 
