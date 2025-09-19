@@ -1,150 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>PDF Chat & Form Filler</title>
-  <link rel="stylesheet" href="static/index.css">
-  <!-- PDF.js -->
-   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
-  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <title>PDF Chat & Form Filler</title>
+    <link rel="stylesheet" href="static/index.css" />
+    <!-- PDF.js -->
 
-  <script>
-    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js";
-  </script>
-</head>
-<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
 
-<div id="pdf-list">
-  <h2>Select a PDF:</h2>
-  <div id="pdf-links"></div>
-</div>
-
-<div id="chat-pdf-container">
-  <div id="pdf-panel">
-    <button id="toggle-render-btn" style="margin:10px;">Toggle Canvas Render/Text Layer</button>
-    <h3 id="pdf-title"></h3>
-    <div id="pdf-container"></div>
-  </div>
-
-  <div id="chat-container">
-    <div id="chat-box"></div>
-    <div id="input-area">
-      <input id="user-input" type="text" placeholder="Type a message..." />
-      <button id="send-btn">Send</button>
+    <script>
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js";
+    </script>
+  </head>
+  <body>
+    <div id="pdf-list">
+      <h2>Select a PDF:</h2>
+      <div id="pdf-links"></div>
     </div>
-    <button id="back-btn">← Back to PDFs</button>
-  </div>
-</div>
 
-<script>
-  const pdfLinksDiv = document.getElementById("pdf-links");
-  const pdfListDiv = document.getElementById("pdf-list");
-  const chatPdfContainer = document.getElementById("chat-pdf-container");
-  const pdfTitle = document.getElementById("pdf-title");
-  const pdfContainer = document.getElementById("pdf-container");
-  const chatBox = document.getElementById("chat-box");
-  const userInput = document.getElementById("user-input");
-  const sendBtn = document.getElementById("send-btn");
-  const backBtn = document.getElementById("back-btn");
+    <div id="chat-pdf-container">
+      <div id="pdf-panel">
+        <button id="toggle-render-btn" style="margin: 10px">
+          Toggle Canvas Render/Text Layer
+        </button>
+        <h3 id="pdf-title"></h3>
+        <div id="pdf-container"></div>
+      </div>
 
-  let currentPdf = "";
-  let currentPdfText = "";
-  let renderCanvas = true;
-  let pdfFormChanges = {}; // stores { fieldId: value }
+      <div id="chat-container">
+        <div id="chat-box"></div>
+        <div id="input-area">
+          <input id="user-input" type="text" placeholder="Type a message..." />
+          <button id="send-btn">Send</button>
+        </div>
+        <button id="back-btn">← Back to PDFs</button>
+      </div>
+    </div>
 
-  const toggleRenderBtn = document.getElementById("toggle-render-btn");
-  toggleRenderBtn.addEventListener("click", () => {
-    renderCanvas = !renderCanvas;
-    pdfFormChanges["_renderCanvas"] = renderCanvas; // store toggle
-    if (currentPdf) openChat(currentPdf);
-  });
+    <script>
+      const pdfLinksDiv = document.getElementById("pdf-links");
+      const pdfListDiv = document.getElementById("pdf-list");
+      const chatPdfContainer = document.getElementById("chat-pdf-container");
+      const pdfTitle = document.getElementById("pdf-title");
+      const pdfContainer = document.getElementById("pdf-container");
+      const chatBox = document.getElementById("chat-box");
+      const userInput = document.getElementById("user-input");
+      const sendBtn = document.getElementById("send-btn");
+      const backBtn = document.getElementById("back-btn");
 
+      let currentPdf = "";
+      let currentPdfText = "";
+      let renderCanvas = true;
+      let pdfFormChanges = {}; // stores { fieldId: value }
+      let chatHistory = [];
 
-  let extractedText;
-  function init(){
-  loadPDFs();
-
-  }
-
-  // Load PDFs dynamically from server
-  async function loadPDFs() {
-    try {
-      const res = await fetch("/pdfs"); // Your endpoint that returns JSON list
-      const pdfs = await res.json();     // Example: [{ file_name: "file1.pdf", title: "PDF 1" }, ...]
-      pdfLinksDiv.innerHTML = "";
-      pdfs.forEach(pdf => {
-        const link = document.createElement("a");
-        link.textContent = pdf.title || pdf.file_name;
-        link.href = "#";
-        link.addEventListener("click", () => openChat(pdf.file_name));
-        pdfLinksDiv.appendChild(link);
+      const toggleRenderBtn = document.getElementById("toggle-render-btn");
+      toggleRenderBtn.addEventListener("click", () => {
+        renderCanvas = !renderCanvas;
+        pdfFormChanges["_renderCanvas"] = renderCanvas; // store toggle
+        if (currentPdf) openChat(currentPdf);
       });
-    } catch (err) {
-      pdfLinksDiv.textContent = "Failed to load PDFs.";
-      console.error(err);
-    }
-  }
 
-  async function openChat(pdfName) {
-    currentPdf = pdfName;
-    pdfTitle.textContent = pdfName;
-    chatBox.innerHTML = "";
-    chatPdfContainer.style.display = "flex";
-    pdfListDiv.style.display = "none";
-    pdfContainer.innerHTML = "";
-
-    const pdfUrl = `/static/pdfs/${pdfName}`;
-    const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
-
-    for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-      const page = await pdf.getPage(pageNum);
-      const scale = 1.5;
-      const viewport = page.getViewport({ scale });
-
-      const pageDiv = document.createElement("div");
-      pageDiv.style.position = "relative";
-      pageDiv.style.marginBottom = "20px";
-      pageDiv.style.width = viewport.width + "px";
-      pageDiv.style.height = viewport.height + "px";
-
-      const canvas = document.createElement("canvas");
-      canvas.width = viewport.width;
-      canvas.height = viewport.height;
-      pageDiv.appendChild(canvas);
-      const ctx = canvas.getContext("2d");
-      if (renderCanvas) {
-        await page.render({ canvasContext: ctx, viewport }).promise;
-        canvas.style.display = "block";
-      } else {
-        canvas.style.display = "none";
+      let extractedText;
+      function init() {
+        loadPDFs();
       }
 
-      // Text layer
-      const textContent = await page.getTextContent();
-      const textLayerDiv = document.createElement("div");
-      textLayerDiv.className = "textLayer";
-      textLayerDiv.style.height = canvas.height + "px";
-      textLayerDiv.style.width = canvas.width + "px";
-      textLayerDiv.style.color = renderCanvas ? "transparent" : "black";
-      pageDiv.appendChild(textLayerDiv);
+      // Load PDFs dynamically from server
+      async function loadPDFs() {
+        try {
+          const res = await fetch("/pdfs"); // Your endpoint that returns JSON list
+          const pdfs = await res.json(); // Example: [{ file_name: "file1.pdf", title: "PDF 1" }, ...]
+          pdfLinksDiv.innerHTML = "";
+          pdfs.forEach((pdf) => {
+            const link = document.createElement("a");
+            link.textContent = pdf.title || pdf.file_name;
+            link.href = "#";
+            link.addEventListener("click", () => openChat(pdf.file_name));
+            pdfLinksDiv.appendChild(link);
+          });
+        } catch (err) {
+          pdfLinksDiv.textContent = "Failed to load PDFs.";
+          console.error(err);
+        }
+      }
 
-      pdfjsLib.renderTextLayer({
-        textContent,
-        container: textLayerDiv,
-        viewport,
-        textDivs: []
-      });
+      async function openChat(pdfName) {
+        currentPdf = pdfName;
+        pdfTitle.textContent = pdfName;
+        chatBox.innerHTML = "";
+        chatPdfContainer.style.display = "flex";
+        pdfListDiv.style.display = "none";
+        pdfContainer.innerHTML = "";
 
-      await applyAnnotations(page,scale,canvas,pageDiv);
+        const pdfUrl = `/static/pdfs/${pdfName}`;
+        const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
 
-    // Optional: fetch PDF text from backend for chat AI
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+          const page = await pdf.getPage(pageNum);
+          const scale = 1.5;
+          const viewport = page.getViewport({ scale });
 
+          const pageDiv = document.createElement("div");
+          pageDiv.style.position = "relative";
+          pageDiv.style.marginBottom = "20px";
+          pageDiv.style.width = viewport.width + "px";
+          pageDiv.style.height = viewport.height + "px";
 
+          const canvas = document.createElement("canvas");
+          canvas.width = viewport.width;
+          canvas.height = viewport.height;
+          pageDiv.appendChild(canvas);
+          const ctx = canvas.getContext("2d");
+          if (renderCanvas) {
+            await page.render({ canvasContext: ctx, viewport }).promise;
+            canvas.style.display = "block";
+          } else {
+            canvas.style.display = "none";
+          }
 
-        currentPdfText = await extractHorizontalText(pdf);
+          // Text layer
+          const textContent = await page.getTextContent();
+          const textLayerDiv = document.createElement("div");
+          textLayerDiv.className = "textLayer";
+          textLayerDiv.style.height = canvas.height + "px";
+          textLayerDiv.style.width = canvas.width + "px";
+          textLayerDiv.style.color = renderCanvas ? "transparent" : "black";
+          pageDiv.appendChild(textLayerDiv);
 
-  /*
+          pdfjsLib.renderTextLayer({
+            textContent,
+            container: textLayerDiv,
+            viewport,
+            textDivs: [],
+          });
+
+          await applyAnnotations(page, scale, canvas, pageDiv);
+
+          // Optional: fetch PDF text from backend for chat AI
+
+          currentPdfText = await extractHorizontalText(pdf);
+
+          /*
             // Send as first message
     if (fullText.trim()) {
     //  console.log("x")
@@ -162,258 +161,242 @@
 
      */
 
-    
-
-    function explain(){
-
+          function explain() {
             (async () => {
-           let response = await getLLMResponse(text);
-            sendMessage(response,"bot")
-        })();
+              let response = await getLLMResponse(text, "", false);
+              sendMessage(response, "bot");
+            })();
+          }
+        }
+      }
 
+      async function filterOutBrokenLinks(text) {
+        const response = await fetch("/check-links", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text }),
+        });
 
-    }
-     
-    // console.log(currentPdfText);
-
-      //addMessage(currentPdfText,"bot")
-
-    
-  }}
-
-async function filterOutBrokenLinks(text) {
-    const response = await fetch('/check-links', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({ text })
-    });
-
-    if (!response.ok) {
-        throw new Error("Failed to check links");
-    }
-
-    const data = await response.json();
-    return data.processed_text;
-}
-
-
-
-  async function applyAnnotations(page,scale,canvas,pageDiv){
-// Form fields
-const annotations = await page.getAnnotations();
-//console.log(annotations);
-
-
-
-
-const bannedObjexts = ["PDFOBJ94","SYSTEM_P1_DUMMY"]
-annotations.forEach(ann => {
-    if (bannedObjexts.includes(ann.fieldName)) return; // skip banned fields
-
-
-    if (ann.subtype === 'Widget') {
-        const [x1, y1, x2, y2] = ann.rect;
-        const width = (x2 - x1) * scale;
-        const height = (y2 - y1) * scale;
-
-        // Use textarea if multiLine, checkbox if checkbox, otherwise input
-        let input;
-        if (ann.fieldType === 'Btn' && ann.checkBox) {
-            input = document.createElement("input");
-            input.type = "checkbox";
-        } else if (ann.multiLine) {
-            input = document.createElement("textarea");
-        } else {
-            input = document.createElement("input");
-            input.type = "text";
+        if (!response.ok) {
+          throw new Error("Failed to check links");
         }
 
-        input.className = "pdf-form-input";
-        input.value =  ann.fieldValue ||"";
-        input.id = ann.fieldName;
-        //input.dataset.other = JSON.stringify(ann) ;       // corresponds to data-other
+        const data = await response.json();
+        return data.processed_text;
+      }
 
-        // Positioning
-        input.style.position = "absolute";
-        input.style.left = x1 * scale + "px";
-        input.style.top = (canvas.height - y2 * scale) + "px"; // flip Y
-        input.style.width = width + "px";
-        input.style.height = height + "px";
-        input.style.boxSizing = "border-box";
-        input.style.padding = "2px";
+      async function applyAnnotations(page, scale, canvas, pageDiv) {
+        // Form fields
+        const annotations = await page.getAnnotations();
+        //console.log(annotations);
 
-        // Readonly
-        if (ann.readOnly) input.readOnly = true;
+        const bannedObjexts = ["PDFOBJ94", "SYSTEM_P1_DUMMY"];
+        annotations.forEach((ann) => {
+          if (bannedObjexts.includes(ann.fieldName)) return; // skip banned fields
 
-        // Max length
-        if (ann.maxLen) input.maxLength = ann.maxLen;
+          if (ann.subtype === "Widget") {
+            const [x1, y1, x2, y2] = ann.rect;
+            const width = (x2 - x1) * scale;
+            const height = (y2 - y1) * scale;
 
-        // Text alignment
-        if (ann.textAlignment !== null) {
-            const alignMap = ["left", "center", "right"];
-            input.style.textAlign = alignMap[ann.textAlignment] || "left";
-        }
+            // Use textarea if multiLine, checkbox if checkbox, otherwise input
+            let input;
+            if (ann.fieldType === "Btn" && ann.checkBox) {
+              input = document.createElement("input");
+              input.type = "checkbox";
+            } else if (ann.multiLine) {
+              input = document.createElement("textarea");
+            } else {
+              input = document.createElement("input");
+              input.type = "text";
+            }
 
-        // Font and color from defaultAppearance
-        if (ann.defaultAppearance) {
-            const da = ann.defaultAppearance.match(/\/(\w+)\s+([\d.]+)\s+Tf\s+([\d.]+)\s+g/);
-            if (da) {
+            input.className = "pdf-form-input";
+            input.value = ann.fieldValue || "";
+            input.id = ann.fieldName;
+            //input.dataset.other = JSON.stringify(ann) ;       // corresponds to data-other
+
+            // Positioning
+            input.style.position = "absolute";
+            input.style.left = x1 * scale + "px";
+            input.style.top = canvas.height - y2 * scale + "px"; // flip Y
+            input.style.width = width + "px";
+            input.style.height = height + "px";
+            input.style.boxSizing = "border-box";
+            input.style.padding = "2px";
+
+            // Readonly
+            if (ann.readOnly) input.readOnly = true;
+
+            // Max length
+            if (ann.maxLen) input.maxLength = ann.maxLen;
+
+            // Text alignment
+            if (ann.textAlignment !== null) {
+              const alignMap = ["left", "center", "right"];
+              input.style.textAlign = alignMap[ann.textAlignment] || "left";
+            }
+
+            // Font and color from defaultAppearance
+            if (ann.defaultAppearance) {
+              const da = ann.defaultAppearance.match(
+                /\/(\w+)\s+([\d.]+)\s+Tf\s+([\d.]+)\s+g/
+              );
+              if (da) {
                 const font = da[1];
                 const fontSize = da[2];
                 const color = parseFloat(da[3]) * 255;
                 input.style.fontFamily = font; // You may map to web fonts if needed
                 input.style.fontSize = fontSize + "px";
                 input.style.color = `rgb(${color},${color},${color})`;
+              }
             }
+
+            pageDiv.appendChild(input);
+          }
+        });
+
+        pdfContainer.appendChild(pageDiv);
+      }
+
+      function backToPDFs() {
+        chatPdfContainer.style.display = "none";
+        pdfListDiv.style.display = "block";
+        chatBox.innerHTML = "";
+        pdfContainer.innerHTML = "";
+        currentPdf = "";
+        currentPdfText = "";
+      }
+
+      //  function getContext()
+
+      function sendMessage(content, sender) {
+        // Convert object to JSON string
+        if (typeof content === "object") {
+          content = JSON.stringify(content, null, 2); // pretty-print with indentation
+        }
+        const msg = document.createElement("div");
+        msg.classList.add("msg", sender);
+        // Render markdown if marked is loaded
+        if (window.marked) {
+          msg.innerHTML = window.marked.parse(content);
+        } else {
+          msg.textContent = content;
+        }
+        chatBox.appendChild(msg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        if (sender == "user") {
+          if (content.includes("<fileID>")) {
+            id = extractFileID(content);
+            const obj = document.getElementById(id);
+            (async () => {
+              system_prompt =
+                "You task is to return text that will then be filled into one cell into a form all the text you return will be in the form so dont add any extra information that the user might not want in the form cell";
+              // Feed chat history to AI
+              const response = await getLLMResponse(content, system_prompt);
+              sendMessage(
+                `I have changed object of ${id} to text ${response}`,
+                "bot"
+              );
+              obj.value = response;
+            })();
+          } else {
+            system_prompt =
+              "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown";
+            (async () => {
+              // Feed chat history to AI
+
+              const response = await getLLMResponse(content, system_prompt);
+              sendMessage(`${response}`, "bot");
+            })();
+          }
         }
 
-        pageDiv.appendChild(input);
-    }
-});
-
-pdfContainer.appendChild(pageDiv);
-
-  }
-
-  function backToPDFs() {
-    chatPdfContainer.style.display = "none";
-    pdfListDiv.style.display = "block";
-    chatBox.innerHTML = "";
-    pdfContainer.innerHTML = "";
-    currentPdf = "";
-    currentPdfText = "";
-  }
-
-function sendMessage(content, sender) {
-    // Convert object to JSON string
-    if (typeof content === "object") {
-        content = JSON.stringify(content, null, 2); // pretty-print with indentation
-    }
-    const msg = document.createElement("div");
-    msg.classList.add("msg", sender);
-    // Render markdown if marked is loaded
-    if (window.marked) {
-      msg.innerHTML = window.marked.parse(content);
-    } else {
-      msg.textContent = content;
-    }
-    chatBox.appendChild(msg);
-    chatBox.scrollTop = chatBox.scrollHeight;
-
-    if(sender == "user"){
-
-      if(content.includes("<fileID>")){
-        id = extractFileID(content) 
-       
-        const obj = document.getElementById(id);
-        console.log(id,obj);
-        (async () => {
-           system_prompt = "You task is to return text that will then be filled into one cell into a form all the text you return will be in the form so dont add any extra information that the user might not want in the form cell"
-          
-          const response = await getLLMResponse(content,system_prompt);
-
-        sendMessage( `I have changed object of ${id} to text ${response}`, "bot");
-        obj.value = response;
-        })();
-      }
-      else{
-        system_prompt = "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown";
-           
-        (async () => {
-
-          const text = `${currentPdfText} ${content}`;
-        const response = await getLLMResponse(text,system_prompt);
-        sendMessage(`${response}`, "bot");
-        obj.value = response;
-        })();
-
+        // Add to chat history
+        chatHistory.push({ sender, content });
       }
 
-        // response = await getLLMResponse(text)
-    }
-}
-
-function extractFileID(content) {
-    // Check if content contains <fileID> tag
-    if (content.includes("<fileID>")) {
-        // Use regex to capture content between <fileID> and </fileID>
-        const match = content.match(/<fileID>(.*?)<\/fileID>/);
-        if (match && match[1]) {
+      function extractFileID(content) {
+        // Check if content contains <fileID> tag
+        if (content.includes("<fileID>")) {
+          // Use regex to capture content between <fileID> and </fileID>
+          const match = content.match(/<fileID>(.*?)<\/fileID>/);
+          if (match && match[1]) {
             return match[1]; // return the extracted ID
+          }
         }
-    }
-    return null; // return null if not found
-}
+        return null; // return null if not found
+      }
 
+      function sendDebugMessage(content) {
+        // Convert objects to pretty JSON
+        if (typeof content === "object") {
+          content = JSON.stringify(content, null, 2);
+        }
 
-function sendDebugMessage(content) {
-    // Convert objects to pretty JSON
-    if (typeof content === "object") {
-        content = JSON.stringify(content, null, 2);
-    }
+        // Create debug message container
+        const msg = document.createElement("div");
+        msg.classList.add("msg", "debug");
 
-    // Create debug message container
-    const msg = document.createElement("div");
-    msg.classList.add("msg", "debug");
+        // Header (clickable)
+        const header = document.createElement("div");
+        header.textContent = "info";
+        header.style.fontWeight = "bold";
+        header.style.cursor = "pointer";
 
-    // Header (clickable)
-    const header = document.createElement("div");
-    header.textContent = "info";
-    header.style.fontWeight = "bold";
-    header.style.cursor = "pointer";
+        // Hidden content
+        const detail = document.createElement("div");
+        detail.classList.add("debug-content");
+        detail.style.display = "none"; // hide by default
+        detail.style.whiteSpace = "pre-wrap"; // preserve formatting
 
-    // Hidden content
-    const detail = document.createElement("div");
-    detail.classList.add("debug-content");
-    detail.style.display = "none"; // hide by default
-    detail.style.whiteSpace = "pre-wrap"; // preserve formatting
+        if (window.marked) {
+          detail.innerHTML = window.marked.parse(content);
+        } else {
+          detail.textContent = content;
+        }
 
-    if (window.marked) {
-        detail.innerHTML = window.marked.parse(content);
-    } else {
-        detail.textContent = content;
-    }
+        // Toggle on click
+        header.addEventListener("click", () => {
+          detail.style.display =
+            detail.style.display === "block" ? "none" : "block";
+        });
 
-    // Toggle on click
-    header.addEventListener("click", () => {
-        detail.style.display = detail.style.display === "block" ? "none" : "block";
-    });
+        // Append to container
+        msg.appendChild(header);
+        msg.appendChild(detail);
 
-    // Append to container
-    msg.appendChild(header);
-    msg.appendChild(detail);
+        // Add to chat
+        chatBox.appendChild(msg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
 
-    // Add to chat
-    chatBox.appendChild(msg);
-    chatBox.scrollTop = chatBox.scrollHeight;
-}
+      function applyAIFields(aiOutput) {
+        try {
+          const data = JSON.parse(aiOutput); // assume JSON string
+          data.fields.forEach((field) => {
+            const el = document.getElementById(field.id);
+            //  console.log(field.id)
+            // console.log(el)
+            if (el) el.value = field.value;
+          });
+        } catch (err) {
+          console.error("Failed to apply AI fields:", err);
+        }
+      }
 
+      async function extractHorizontalText(pdf) {
+        if (extractedText) {
+          return;
+        }
+        let fullText = "";
 
-function applyAIFields(aiOutput) {
-  try {
-    const data = JSON.parse(aiOutput); // assume JSON string
-    data.fields.forEach(field => {
-      const el = document.getElementById(field.id);
-    //  console.log(field.id)
-     // console.log(el)
-      if (el) el.value = field.value;
-    });
-  } catch (err) {
-    console.error("Failed to apply AI fields:", err);
-  }
-}
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+          const page = await pdf.getPage(pageNum);
+          const textContent = await page.getTextContent();
 
-async function extractHorizontalText(pdf) {
-  if(extractedText){
-    return;
-  }
-    let fullText = "";
-
-    for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-        const page = await pdf.getPage(pageNum);
-        const textContent = await page.getTextContent();
-
-        textContent.items.forEach(item => {
+          textContent.items.forEach((item) => {
             // Check rotation and orientation
             // PDF.js provides transform matrix: [a, b, c, d, e, f]
             // For normal horizontal text, a ~ scaleX, d ~ scaleY, b ≈ 0, c ≈ 0
@@ -421,239 +404,225 @@ async function extractHorizontalText(pdf) {
 
             // Roughly horizontal: b and c close to 0
             if (Math.abs(b) < 0.01 && Math.abs(c) < 0.01) {
-                fullText += item.str + " ";
+              fullText += item.str + " ";
             }
-        });
-    }
+          });
+        }
 
-
-
-
-    return fullText.trim();
-}
-
-
-
- // sendBtn.addEventListener("click", () => {
-   // const text = userInput.value.trim();
-   // if (!text) return;
-   // addMessage(text, "user");
-   // userInput.value = "";
- // });
-
-
-  sendBtn.addEventListener("click", async () => {
-  const text = userInput.value.trim();
-  if (!text) return;
-  sendMessage(text, "user");
-  const aiResponse = `{"fields":[{"id":"${userInput.value}","value":"Hello AI!"}]}`;
-
-  userInput.value = "";
-
-
-
-  // Simulate AI response
-  // const aiResponse = '{"fields":[{"id":"TEXTFIELD.p0.x122.y63","value":"Hello AI!"}]}'; 
-  console.log(aiResponse);
-  applyAIFields(aiResponse);
-});
-
-
-
-
-  userInput.addEventListener("keypress", (e) => {
-    if (e.key === "Enter") sendBtn.click();
-  });
-
-  backBtn.addEventListener("click", backToPDFs);
-
-  document.addEventListener("selectionchange", () => {
-    const text = window.getSelection().toString().trim();
-    if (text) console.log("Selected text:", text);
-  });
-
-  // Track currently selected PDF input
-let currentlySelectedInput = null;
-
-// Add click/focus listener to PDF form inputs dynamically
-pdfContainer.addEventListener("click", (e) => {
-  const target = e.target;
-
-  if (target.classList.contains("pdf-form-input")) {
-    // Remove border from previously selected input
-    if (currentlySelectedInput) {
-      currentlySelectedInput.style.border = "1px solid #333";
-    }
-
-    // Highlight current input
-    target.style.border = "3px solid blue";
-    currentlySelectedInput = target;
-
-    // Put input ID into chat input field
-    userInput.value = `<fileID>${target.id}</fileID>` 
-  }
-});
-
-
-
-
-// Selection change listener for text
-document.addEventListener("selectionchange", () => {
-  const text = window.getSelection().toString().trim();
-  if (text) {
-    userInput.value = text;
-    console.log("Selected text:", text);
-  }
-});
-
-
-
-
-// Function to call your LLM / backend
-async function getLLMResponse(text,system_prompt="") {
-  console.log(text);
-  try {
-    const res = await fetch("/llm", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        user_input: `${text}`,
-        system_prompt: system_prompt
-      }),
-    });
-
-    if (!res.ok) {
-      const err = await res.text();
-      return { error: err };
-    }
-
-    const data = await res.json();
-    //console.log(data)
-    return data.response;
-  } catch (err) {
-    return { error: err.message };
-  }
-}
-
-// Add Marked.js for markdown rendering
-const markedScript = document.createElement('script');
-markedScript.src = "https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js";
-document.head.appendChild(markedScript);
-
-// Add Download PDF button
-const downloadBtn = document.createElement("button");
-downloadBtn.id = "download-btn";
-downloadBtn.textContent = "Download PDF";
-downloadBtn.style.margin = "10px";
-downloadBtn.style.padding = "5px 10px";
-downloadBtn.style.background = "#28a745";
-downloadBtn.style.color = "white";
-downloadBtn.style.border = "none";
-downloadBtn.style.borderRadius = "4px";
-downloadBtn.style.cursor = "pointer";
-downloadBtn.style.alignSelf = "flex-start";
-downloadBtn.addEventListener("mouseover", () => {
-  downloadBtn.style.background = "#218838";
-});
-downloadBtn.addEventListener("mouseout", () => {
-  downloadBtn.style.background = "#28a745";
-});
-document.getElementById("pdf-panel").insertBefore(downloadBtn, pdfTitle);
-
-// Download logic using pdf-lib
-// Load pdf-lib from CDN
-const pdfLibScript = document.createElement('script');
-pdfLibScript.src = "https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js";
-document.head.appendChild(pdfLibScript);
-
-async function applyChangesAndDownload(pdfBytes) {
-    const { PDFDocument } = window.PDFLib;
-  //const { PDFDocument } = window.pdfLib;
- const pdfDoc = await PDFDocument.load(pdfBytes, { ignoreEncryption: true });
-
-  const form = pdfDoc.getForm();
-  for (const id in pdfFormChanges) {
-    if (id === "_renderCanvas") continue; // skip UI toggle
-    let field;
-    try {
-      field = form.getField(id);
-    } catch (e) {
-      continue;
-    }
-    if (field) {
-      const value = pdfFormChanges[id];
-      if (field.constructor.name === "PDFCheckBox") {
-        value ? field.check() : field.uncheck();
-      } else {
-        field.setText(value);
+        return fullText.trim();
       }
-    }
-  }
-  const newPdfBytes = await pdfDoc.save();
-  const blob = new Blob([newPdfBytes], { type: "application/pdf" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = currentPdf;
-  a.click();
-  URL.revokeObjectURL(url);
-}
 
-downloadBtn.addEventListener("click", async () => {
-  if (!currentPdf) return;
-  //const pdfBytes = await fetch(`/static/pdfs/${currentPdf}`).then(res => res.arrayBuffer());
-  //console.log(pdfBytes);
-  //await applyChangesAndDownload(pdfBytes);
+      sendBtn.addEventListener("click", async () => {
+        const text = userInput.value.trim();
+        if (!text) return;
+        sendMessage(text, "user");
+        const aiResponse = `{"fields":[{"id":"${userInput.value}","value":"Hello AI!"}]}`;
 
+        userInput.value = "";
 
-  const pdf_url = `/static/pdfs/${currentPdf}`;
-  await downloadChangedPDF(pdf_url,pdfFormChanges);
+        // Simulate AI response
+        // const aiResponse = '{"fields":[{"id":"TEXTFIELD.p0.x122.y63","value":"Hello AI!"}]}';
+        console.log(aiResponse);
+        applyAIFields(aiResponse);
+      });
 
+      userInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") sendBtn.click();
+      });
 
-});
+      backBtn.addEventListener("click", backToPDFs);
 
-async function downloadChangedPDF(pdf_url, formChanges) {
-  try {
-    const response = await fetch('/fill-pdf/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        pdf_url: pdf_url,
-        form_data: formChanges
-      })
-    });
+      document.addEventListener("selectionchange", () => {
+        const text = window.getSelection().toString().trim();
+        if (text) console.log("Selected text:", text);
+      });
 
-    if (!response.ok) throw new Error(`Error: ${response.status}`);
+      // Track currently selected PDF input
+      let currentlySelectedInput = null;
 
-    const blob = await response.blob();
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'filled_pdf.pdf';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
-  } catch (error) {
-    console.error('Failed to download PDF:', error);
-  }
-}
+      // Add click/focus listener to PDF form inputs dynamically
+      pdfContainer.addEventListener("click", (e) => {
+        const target = e.target;
 
-pdfContainer.addEventListener("input", (e) => {
-  const target = e.target;
-  if (target.classList.contains("pdf-form-input")) {
-    if (target.type === "checkbox") {
-      pdfFormChanges[target.id] = target.checked; // store boolean
-    } else {
-      pdfFormChanges[target.id] = target.value;   // store text
-    }
-    console.log("Updated form changes:", pdfFormChanges);
-  }
-});
+        if (target.classList.contains("pdf-form-input")) {
+          // Remove border from previously selected input
+          if (currentlySelectedInput) {
+            currentlySelectedInput.style.border = "1px solid #333";
+          }
 
-   init();
+          // Highlight current input
+          target.style.border = "3px solid blue";
+          currentlySelectedInput = target;
 
+          // Put input ID into chat input field
+          userInput.value = `<fileID>${target.id}</fileID>`;
+        }
+      });
 
-</script>
-</body>
+      // Selection change listener for text
+      document.addEventListener("selectionchange", () => {
+        const text = window.getSelection().toString().trim();
+        if (text) {
+          userInput.value = text;
+          console.log("Selected text:", text);
+        }
+      });
+
+      // Function to call your LLM / backend
+      async function getLLMResponse(
+        text,
+        system_prompt = "",
+        addChatContext = true
+      ) {
+        console.log(text);
+
+        if (addChatContext) {
+          text = `# PDF\n${currentPdfText} # Chat history: ${JSON.stringify(
+            chatHistory
+          )} # User Message: ${text}`;
+        }
+
+        try {
+          const res = await fetch("/llm", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              user_input: `${text}`,
+              system_prompt: system_prompt,
+            }),
+          });
+
+          if (!res.ok) {
+            const err = await res.text();
+            return { error: err };
+          }
+
+          const data = await res.json();
+          //console.log(data)
+          return data.response;
+        } catch (err) {
+          return { error: err.message };
+        }
+      }
+
+      // Add Marked.js for markdown rendering
+      const markedScript = document.createElement("script");
+      markedScript.src =
+        "https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js";
+      document.head.appendChild(markedScript);
+
+      // Add Download PDF button
+      const downloadBtn = document.createElement("button");
+      downloadBtn.id = "download-btn";
+      downloadBtn.textContent = "Download PDF";
+      downloadBtn.style.margin = "10px";
+      downloadBtn.style.padding = "5px 10px";
+      downloadBtn.style.background = "#28a745";
+      downloadBtn.style.color = "white";
+      downloadBtn.style.border = "none";
+      downloadBtn.style.borderRadius = "4px";
+      downloadBtn.style.cursor = "pointer";
+      downloadBtn.style.alignSelf = "flex-start";
+      downloadBtn.addEventListener("mouseover", () => {
+        downloadBtn.style.background = "#218838";
+      });
+      downloadBtn.addEventListener("mouseout", () => {
+        downloadBtn.style.background = "#28a745";
+      });
+      document.getElementById("pdf-panel").insertBefore(downloadBtn, pdfTitle);
+
+      // Download logic using pdf-lib
+      // Load pdf-lib from CDN
+      const pdfLibScript = document.createElement("script");
+      pdfLibScript.src =
+        "https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js";
+      document.head.appendChild(pdfLibScript);
+
+      async function applyChangesAndDownload(pdfBytes) {
+        const { PDFDocument } = window.PDFLib;
+        //const { PDFDocument } = window.pdfLib;
+        const pdfDoc = await PDFDocument.load(pdfBytes, {
+          ignoreEncryption: true,
+        });
+
+        const form = pdfDoc.getForm();
+        for (const id in pdfFormChanges) {
+          if (id === "_renderCanvas") continue; // skip UI toggle
+          let field;
+          try {
+            field = form.getField(id);
+          } catch (e) {
+            continue;
+          }
+          if (field) {
+            const value = pdfFormChanges[id];
+            if (field.constructor.name === "PDFCheckBox") {
+              value ? field.check() : field.uncheck();
+            } else {
+              field.setText(value);
+            }
+          }
+        }
+        const newPdfBytes = await pdfDoc.save();
+        const blob = new Blob([newPdfBytes], { type: "application/pdf" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = currentPdf;
+        a.click();
+        URL.revokeObjectURL(url);
+      }
+
+      downloadBtn.addEventListener("click", async () => {
+        if (!currentPdf) return;
+        //const pdfBytes = await fetch(`/static/pdfs/${currentPdf}`).then(res => res.arrayBuffer());
+        //console.log(pdfBytes);
+        //await applyChangesAndDownload(pdfBytes);
+
+        const pdf_url = `/static/pdfs/${currentPdf}`;
+        await downloadChangedPDF(pdf_url, pdfFormChanges);
+      });
+
+      async function downloadChangedPDF(pdf_url, formChanges) {
+        try {
+          const response = await fetch("/fill-pdf/", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              pdf_url: pdf_url,
+              form_data: formChanges,
+            }),
+          });
+
+          if (!response.ok) throw new Error(`Error: ${response.status}`);
+
+          const blob = await response.blob();
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "filled_pdf.pdf";
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(url);
+        } catch (error) {
+          console.error("Failed to download PDF:", error);
+        }
+      }
+
+      pdfContainer.addEventListener("input", (e) => {
+        const target = e.target;
+        if (target.classList.contains("pdf-form-input")) {
+          if (target.type === "checkbox") {
+            pdfFormChanges[target.id] = target.checked; // store boolean
+          } else {
+            pdfFormChanges[target.id] = target.value; // store text
+          }
+          console.log("Updated form changes:", pdfFormChanges);
+        }
+      });
+
+      init();
+    </script>
+  </body>
 </html>
