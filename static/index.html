@@ -14,9 +14,30 @@
     #pdf-container { flex: 1; position: relative; overflow-y: auto; padding: 10px; }
     #chat-container { flex: 1; display: flex; flex-direction: column; border: 1px solid #ccc; background: white; }
     #chat-box { flex: 1; overflow-y: auto; padding: 10px; background: #fff; }
-    .msg { margin: 8px 0; padding: 6px 10px; border-radius: 6px; max-width: 70%; }
+    .msg { margin: 8px 0; padding: 6px 10px; border-radius: 6px;  }
     .user { background: #d1e7dd; align-self: flex-end; }
-    .bot { background: #f8d7da; align-self: flex-start; }
+    .bot { background: #e2eeff; align-self: flex-start; }
+    .debug {
+    background: #00000010; /* Yellow-ish for debug */
+    align-self: center;
+    cursor: pointer; /* Indicate toggleable */
+    position: relative;
+}
+
+/* Hidden content inside debug message */
+.debug .debug-content {
+    display: none;
+    margin-top: 6px;
+    padding: 6px;
+
+    border-radius: 4px;
+    white-space: pre-wrap; /* Keep formatting */
+}
+
+/* Show content when parent has "active" class */
+.debug.active .debug-content {
+    display: block;
+}
     #input-area { display: flex; border-top: 1px solid #ccc; background: #fff; }
     #user-input { flex: 1; padding: 10px; border: none; outline: none; font-size: 16px; }
     #send-btn { padding: 10px 20px; border: none; background: #007bff; color: white; cursor: pointer; }
@@ -26,6 +47,45 @@
     .textLayer { position: absolute; top: 0; left: 0; color: transparent; line-height: 1; white-space: pre; pointer-events: none; }
     .textLayer span { position: absolute; white-space: pre; transform-origin: 0% 0%; pointer-events: all; cursor: text; }
     .pdf-form-input { position: absolute; border: 1px solid #333; box-sizing: border-box; font-size: 14px; padding: 2px; background: rgba(255,255,255,0.8); }
+ 
+ 
+ 
+ @media (max-width: 768px) {
+  #chat-pdf-container {
+    flex-direction: column; /* Stack PDF panel above chat */
+    height: auto;
+    padding: 10px;
+  }
+
+  #pdf-panel, #chat-container {
+    flex: none;
+    width: 100%; /* full width */
+    margin-bottom: 20px;
+  }
+
+  #pdf-container {
+    overflow-x: auto;
+  }
+
+  #input-area {
+    flex-direction: column;
+  }
+
+  #user-input, #send-btn {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0;
+  }
+
+  #send-btn {
+    padding: 10px;
+  }
+
+  #pdf-panel h3, #toggle-render-btn {
+    font-size: 16px; /* smaller text for mobile */
+  }
+}
+
   </style>
 
   <!-- PDF.js -->
@@ -145,7 +205,7 @@
       textLayerDiv.className = "textLayer";
       textLayerDiv.style.height = canvas.height + "px";
       textLayerDiv.style.width = canvas.width + "px";
-      textLayerDiv.style.color = renderCanvas ? "red" : "black";
+      textLayerDiv.style.color = renderCanvas ? "transparent" : "black";
       pageDiv.appendChild(textLayerDiv);
 
       pdfjsLib.renderTextLayer({
@@ -159,15 +219,22 @@
 
     // Optional: fetch PDF text from backend for chat AI
 
-     extractedText = extractHorizontalText(pdf);
-
-
-     const prompt = "extract out in json words that a user might not understand and where sources might be useful"
+    if (!extractedText){
+    extractedText = await extractHorizontalText(pdf);
+    console.log(extractedText)
+     const prompt = "Your task is to extract out words that a user might not understand and where sources might be useful"
      const text = `${prompt} # PDF Text: ${extractedText}`
-    const response = await getLLMResponse(text)
-    console.log(response)
 
-    addMessage(response,"bot")
+
+     const mock_llm_call = true;
+     let response = await getLLMResponse(text);
+    sendMessage(response,"bot")
+
+
+
+    sendMessage("Was ist deine Muttersprache? Deutsch oder eine andere Sprache?","bot")
+    }
+     
     // console.log(currentPdfText);
 
       //addMessage(currentPdfText,"bot")
@@ -175,11 +242,29 @@
     
   }}
 
+async function filterOutBrokenLinks(text) {
+    const response = await fetch('/check-links', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ text })
+    });
+
+    if (!response.ok) {
+        throw new Error("Failed to check links");
+    }
+
+    const data = await response.json();
+    return data.processed_text;
+}
+
+
 
   async function applyAnnotations(page,scale,canvas,pageDiv){
 // Form fields
 const annotations = await page.getAnnotations();
-console.log(annotations);
+//console.log(annotations);
+
+
 
 
 const bannedObjexts = ["PDFOBJ94","SYSTEM_P1_DUMMY"]
@@ -205,7 +290,7 @@ annotations.forEach(ann => {
         }
 
         input.className = "pdf-form-input";
-        input.value =  ann.fieldValue || ann.fieldName;//"";
+        input.value =  ann.fieldValue ||"";
         input.id = ann.fieldName;
         //input.dataset.other = JSON.stringify(ann) ;       // corresponds to data-other
 
@@ -260,21 +345,106 @@ pdfContainer.appendChild(pageDiv);
     currentPdfText = "";
   }
 
-function addMessage(content, sender) {
-//    if (!content) return; // skip if content is empty or null
-
+function sendMessage(content, sender) {
     // Convert object to JSON string
     if (typeof content === "object") {
         content = JSON.stringify(content, null, 2); // pretty-print with indentation
     }
-
     const msg = document.createElement("div");
     msg.classList.add("msg", sender);
-    msg.textContent = content;
+    // Render markdown if marked is loaded
+    if (window.marked) {
+      msg.innerHTML = window.marked.parse(content);
+    } else {
+      msg.textContent = content;
+    }
+    chatBox.appendChild(msg);
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+    if(sender == "user"){
+
+      if(content.includes("<fileID>")){
+        id = extractFileID(content) 
+       
+        const obj = document.getElementById(id);
+        console.log(id,obj);
+        (async () => {
+           system_prompt = "You task is to return text that will then be filled into one cell into a form all the text you return will be in the form so dont add any extra information that the user might not want in the form cell"
+          
+          const response = await getLLMResponse(content,system_prompt);
+
+        sendMessage( `I have changed object of ${id} to text ${response}`, "bot");
+        obj.value = response;
+        })();
+      }else{
+        system_prompt = "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown"
+           
+        (async () => {
+        const response = await getLLMResponse(content,system_prompt);
+        sendMessage(`${response}`, "bot");
+        obj.value = response;
+        })();
+
+      }
+
+        // response = await getLLMResponse(text)
+    }
+}
+
+function extractFileID(content) {
+    // Check if content contains <fileID> tag
+    if (content.includes("<fileID>")) {
+        // Use regex to capture content between <fileID> and </fileID>
+        const match = content.match(/<fileID>(.*?)<\/fileID>/);
+        if (match && match[1]) {
+            return match[1]; // return the extracted ID
+        }
+    }
+    return null; // return null if not found
+}
+
+
+function sendDebugMessage(content) {
+    // Convert objects to pretty JSON
+    if (typeof content === "object") {
+        content = JSON.stringify(content, null, 2);
+    }
+
+    // Create debug message container
+    const msg = document.createElement("div");
+    msg.classList.add("msg", "debug");
+
+    // Header (clickable)
+    const header = document.createElement("div");
+    header.textContent = "info";
+    header.style.fontWeight = "bold";
+    header.style.cursor = "pointer";
+
+    // Hidden content
+    const detail = document.createElement("div");
+    detail.classList.add("debug-content");
+    detail.style.display = "none"; // hide by default
+    detail.style.whiteSpace = "pre-wrap"; // preserve formatting
+
+    if (window.marked) {
+        detail.innerHTML = window.marked.parse(content);
+    } else {
+        detail.textContent = content;
+    }
+
+    // Toggle on click
+    header.addEventListener("click", () => {
+        detail.style.display = detail.style.display === "block" ? "none" : "block";
+    });
+
+    // Append to container
+    msg.appendChild(header);
+    msg.appendChild(detail);
+
+    // Add to chat
     chatBox.appendChild(msg);
     chatBox.scrollTop = chatBox.scrollHeight;
 }
-
 
 
 function applyAIFields(aiOutput) {
@@ -282,8 +452,8 @@ function applyAIFields(aiOutput) {
     const data = JSON.parse(aiOutput); // assume JSON string
     data.fields.forEach(field => {
       const el = document.getElementById(field.id);
-      console.log(field.id)
-      console.log(el)
+    //  console.log(field.id)
+     // console.log(el)
       if (el) el.value = field.value;
     });
   } catch (err) {
@@ -314,11 +484,14 @@ async function extractHorizontalText(pdf) {
         });
     }
 
+
     // Send as first message
     if (fullText.trim()) {
-      console.log("x")
-        addMessage(fullText.trim(), "bot");
+    //  console.log("x")
+        sendDebugMessage(fullText.trim());
     }
+
+    return fullText.trim();
 }
 
 
@@ -334,7 +507,7 @@ async function extractHorizontalText(pdf) {
   sendBtn.addEventListener("click", async () => {
   const text = userInput.value.trim();
   if (!text) return;
-  addMessage(text, "user");
+  sendMessage(text, "user");
   const aiResponse = `{"fields":[{"id":"${userInput.value}","value":"Hello AI!"}]}`;
 
   userInput.value = "";
@@ -348,6 +521,8 @@ async function extractHorizontalText(pdf) {
 });
 
 
+
+
   userInput.addEventListener("keypress", (e) => {
     if (e.key === "Enter") sendBtn.click();
   });
@@ -359,16 +534,53 @@ async function extractHorizontalText(pdf) {
     if (text) console.log("Selected text:", text);
   });
 
+  // Track currently selected PDF input
+let currentlySelectedInput = null;
+
+// Add click/focus listener to PDF form inputs dynamically
+pdfContainer.addEventListener("click", (e) => {
+  const target = e.target;
+
+  if (target.classList.contains("pdf-form-input")) {
+    // Remove border from previously selected input
+    if (currentlySelectedInput) {
+      currentlySelectedInput.style.border = "1px solid #333";
+    }
+
+    // Highlight current input
+    target.style.border = "3px solid blue";
+    currentlySelectedInput = target;
+
+    // Put input ID into chat input field
+    userInput.value = `<fileID>${target.id}</fileID>` 
+  }
+});
+
+
+
+
+// Selection change listener for text
+document.addEventListener("selectionchange", () => {
+  const text = window.getSelection().toString().trim();
+  if (text) {
+    userInput.value = text;
+    console.log("Selected text:", text);
+  }
+});
+
+
 
 
 // Function to call your LLM / backend
-async function getLLMResponse(text) {
+async function getLLMResponse(text,system_prompt="") {
+  console.log(text);
   try {
-    const res = await fetch("/chat", {
+    const res = await fetch("/llm", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        user_input: `${text}`
+        user_input: `${text}`,
+        system_prompt: system_prompt
       }),
     });
 
@@ -378,20 +590,17 @@ async function getLLMResponse(text) {
     }
 
     const data = await res.json();
-    console.log(data)
+    //console.log(data)
     return data.response;
   } catch (err) {
     return { error: err.message };
   }
 }
 
-
-
-
-
-
-
-
+// Add Marked.js for markdown rendering
+const markedScript = document.createElement('script');
+markedScript.src = "https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js";
+document.head.appendChild(markedScript);
 
    init();
 

@@ -9,22 +9,31 @@ GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 if not GROQ_API_KEY:
     raise ValueError("Missing GROQ_API_KEY. Please set it in your .env file.")
 
-async def query_groq(user_input: str) -> str:
+import httpx
+
+async def query_groq(user_input: str, system_prompt: str = "") -> str:
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json",
     }
 
+    # Start with user message
+    messages = [{"role": "user", "content": user_input}]
+
+    # Only add system prompt if it's not empty
+    if system_prompt.strip():
+        messages.insert(0, {"role": "system", "content": system_prompt})
+
     payload = {
         "model": "llama-3.3-70b-versatile",
-        "messages": [{"role": "system", "content": "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown"},{"role": "user", "content": user_input}],
+        "messages": messages,
         "temperature": 0.7,
-        "max_completion_tokens": 512
+        "max_completion_tokens": 2048
     }
 
     async with httpx.AsyncClient() as client:
-        r = await client.post(GROQ_API_URL, headers=headers, json=payload)
+        response = await client.post(GROQ_API_URL, headers=headers, json=payload)
 
-    r.raise_for_status()
-    data = r.json()
+    response.raise_for_status()
+    data = response.json()
     return data["choices"][0]["message"]["content"]
