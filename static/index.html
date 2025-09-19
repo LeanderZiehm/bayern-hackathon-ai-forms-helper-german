@@ -141,13 +141,19 @@
 
           // Optional: fetch PDF text from backend for chat AI
 
-          currentPdfText = await extractHorizontalText(pdf);
+   if (!currentPdfText){
+      currentPdfText = await extractHorizontalText(pdf);
+   sendDebugMessage(currentPdfText);
+    sendMessage("I am your AI Form Assistant. I will help you clarify what complicated or ambigous words in the goverment form mean. If you want we can also talk in another language. Are there any words you are unsure about?","bot")
+  
+          }
+        
 
           /*
             // Send as first message
     if (fullText.trim()) {
     //  console.log("x")
-        sendDebugMessage(fullText.trim());
+       
     }
    
     if (!currentPdfText){
@@ -156,10 +162,11 @@
      const prompt = "Your task is to extract out words that a user might not understand and where sources might be useful"
      const text = `${prompt} # PDF Text: ${currentPdfText}`
      const mock_llm_call = true;
-    sendMessage("I am your AI Form Assistant. I will help you clarify what complicated or ambigous words in the goverment form mean. If you want we can also talk in another language. Are there any words you are unsure about?","bot")
-    }
+     }
 
      */
+
+    
 
           function explain() {
             (async () => {
