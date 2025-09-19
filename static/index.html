@@ -3,93 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <title>PDF Chat & Form Filler</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
-    #pdf-list { padding: 20px; }
-    #pdf-list a { display: block; margin: 5px 0; text-decoration: none; color: #007bff; cursor: pointer; }
-    #pdf-list a:hover { text-decoration: underline; }
-    #chat-pdf-container { display: none; height: 90vh; padding: 20px; display: flex; gap: 20px; }
-    #pdf-panel { flex: 1; display: flex; flex-direction: column; border: 1px solid #ccc; background: white; overflow: auto; }
-    #pdf-panel h3 { margin: 10px; }
-    #pdf-container { flex: 1; position: relative; overflow-y: auto; padding: 10px; }
-    #chat-container { flex: 1; display: flex; flex-direction: column; border: 1px solid #ccc; background: white; }
-    #chat-box { flex: 1; overflow-y: auto; padding: 10px; background: #fff; }
-    .msg { margin: 8px 0; padding: 6px 10px; border-radius: 6px;  }
-    .user { background: #d1e7dd; align-self: flex-end; }
-    .bot { background: #e2eeff; align-self: flex-start; }
-    .debug {
-    background: #00000010; /* Yellow-ish for debug */
-    align-self: center;
-    cursor: pointer; /* Indicate toggleable */
-    position: relative;
-}
-
-/* Hidden content inside debug message */
-.debug .debug-content {
-    display: none;
-    margin-top: 6px;
-    padding: 6px;
-
-    border-radius: 4px;
-    white-space: pre-wrap; /* Keep formatting */
-}
-
-/* Show content when parent has "active" class */
-.debug.active .debug-content {
-    display: block;
-}
-    #input-area { display: flex; border-top: 1px solid #ccc; background: #fff; }
-    #user-input { flex: 1; padding: 10px; border: none; outline: none; font-size: 16px; }
-    #send-btn { padding: 10px 20px; border: none; background: #007bff; color: white; cursor: pointer; }
-    #send-btn:hover { background: #0056b3; }
-    #back-btn { margin: 10px; padding: 5px 10px; cursor: pointer; background: #6c757d; color: white; border: none; border-radius: 4px; align-self: flex-start; }
-    #back-btn:hover { background: #5a6268; }
-    .textLayer { position: absolute; top: 0; left: 0; color: transparent; line-height: 1; white-space: pre; pointer-events: none; }
-    .textLayer span { position: absolute; white-space: pre; transform-origin: 0% 0%; pointer-events: all; cursor: text; }
-    .pdf-form-input { position: absolute; border: 1px solid #333; box-sizing: border-box; font-size: 14px; padding: 2px; background: rgba(255,255,255,0.8); }
- 
- 
- 
- @media (max-width: 768px) {
-  #chat-pdf-container {
-    flex-direction: column; /* Stack PDF panel above chat */
-    height: auto;
-    padding: 10px;
-  }
-
-  #pdf-panel, #chat-container {
-    flex: none;
-    width: 100%; /* full width */
-    margin-bottom: 20px;
-  }
-
-  #pdf-container {
-    overflow-x: auto;
-  }
-
-  #input-area {
-    flex-direction: column;
-  }
-
-  #user-input, #send-btn {
-    width: 100%;
-    box-sizing: border-box;
-    margin: 5px 0;
-  }
-
-  #send-btn {
-    padding: 10px;
-  }
-
-  #pdf-panel h3, #toggle-render-btn {
-    font-size: 16px; /* smaller text for mobile */
-  }
-}
-
-  </style>
-
+  <link rel="stylesheet" href="static/index.css">
   <!-- PDF.js -->
+   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
   <script>
     pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js";
   </script>
@@ -132,10 +51,12 @@
   let currentPdf = "";
   let currentPdfText = "";
   let renderCanvas = true;
+  let pdfFormChanges = {}; // stores { fieldId: value }
 
   const toggleRenderBtn = document.getElementById("toggle-render-btn");
   toggleRenderBtn.addEventListener("click", () => {
     renderCanvas = !renderCanvas;
+    pdfFormChanges["_renderCanvas"] = renderCanvas; // store toggle
     if (currentPdf) openChat(currentPdf);
   });
 
@@ -219,20 +140,38 @@
 
     // Optional: fetch PDF text from backend for chat AI
 
-    if (!extractedText){
-    extractedText = await extractHorizontalText(pdf);
-    console.log(extractedText)
+
+
+        currentPdfText = await extractHorizontalText(pdf);
+
+  /*
+            // Send as first message
+    if (fullText.trim()) {
+    //  console.log("x")
+        sendDebugMessage(fullText.trim());
+    }
+   
+    if (!currentPdfText){
+
+    console.log(currentPdfText)
      const prompt = "Your task is to extract out words that a user might not understand and where sources might be useful"
-     const text = `${prompt} # PDF Text: ${extractedText}`
-
-
+     const text = `${prompt} # PDF Text: ${currentPdfText}`
      const mock_llm_call = true;
-     let response = await getLLMResponse(text);
-    sendMessage(response,"bot")
+    sendMessage("I am your AI Form Assistant. I will help you clarify what complicated or ambigous words in the goverment form mean. If you want we can also talk in another language. Are there any words you are unsure about?","bot")
+    }
+
+     */
+
+    
+
+    function explain(){
+
+            (async () => {
+           let response = await getLLMResponse(text);
+            sendMessage(response,"bot")
+        })();
 
 
-
-    sendMessage("Was ist deine Muttersprache? Deutsch oder eine andere Sprache?","bot")
     }
      
     // console.log(currentPdfText);
@@ -376,11 +315,14 @@ function sendMessage(content, sender) {
         sendMessage( `I have changed object of ${id} to text ${response}`, "bot");
         obj.value = response;
         })();
-      }else{
-        system_prompt = "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown"
+      }
+      else{
+        system_prompt = "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown";
            
         (async () => {
-        const response = await getLLMResponse(content,system_prompt);
+
+          const text = `${currentPdfText} ${content}`;
+        const response = await getLLMResponse(text,system_prompt);
         sendMessage(`${response}`, "bot");
         obj.value = response;
         })();
@@ -485,11 +427,7 @@ async function extractHorizontalText(pdf) {
     }
 
 
-    // Send as first message
-    if (fullText.trim()) {
-    //  console.log("x")
-        sendDebugMessage(fullText.trim());
-    }
+
 
     return fullText.trim();
 }
@@ -601,6 +539,117 @@ async function getLLMResponse(text,system_prompt="") {
 const markedScript = document.createElement('script');
 markedScript.src = "https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js";
 document.head.appendChild(markedScript);
+
+// Add Download PDF button
+const downloadBtn = document.createElement("button");
+downloadBtn.id = "download-btn";
+downloadBtn.textContent = "Download PDF";
+downloadBtn.style.margin = "10px";
+downloadBtn.style.padding = "5px 10px";
+downloadBtn.style.background = "#28a745";
+downloadBtn.style.color = "white";
+downloadBtn.style.border = "none";
+downloadBtn.style.borderRadius = "4px";
+downloadBtn.style.cursor = "pointer";
+downloadBtn.style.alignSelf = "flex-start";
+downloadBtn.addEventListener("mouseover", () => {
+  downloadBtn.style.background = "#218838";
+});
+downloadBtn.addEventListener("mouseout", () => {
+  downloadBtn.style.background = "#28a745";
+});
+document.getElementById("pdf-panel").insertBefore(downloadBtn, pdfTitle);
+
+// Download logic using pdf-lib
+// Load pdf-lib from CDN
+const pdfLibScript = document.createElement('script');
+pdfLibScript.src = "https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js";
+document.head.appendChild(pdfLibScript);
+
+async function applyChangesAndDownload(pdfBytes) {
+    const { PDFDocument } = window.PDFLib;
+  //const { PDFDocument } = window.pdfLib;
+ const pdfDoc = await PDFDocument.load(pdfBytes, { ignoreEncryption: true });
+
+  const form = pdfDoc.getForm();
+  for (const id in pdfFormChanges) {
+    if (id === "_renderCanvas") continue; // skip UI toggle
+    let field;
+    try {
+      field = form.getField(id);
+    } catch (e) {
+      continue;
+    }
+    if (field) {
+      const value = pdfFormChanges[id];
+      if (field.constructor.name === "PDFCheckBox") {
+        value ? field.check() : field.uncheck();
+      } else {
+        field.setText(value);
+      }
+    }
+  }
+  const newPdfBytes = await pdfDoc.save();
+  const blob = new Blob([newPdfBytes], { type: "application/pdf" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = currentPdf;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+downloadBtn.addEventListener("click", async () => {
+  if (!currentPdf) return;
+  //const pdfBytes = await fetch(`/static/pdfs/${currentPdf}`).then(res => res.arrayBuffer());
+  //console.log(pdfBytes);
+  //await applyChangesAndDownload(pdfBytes);
+
+
+  const pdf_url = `/static/pdfs/${currentPdf}`;
+  await downloadChangedPDF(pdf_url,pdfFormChanges);
+
+
+});
+
+async function downloadChangedPDF(pdf_url, formChanges) {
+  try {
+    const response = await fetch('/fill-pdf/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        pdf_url: pdf_url,
+        form_data: formChanges
+      })
+    });
+
+    if (!response.ok) throw new Error(`Error: ${response.status}`);
+
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'filled_pdf.pdf';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error('Failed to download PDF:', error);
+  }
+}
+
+pdfContainer.addEventListener("input", (e) => {
+  const target = e.target;
+  if (target.classList.contains("pdf-form-input")) {
+    if (target.type === "checkbox") {
+      pdfFormChanges[target.id] = target.checked; // store boolean
+    } else {
+      pdfFormChanges[target.id] = target.value;   // store text
+    }
+    console.log("Updated form changes:", pdfFormChanges);
+  }
+});
 
    init();
 

@@ -10,17 +10,13 @@ if not GROQ_API_KEY:
     raise ValueError("Missing GROQ_API_KEY. Please set it in your .env file.")
 
 import httpx
-
 async def query_groq(user_input: str, system_prompt: str = "") -> str:
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json",
     }
 
-    # Start with user message
     messages = [{"role": "user", "content": user_input}]
-
-    # Only add system prompt if it's not empty
     if system_prompt.strip():
         messages.insert(0, {"role": "system", "content": system_prompt})
 
@@ -31,9 +27,12 @@ async def query_groq(user_input: str, system_prompt: str = "") -> str:
         "max_completion_tokens": 2048
     }
 
-    async with httpx.AsyncClient() as client:
-        response = await client.post(GROQ_API_URL, headers=headers, json=payload)
-
-    response.raise_for_status()
-    data = response.json()
-    return data["choices"][0]["message"]["content"]
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(GROQ_API_URL, headers=headers, json=payload)
+        response.raise_for_status()
+        data = response.json()
+        return data["choices"][0]["message"]["content"]
+    except Exception as e:
+        # Always return a string, indicating an error
+        return f"Error occurred: {str(e)}"
