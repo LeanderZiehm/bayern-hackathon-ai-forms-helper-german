@@ -17,7 +17,7 @@ async def query_groq(user_input: str) -> str:
 
     payload = {
         "model": "llama-3.3-70b-versatile",
-        "messages": [{"role": "user", "content": user_input}],
+        "messages": [{"role": "system", "content": "You are a form fill helper. Answer in concise and simple language to explain the person what they have to fill out in the form. Write in markdown"},{"role": "user", "content": user_input}],
         "temperature": 0.7,
         "max_completion_tokens": 512
     }
